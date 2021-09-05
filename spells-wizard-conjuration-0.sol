@@ -2,12 +2,13 @@
 pragma solidity 0.8.7;
 
 contract codex {
-    string constant index = "Spells";
-    string constant class = "Wizard";
-    string constant school = "Conjuration";
-    uint constant level = 0;
-    
+    string constant public index = "Spells";
+    string constant public class = "Wizard";
+    string constant public school = "Conjuration";
+    uint constant public level = 0;
+
     function acid_splash() external pure returns (
+        uint id,
         string memory name,
         bool verbal,
         bool somatic,
@@ -21,6 +22,7 @@ contract codex {
         bool spell_resistance,
         string memory description
     ) {
+        id = 1;
         name = "Acid Splash";
         verbal = true;
         somatic = true;

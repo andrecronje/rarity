@@ -2,12 +2,13 @@
 pragma solidity 0.8.7;
 
 contract codex {
-    string constant index = "Spells";
-    string constant class = "Wizard";
-    string constant school = "Evocation";
-    uint constant level = 0;
-    
+    string constant public index = "Spells";
+    string constant public class = "Wizard";
+    string constant public school = "Evocation";
+    uint constant public level = 0;
+
     function dancing_lights() external pure returns (
+        uint id,
         string memory name,
         bool verbal,
         bool somatic,
@@ -21,6 +22,7 @@ contract codex {
         bool spell_resistance,
         string memory description
     ) {
+        id = 6;
         name = "Dancing Lights";
         verbal = true;
         somatic = true;
@@ -34,8 +36,9 @@ contract codex {
         spell_resistance = false;
         description = "Depending on the version selected, you create up to four lights that resemble lanterns or torches (and cast that amount of light), or up to four glowing spheres of light (which look like will o wisps), or one faintly glowing, vaguely humanoid shape. The dancing lights must stay within a 10 foot radius area in relation to each other but otherwise move as you desire (no concentration required): forward or back, up or down, straight or turning corners, or the like. The lights can move up to 100 feet per round. A light winks out if the distance between you and it exceeds the spells range.";
     }
-    
+
     function flare() external pure returns (
+        uint id,
         string memory name,
         bool verbal,
         bool somatic,
@@ -49,6 +52,7 @@ contract codex {
         bool spell_resistance,
         string memory description
     ) {
+        id = 7;
         name = "Flare";
         verbal = true;
         somatic = false;
@@ -62,8 +66,9 @@ contract codex {
         spell_resistance = true;
         description = "This cantrip creates a burst of light. If you cause the light to burst directly in front of a single creature, that creature is dazzled for 1 minute unless it makes a successful Fortitude save. Sightless creatures, as well as creatures already dazzled, are not affected by flare.";
     }
-    
+
     function light() external pure returns (
+        uint id,
         string memory name,
         bool verbal,
         bool somatic,
@@ -77,6 +82,7 @@ contract codex {
         bool spell_resistance,
         string memory description
     ) {
+        id = 8;
         name = "Light";
         verbal = true;
         somatic = false;
@@ -90,8 +96,9 @@ contract codex {
         spell_resistance = false;
         description = "This spell causes an object to glow like a torch, shedding bright light in a 20-foot radius (and dim light for an additional 20 feet) from the point you touch. The effect is immobile, but it can be cast on a movable object. Light taken into an area of magical darkness does not function. A light spell (one with the light descriptor) counters and dispels a darkness spell (one with the darkness descriptor) of an equal or lower level.";
     }
-    
+
     function ray_of_frost() external pure returns (
+        uint id,
         string memory name,
         bool verbal,
         bool somatic,
@@ -105,6 +112,7 @@ contract codex {
         bool spell_resistance,
         string memory description
     ) {
+        id = 9;
         name = "Ray of Frost";
         verbal = true;
         somatic = true;

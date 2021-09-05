@@ -2,12 +2,13 @@
 pragma solidity 0.8.7;
 
 contract codex {
-    string constant index = "Spells";
-    string constant class = "Wizard";
-    string constant school = "Necromancy";
-    uint constant level = 0;
-    
+    string constant public index = "Spells";
+    string constant public class = "Wizard";
+    string constant public school = "Necromancy";
+    uint constant public level = 0;
+
     function disrupt_undead() external pure returns (
+        uint id,
         string memory name,
         bool verbal,
         bool somatic,
@@ -21,6 +22,7 @@ contract codex {
         bool spell_resistance,
         string memory description
     ) {
+        id = 11;
         name = "Disrupt Undead";
         verbal = true;
         somatic = true;
@@ -34,8 +36,9 @@ contract codex {
         spell_resistance = true;
         description = "You direct a ray of positive energy. You must make a ranged touch attack to hit, and if the ray hits an undead creature, it deals 1d6 points of damage to it.";
     }
-    
+
     function touch_of_fatigue() external pure returns (
+        uint id,
         string memory name,
         bool verbal,
         bool somatic,
@@ -49,6 +52,7 @@ contract codex {
         bool spell_resistance,
         string memory description
     ) {
+        id = 12;
         name = "Touch of Fatigue";
         verbal = true;
         somatic = true;

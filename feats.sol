@@ -546,4 +546,274 @@ contract codex {
         prequisite_level = 0;
         benefit = "You get a +2 bonus on all Appraise checks and Decipher Script checks.";
     }
+
+    function dodge() public pure returns (
+        uint id,
+        string memory name,
+        bool prerequisites,
+        uint prequisite_feat,
+        uint preprequisite_class,
+        uint prequisite_level,
+        string memory benefit
+    ) {
+        id = 29;
+        name = "Dodge";
+        prerequisites = false;
+        prequisite_feat = 0;
+        preprequisite_class = 2047;
+        prequisite_level = 0;
+        benefit = "During your action, you designate an opponent and receive a +1 dodge bonus to Armor Class against attacks from that opponent. You can select a new opponent on any action. A condition that makes you lose your Dexterity bonus to Armor Class (if any) also makes you lose dodge bonuses. Also, dodge bonuses stack with each other, unlike most other types of bonuses.";
+    }
+
+    function empower_spell() public pure returns (
+        uint id,
+        string memory name,
+        bool prerequisites,
+        uint prequisite_feat,
+        uint preprequisite_class,
+        uint prequisite_level,
+        string memory benefit
+    ) {
+        id = 30;
+        name = "Empower Spell";
+        prerequisites = true;
+        prequisite_feat = 0;
+        preprequisite_class = 1614;
+        prequisite_level = 0;
+        benefit = "All variable, numeric effects of an empowered spell are increased by one-half. Saving throws and opposed rolls are not affected, nor are spells without random variables. An empowered spell uses up a spell slot two levels higher than the spells actual level.";
+    }
+
+    function enlarge_spell() public pure returns (
+        uint id,
+        string memory name,
+        bool prerequisites,
+        uint prequisite_feat,
+        uint preprequisite_class,
+        uint prequisite_level,
+        string memory benefit
+    ) {
+        id = 31;
+        name = "Enlarge Spell";
+        prerequisites = true;
+        prequisite_feat = 0;
+        preprequisite_class = 1614;
+        prequisite_level = 0;
+        benefit = "You can alter a spell with a range of close, medium, or long to increase its range by 100%. An enlarged spell with a range of close now has a range of 50 ft. + 5 ft./level, while medium-range spells have a range of 200 ft. + 20 ft./level and long-range spells have a range of 800 ft. + 80 ft./level. An enlarged spell uses up a spell slot one level higher than the spells actual level. Spells whose ranges are not defined by distance, as well as spells whose ranges are not close, medium, or long, do not have increased ranges.";
+    }
+
+    function eschew_materials() public pure returns (
+        uint id,
+        string memory name,
+        bool prerequisites,
+        uint prequisite_feat,
+        uint preprequisite_class,
+        uint prequisite_level,
+        string memory benefit
+    ) {
+        id = 32;
+        name = "Eschew Materials";
+        prerequisites = false;
+        prequisite_feat = 0;
+        preprequisite_class = 2047;
+        prequisite_level = 0;
+        benefit = "You can cast any spell that has a material component costing 1 gp or less without needing that component. (The casting of the spell still provokes attacks of opportunity as normal.) If the spell requires a material component that costs more than 1 gp, you must have the material component at hand to cast the spell, just as normal.";
+    }
+
+    function exotic_weapon_proficiency() public pure returns (
+        uint id,
+        string memory name,
+        bool prerequisites,
+        uint prequisite_feat,
+        uint preprequisite_class,
+        uint prequisite_level,
+        string memory benefit
+    ) {
+        id = 33;
+        name = "Exotic Weapon Proficiency";
+        prerequisites = false;
+        prequisite_feat = 0;
+        preprequisite_class = 2047;
+        prequisite_level = 0;
+        benefit = "You make attack rolls with the weapon normally.";
+    }
+
+    function extend_spell() public pure returns (
+        uint id,
+        string memory name,
+        bool prerequisites,
+        uint prequisite_feat,
+        uint preprequisite_class,
+        uint prequisite_level,
+        string memory benefit
+    ) {
+        id = 34;
+        name = "Extend Spell";
+        prerequisites = true;
+        prequisite_feat = 0;
+        preprequisite_class = 1614;
+        prequisite_level = 0;
+        benefit = "An extended spell lasts twice as long as normal. A spell with a duration of concentration, instantaneous, or permanent is not affected by this feat. An extended spell uses up a spell slot one level higher than the spells actual level.";
+    }
+
+    function extra_turning() public pure returns (
+        uint id,
+        string memory name,
+        bool prerequisites,
+        uint prequisite_feat,
+        uint preprequisite_class,
+        uint prequisite_level,
+        string memory benefit
+    ) {
+        id = 35;
+        name = "Extra Turning";
+        prerequisites = true;
+        prequisite_feat = 0;
+        preprequisite_class = 68;
+        prequisite_level = 0;
+        benefit = "Each time you take this feat, you can use your ability to turn or rebuke creatures four more times per day than normal. If you have the ability to turn or rebuke more than one kind of creature each of your turning or rebuking abilities gains four additional uses per day.";
+    }
+
+    function point_blank_shot() public pure returns (
+        uint id,
+        string memory name,
+        bool prerequisites,
+        uint prequisite_feat,
+        uint preprequisite_class,
+        uint prequisite_level,
+        string memory benefit
+    ) {
+        id = 36;
+        name = "Point Blank Shot";
+        prerequisites = false;
+        prequisite_feat = 0;
+        preprequisite_class = 2047;
+        prequisite_level = 0;
+        benefit = "On your action, before making attack rolls for a round, you may choose to subtract a number from all melee attack rolls and add the same number to all melee damage rolls. This number may not exceed your base attack bonus. The penalty on attacks and bonus on damage apply until your next turn.";
+    }
+
+    function far_shot() public pure returns (
+        uint id,
+        string memory name,
+        bool prerequisites,
+        uint prequisite_feat,
+        uint preprequisite_class,
+        uint prequisite_level,
+        string memory benefit
+    ) {
+        id = 37;
+        name = "Far Shot";
+        prerequisites = true;
+        prequisite_feat = 36;
+        preprequisite_class = 2047;
+        prequisite_level = 0;
+        benefit = "When you use a projectile weapon, such as a bow, its range increment increases by one-half (multiply by 1.5). When you use a thrown weapon, its range increment is doubled.";
+    }
+
+    function forge_ring() public pure returns (
+        uint id,
+        string memory name,
+        bool prerequisites,
+        uint prequisite_feat,
+        uint preprequisite_class,
+        uint prequisite_level,
+        string memory benefit
+    ) {
+        id = 38;
+        name = "Forge Ring";
+        prerequisites = true;
+        prequisite_feat = 0;
+        preprequisite_class = 1540;
+        prequisite_level = 12;
+        benefit = "You can create any ring whose prerequisites you meet. Crafting a ring takes one day for each 1,000 gp in its base price. To craft a ring, you must spend 1/25 of its base price in XP and use up raw materials costing one-half of its base price. You can also mend a broken ring if it is one that you could make. Doing so costs half the XP, half the raw materials, and half the time it would take to forge that ring in the first place. Some magic rings incur extra costs in material components or XP, as noted in their descriptions. You must pay such a cost to forge such a ring or to mend a broken one.";
+    }
+
+    function great_cleave() public pure returns (
+        uint id,
+        string memory name,
+        bool prerequisites,
+        uint prequisite_feat,
+        uint preprequisite_class,
+        uint prequisite_level,
+        string memory benefit
+    ) {
+        id = 39;
+        name = "Great Cleave";
+        prerequisites = true;
+        prequisite_feat = 13;
+        preprequisite_class = 2047;
+        prequisite_level = 0;
+        benefit = "This feat works like Cleave, except that there is no limit to the number of times you can use it per round.";
+    }
+
+    function great_fortitude() public pure returns (
+        uint id,
+        string memory name,
+        bool prerequisites,
+        uint prequisite_feat,
+        uint preprequisite_class,
+        uint prequisite_level,
+        string memory benefit
+    ) {
+        id = 40;
+        name = "Great Fortitude";
+        prerequisites = false;
+        prequisite_feat = 0;
+        preprequisite_class = 2047;
+        prequisite_level = 0;
+        benefit = "You get a +2 bonus on all Fortitude saving throws.";
+    }
+
+    function greater_spell_focus() public pure returns (
+        uint id,
+        string memory name,
+        bool prerequisites,
+        uint prequisite_feat,
+        uint preprequisite_class,
+        uint prequisite_level,
+        string memory benefit
+    ) {
+        id = 41;
+        name = "Greater Spell Focus";
+        prerequisites = true;
+        prequisite_feat = 9;
+        preprequisite_class = 2047;
+        prequisite_level = 0;
+        benefit = "Add +1 to the Difficulty Class for all saving throws against spells from the school of magic you select. This bonus stacks with the bonus from Spell Focus.";
+    }
+
+    function spell_penetration() public pure returns (
+        uint id,
+        string memory name,
+        bool prerequisites,
+        uint prequisite_feat,
+        uint preprequisite_class,
+        uint prequisite_level,
+        string memory benefit
+    ) {
+        id = 42;
+        name = "Spell Penetration";
+        prerequisites = false;
+        prequisite_feat = 0;
+        preprequisite_class = 2047;
+        prequisite_level = 0;
+        benefit = "You get a +2 bonus on caster level checks (1d20 + caster level) made to overcome a creatures spell resistance.";
+    }
+
+    function greater_spell_peneratrion() public pure returns (
+        uint id,
+        string memory name,
+        bool prerequisites,
+        uint prequisite_feat,
+        uint preprequisite_class,
+        uint prequisite_level,
+        string memory benefit
+    ) {
+        id = 43;
+        name = "Greater Spell Penetration";
+        prerequisites = true;
+        prequisite_feat = 42;
+        preprequisite_class = 2047;
+        prequisite_level = 0;
+        benefit = "You get a +2 bonus on caster level checks (1d20 + caster level) made to overcome a creatures spell resistance. This bonus stacks with the one from Spell Penetration.";
+    }
 }

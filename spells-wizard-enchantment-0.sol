@@ -7,7 +7,7 @@ contract codex {
     string constant public school = "Enchantment";
     uint constant public level = 0;
 
-    function daze() external pure returns (
+    function spell_by_id(uint _id) external pure returns(
         uint id,
         string memory name,
         bool verbal,
@@ -22,7 +22,27 @@ contract codex {
         bool spell_resistance,
         string memory description
     ) {
-        id = 5;
+        if (_id == 6) {
+            return daze();
+        }
+    }
+
+    function daze() public pure returns (
+        uint id,
+        string memory name,
+        bool verbal,
+        bool somatic,
+        bool focus,
+        uint xp_cost,
+        uint time,
+        uint range,
+        uint duration,
+        uint saving_throw_type,
+        uint saving_throw_effect,
+        bool spell_resistance,
+        string memory description
+    ) {
+        id = 6;
         name = "Daze";
         verbal = true;
         somatic = true;

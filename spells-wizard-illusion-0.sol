@@ -7,7 +7,7 @@ contract codex {
     string constant public school = "Illusion";
     uint constant public level = 0;
 
-    function ghost_sound() external pure returns (
+    function spell_by_id(uint _id) external pure returns(
         uint id,
         string memory name,
         bool verbal,
@@ -22,7 +22,27 @@ contract codex {
         bool spell_resistance,
         string memory description
     ) {
-        id = 10;
+        if (_id == 11) {
+            return ghost_sound();
+        }
+    }
+
+    function ghost_sound() public pure returns (
+        uint id,
+        string memory name,
+        bool verbal,
+        bool somatic,
+        bool focus,
+        uint xp_cost,
+        uint time,
+        uint range,
+        uint duration,
+        uint saving_throw_type,
+        uint saving_throw_effect,
+        bool spell_resistance,
+        string memory description
+    ) {
+        id = 11;
         name = "Ghost Sound";
         verbal = true;
         somatic = true;

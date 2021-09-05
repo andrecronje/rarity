@@ -7,7 +7,7 @@ contract codex {
     string constant public school = "Necromancy";
     uint constant public level = 0;
 
-    function disrupt_undead() external pure returns (
+    function spell_by_id(uint _id) external pure returns(
         uint id,
         string memory name,
         bool verbal,
@@ -22,22 +22,14 @@ contract codex {
         bool spell_resistance,
         string memory description
     ) {
-        id = 11;
-        name = "Disrupt Undead";
-        verbal = true;
-        somatic = true;
-        focus = false;
-        xp_cost = 0;
-        time = 1;
-        range = 2;
-        duration = 0;
-        saving_throw_type = 0;
-        saving_throw_effect = 0;
-        spell_resistance = true;
-        description = "You direct a ray of positive energy. You must make a ranged touch attack to hit, and if the ray hits an undead creature, it deals 1d6 points of damage to it.";
+        if (_id == 12) {
+            return disrupt_undead();
+        } else if (_id == 13) {
+            return touch_of_fatigue();
+        }
     }
 
-    function touch_of_fatigue() external pure returns (
+    function disrupt_undead() public pure returns (
         uint id,
         string memory name,
         bool verbal,
@@ -53,6 +45,36 @@ contract codex {
         string memory description
     ) {
         id = 12;
+        name = "Disrupt Undead";
+        verbal = true;
+        somatic = true;
+        focus = false;
+        xp_cost = 0;
+        time = 1;
+        range = 2;
+        duration = 0;
+        saving_throw_type = 0;
+        saving_throw_effect = 0;
+        spell_resistance = true;
+        description = "You direct a ray of positive energy. You must make a ranged touch attack to hit, and if the ray hits an undead creature, it deals 1d6 points of damage to it.";
+    }
+
+    function touch_of_fatigue() public pure returns (
+        uint id,
+        string memory name,
+        bool verbal,
+        bool somatic,
+        bool focus,
+        uint xp_cost,
+        uint time,
+        uint range,
+        uint duration,
+        uint saving_throw_type,
+        uint saving_throw_effect,
+        bool spell_resistance,
+        string memory description
+    ) {
+        id = 13;
         name = "Touch of Fatigue";
         verbal = true;
         somatic = true;

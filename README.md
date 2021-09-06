@@ -5,7 +5,7 @@ Rarity is achieved via an active economy, summoners must level, gain feats, lear
 
 | Name | Address |
 | :--- | :--- |
-| scarcity | [0x4fb729bdb96d735692dcacd9640cf7e3aa859b2](https://polygonscan.com/address/0x4fb729bdb96d735692dcacd9640cf7e3aa859b25) |
+| scarcity | [0x4fb729bdb96d735692dcacd9640cf7e3aa859b25](https://polygonscan.com/address/0x4fb729bdb96d735692dcacd9640cf7e3aa859b25) |
 | attributes | [0xd977a13a7de5d97c2b9a70ffee5af2620ec584c1](https://polygonscan.com/address/0xd977a13a7de5d97c2b9a70ffee5af2620ec584c1) |
 | scarcity gold | [0x7303e7a860daffe4d0b33615479648cb3496903b](https://polygonscan.com/address/0x7303e7a860daffe4d0b33615479648cb3496903b) |
 

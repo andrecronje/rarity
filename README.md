@@ -13,6 +13,8 @@ Rarity is achieved via an active economy, summoners must level, gain feats, lear
 
 [https://rarity-adventures.surge.sh/](https://rarity-adventures.surge.sh/)
 
+[https://rarity-visualizer-ui.vercel.app/](https://rarity-visualizer-ui.vercel.app/)
+
 [guilds banks](https://twitter.com/nomorebear/status/1434843331817738243)
 
 [provably rare spell ingredients](https://github.com/sorawit/provably-rare-gems/blob/master/contracts/ProvablyRareGem.sol)

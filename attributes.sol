@@ -121,11 +121,11 @@ contract rarity_attributes {
 
         parts[2] = string(abi.encodePacked("dexterity", " ", toString(_attr.dexterity), '</text><text x="10" y="60" class="base">'));
 
-        parts[3] = string(abi.encodePacked("constitution", " ", toString(_attr.constitution), '</text><text x="10" y="60" class="base">'));
+        parts[3] = string(abi.encodePacked("constitution", " ", toString(_attr.constitution), '</text><text x="10" y="80" class="base">'));
 
-        parts[4] = string(abi.encodePacked("intelligence", " ", toString(_attr.intelligence),  '</text><text x="10" y="60" class="base">'));
+        parts[4] = string(abi.encodePacked("intelligence", " ", toString(_attr.intelligence),  '</text><text x="10" y="100" class="base">'));
 
-        parts[5] = string(abi.encodePacked("wisdom", " ", toString(_attr.wisdom), '</text><text x="10" y="60" class="base">'));
+        parts[5] = string(abi.encodePacked("wisdom", " ", toString(_attr.wisdom), '</text><text x="10" y="120" class="base">'));
 
         parts[6] = string(abi.encodePacked("charisma", " ", toString(_attr.charisma), '</text></svg>'));
 

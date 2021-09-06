@@ -816,4 +816,202 @@ contract codex {
         prequisite_level = 0;
         benefit = "You get a +2 bonus on caster level checks (1d20 + caster level) made to overcome a creatures spell resistance. This bonus stacks with the one from Spell Penetration.";
     }
+
+    function two_weapon_fighting() public pure returns (
+        uint id,
+        string memory name,
+        bool prerequisites,
+        uint prequisite_feat,
+        uint preprequisite_class,
+        uint prequisite_level,
+        string memory benefit
+    ) {
+        id = 44;
+        name = "Two-Weapon Fighting";
+        prerequisites = false;
+        prequisite_feat = 0;
+        preprequisite_class = 2047;
+        prequisite_level = 0;
+        benefit = "Your penalties on attack rolls for fighting with two weapons are reduced. The penalty for your primary hand lessens by 2 and the one for your off hand lessens by 6. See the Two-Weapon Fighting special attack.";
+    }
+
+    function improved_two_weapon_fighting() public pure returns (
+        uint id,
+        string memory name,
+        bool prerequisites,
+        uint prequisite_feat,
+        uint preprequisite_class,
+        uint prequisite_level,
+        string memory benefit
+    ) {
+        id = 45;
+        name = "Improved Two-Weapon Fighting";
+        prerequisites = true;
+        prequisite_feat = 44;
+        preprequisite_class = 2047;
+        prequisite_level = 6;
+        benefit = "In addition to the standard single extra attack you get with an off-hand weapon, you get a second attack with it, albeit at a -5 penalty. See the Two-Weapon Fighting special attack.";
+    }
+
+    function greater_two_weapon_fighting() public pure returns (
+        uint id,
+        string memory name,
+        bool prerequisites,
+        uint prequisite_feat,
+        uint preprequisite_class,
+        uint prequisite_level,
+        string memory benefit
+    ) {
+        id = 46;
+        name = "Greater Two-Weapon Fighting";
+        prerequisites = true;
+        prequisite_feat = 45;
+        preprequisite_class = 2047;
+        prequisite_level = 11;
+        benefit = "You get a third attack with your off-hand weapon, albeit at a -10 penalty. See the Two-Weapon Fighting special attack.";
+    }
+
+    function weapon_focus() public pure returns (
+        uint id,
+        string memory name,
+        bool prerequisites,
+        uint prequisite_feat,
+        uint preprequisite_class,
+        uint prequisite_level,
+        string memory benefit
+    ) {
+        id = 47;
+        name = "Weapon Focus";
+        prerequisites = false;
+        prequisite_feat = 0;
+        preprequisite_class = 2047;
+        prequisite_level = 0;
+        benefit = "You gain a +1 bonus on all attack rolls you make using the selected weapon.";
+    }
+
+    function greater_weapon_focus() public pure returns (
+        uint id,
+        string memory name,
+        bool prerequisites,
+        uint prequisite_feat,
+        uint preprequisite_class,
+        uint prequisite_level,
+        string memory benefit
+    ) {
+        id = 48;
+        name = "Greater Weapon Focus";
+        prerequisites = true;
+        prequisite_feat = 47;
+        preprequisite_class = 16;
+        prequisite_level = 8;
+        benefit = "You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses on attack rolls, including the one from Weapon Focus (see below).";
+    }
+
+    function weapon_specialization() public pure returns (
+        uint id,
+        string memory name,
+        bool prerequisites,
+        uint prequisite_feat,
+        uint preprequisite_class,
+        uint prequisite_level,
+        string memory benefit
+    ) {
+        id = 49;
+        name = "Weapon Specialization";
+        prerequisites = true;
+        prequisite_feat = 47;
+        preprequisite_class = 16;
+        prequisite_level = 4;
+        benefit = "You gain a +2 bonus on all damage rolls you make using the selected weapon.";
+    }
+
+    function greater_weapon_specialization() public pure returns (
+        uint id,
+        string memory name,
+        bool prerequisites,
+        uint prequisite_feat,
+        uint preprequisite_class,
+        uint prequisite_level,
+        string memory benefit
+    ) {
+        id = 50;
+        name = "Greater Weapon Specialization";
+        prerequisites = true;
+        prequisite_feat = 48;
+        preprequisite_class = 16;
+        prequisite_level = 12;
+        benefit = "You gain a +2 bonus on all damage rolls you make using the selected weapon. This bonus stacks with other bonuses on damage rolls, including the one from Weapon Specialization (see below).";
+    }
+
+    function heighten_spell() public pure returns (
+        uint id,
+        string memory name,
+        bool prerequisites,
+        uint prequisite_feat,
+        uint preprequisite_class,
+        uint prequisite_level,
+        string memory benefit
+    ) {
+        id = 51;
+        name = "Heighten Spell";
+        prerequisites = true;
+        prequisite_feat = 0;
+        preprequisite_class = 1540;
+        prequisite_level = 0;
+        benefit = "A heightened spell has a higher spell level than normal (up to a maximum of 9th level). Unlike other metamagic feats, Heighten Spell actually increases the effective level of the spell that it modifies. All effects dependent on spell level (such as saving throw DCs and ability to penetrate a lesser globe of invulnerability) are calculated according to the heightened level. The heightened spell is as difficult to prepare and cast as a spell of its effective level.";
+    }
+
+    function improved_bull_rush() public pure returns (
+        uint id,
+        string memory name,
+        bool prerequisites,
+        uint prequisite_feat,
+        uint preprequisite_class,
+        uint prequisite_level,
+        string memory benefit
+    ) {
+        id = 52;
+        name = "Improved Bull Rush";
+        prerequisites = true;
+        prequisite_feat = 12;
+        preprequisite_class = 2047;
+        prequisite_level = 0;
+        benefit = "When you perform a bull rush you do not provoke an attack of opportunity from the defender. You also gain a +4 bonus on the opposed Strength check you make to push back the defender.";
+    }
+
+    function improved_counterspell() public pure returns (
+        uint id,
+        string memory name,
+        bool prerequisites,
+        uint prequisite_feat,
+        uint preprequisite_class,
+        uint prequisite_level,
+        string memory benefit
+    ) {
+        id = 53;
+        name = "Improved Counterspell";
+        prerequisites = true;
+        prequisite_feat = 0;
+        preprequisite_class = 1540;
+        prequisite_level = 0;
+        benefit = "When counterspelling, you may use a spell of the same school that is one or more spell levels higher than the target spell.";
+    }
+
+    function improved_counterspell() public pure returns (
+        uint id,
+        string memory name,
+        bool prerequisites,
+        uint prequisite_feat,
+        uint preprequisite_class,
+        uint prequisite_level,
+        string memory benefit
+    ) {
+        id = 53;
+        name = "Improved Counterspell";
+        prerequisites = true;
+        prequisite_feat = 0;
+        preprequisite_class = 1540;
+        prequisite_level = 0;
+        benefit = "When counterspelling, you may use a spell of the same school that is one or more spell levels higher than the target spell.";
+    }
 }

@@ -8,13 +8,13 @@ interface rarity {
 }
 
 contract rarity_gold {
-    string public constant name = "Rarity Gold";
-    string public constant symbol = "gold";
+    string public constant name = "Scarcity Gold";
+    string public constant symbol = "SGOLD";
     uint8 public constant decimals = 18;
 
     uint public totalSupply = 0;
 
-    rarity constant rm = rarity(0xce761D788DF608BD21bdd59d6f4B54b2e27F25Bb);
+    rarity constant rm = rarity(0x4fb729BDb96d735692DCACD9640cF7e3aA859B25);
 
     mapping(uint => mapping (uint => uint)) public allowance;
     mapping(uint => uint) public balanceOf;

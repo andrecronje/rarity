@@ -10,7 +10,7 @@ interface rarity {
 contract rarity_attributes {
 
     uint constant POINT_BUY = 32;
-    rarity constant rm = rarity(0xce761D788DF608BD21bdd59d6f4B54b2e27F25Bb);
+    rarity constant rm = rarity(0x4fb729BDb96d735692DCACD9640cF7e3aA859B25);
 
     struct ability_score {
         uint32 strength;

@@ -1,7 +1,3 @@
-/**
- *Submitted for verification at FtmScan.com on 2021-09-05
-*/
-
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.7;
 
@@ -565,8 +561,8 @@ contract rarity is ERC721 {
     uint constant xp_per_day = 250e18;
     uint constant DAY = 1 days;
 
-    string constant name = "Rarity Manifested";
-    string constant symbol = "RM";
+    string constant public name = "Scarcity Manifested";
+    string constant public symbol = "SM";
 
     mapping(uint => uint) public xp;
     mapping(uint => uint) public adventurers_log;

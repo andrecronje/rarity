@@ -11,6 +11,8 @@ Rarity is achieved via an active economy, summoners must level, gain feats, lear
 
 # UI's
 
+[rarity.game](https://rarity.game/)
+
 [rarity-adventures](https://rarity-adventures.surge.sh/)
 
 [rarity-visualizer](https://rarity-visualizer-ui.vercel.app/)

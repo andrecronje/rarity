@@ -9,11 +9,17 @@ Rarity is achieved via an active economy, summoners must level, gain feats, lear
 | attributes | [0xB5F5AF1087A8DA62A23b08C00C6ec9af21F397a1](https://ftmscan.com/address/0xB5F5AF1087A8DA62A23b08C00C6ec9af21F397a1) |
 | gold | [0x2069B76Afe6b734Fb65D1d099E7ec64ee9CC76B2](https://ftmscan.com/address/0x2069B76Afe6b734Fb65D1d099E7ec64ee9CC76B2) |
 
+# UI's
+
+[rarity-adventures](https://rarity-adventures.surge.sh/)
+
+[rarity-visualizer](https://rarity-visualizer-ui.vercel.app/)
+
+[raritymanifested](https://www.raritymanifested.com/profile)
+
+[rarity-game](https://rarity-game.netlify.app/)
+
 # links
-
-[https://rarity-adventures.surge.sh/](https://rarity-adventures.surge.sh/)
-
-[https://rarity-visualizer-ui.vercel.app/](https://rarity-visualizer-ui.vercel.app/)
 
 [guilds banks](https://twitter.com/nomorebear/status/1434843331817738243)
 

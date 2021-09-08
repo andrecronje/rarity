@@ -1277,7 +1277,7 @@ contract codex {
         benefit = "When you perform a shield bash, you may still apply the shields shield bonus to your AC.";
     }
 
-    function improved_sunder() public pure returns (
+    /*function improved_sunder() public pure returns (
         uint id,
         string memory name,
         bool prerequisites,
@@ -1311,5 +1311,5 @@ contract codex {
         preprequisite_class = 2047;
         prequisite_level = 0;
         benefit = "You do not provoke an attack of opportunity when you attempt to trip an opponent while you are unarmed. You also gain a +4 bonus on your Strength check to trip your opponent. If you trip an opponent in melee combat, you immediately get a melee attack against that opponent as if you hadnt used your attack for the trip attempt.";
-    }
+    }*/
 }

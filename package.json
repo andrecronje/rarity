@@ -1,0 +1,12 @@
+{
+  "name": "rarity",
+  "version": "1.0.0",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.4.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.6.0",
+    "truffle": "5.1.53",
+    "truffle-plugin-verify": "^0.5.4"
+  }
+}

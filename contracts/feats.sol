@@ -996,22 +996,4 @@ contract codex {
         prequisite_level = 0;
         benefit = "When counterspelling, you may use a spell of the same school that is one or more spell levels higher than the target spell.";
     }
-
-    function improved_counterspell() public pure returns (
-        uint id,
-        string memory name,
-        bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
-        string memory benefit
-    ) {
-        id = 53;
-        name = "Improved Counterspell";
-        prerequisites = true;
-        prequisite_feat = 0;
-        preprequisite_class = 1540;
-        prequisite_level = 0;
-        benefit = "When counterspelling, you may use a spell of the same school that is one or more spell levels higher than the target spell.";
-    }
 }

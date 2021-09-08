@@ -1096,4 +1096,220 @@ contract codex {
         prequisite_level = 0;
         benefit = "When counterspelling, you may use a spell of the same school that is one or more spell levels higher than the target spell.";
     }
+
+    function improved_critical() public pure returns (
+        uint id,
+        string memory name,
+        bool prerequisites,
+        uint prequisite_feat,
+        uint preprequisite_class,
+        uint prequisite_level,
+        string memory benefit
+    ) {
+        id = 55;
+        name = "Improved Critical";
+        prerequisites = true;
+        prequisite_feat = 0;
+        preprequisite_class = 465;
+        prequisite_level = 8;
+        benefit = "When using the weapon you selected, your threat range is doubled.";
+    }
+
+    function improved_disarm() public pure returns (
+        uint id,
+        string memory name,
+        bool prerequisites,
+        uint prequisite_feat,
+        uint preprequisite_class,
+        uint prequisite_level,
+        string memory benefit
+    ) {
+        id = 56;
+        name = "Improved Disarm";
+        prerequisites = true;
+        prequisite_feat = 16;
+        preprequisite_class = 2047;
+        prequisite_level = 0;
+        benefit = "You do not provoke an attack of opportunity when you attempt to disarm an opponent, nor does the opponent have a chance to disarm you. You also gain a +4 bonus on the opposed attack roll you make to disarm your opponent.";
+    }
+
+    function improved_feint() public pure returns (
+        uint id,
+        string memory name,
+        bool prerequisites,
+        uint prequisite_feat,
+        uint preprequisite_class,
+        uint prequisite_level,
+        string memory benefit
+    ) {
+        id = 57;
+        name = "Improved Feint";
+        prerequisites = true;
+        prequisite_feat = 16;
+        preprequisite_class = 2047;
+        prequisite_level = 0;
+        benefit = "You can make a Bluff check to feint in combat as a move action.";
+    }
+
+    function improved_grapple() public pure returns (
+        uint id,
+        string memory name,
+        bool prerequisites,
+        uint prequisite_feat,
+        uint preprequisite_class,
+        uint prequisite_level,
+        string memory benefit
+    ) {
+        id = 58;
+        name = "Improved Grapple";
+        prerequisites = true;
+        prequisite_feat = 24;
+        preprequisite_class = 2047;
+        prequisite_level = 0;
+        benefit = "You do not provoke an attack of opportunity when you make a touch attack to start a grapple. You also gain a +4 bonus on all grapple checks, regardless of whether you started the grapple.";
+    }
+
+    function improved_initiative() public pure returns (
+        uint id,
+        string memory name,
+        bool prerequisites,
+        uint prequisite_feat,
+        uint preprequisite_class,
+        uint prequisite_level,
+        string memory benefit
+    ) {
+        id = 59;
+        name = "Improved Initiative";
+        prerequisites = false;
+        prequisite_feat = 0;
+        preprequisite_class = 2047;
+        prequisite_level = 0;
+        benefit = "You get a +4 bonus on initiative checks.";
+    }
+
+    function improved_overrun() public pure returns (
+        uint id,
+        string memory name,
+        bool prerequisites,
+        uint prequisite_feat,
+        uint preprequisite_class,
+        uint prequisite_level,
+        string memory benefit
+    ) {
+        id = 60;
+        name = "Improved Overrun";
+        prerequisites = true;
+        prequisite_feat = 13;
+        preprequisite_class = 2047;
+        prequisite_level = 0;
+        benefit = "When you attempt to overrun an opponent, the target may not choose to avoid you. You also gain a +4 bonus on your Strength check to knock down your opponent.";
+    }
+
+    function precise_shot() public pure returns (
+        uint id,
+        string memory name,
+        bool prerequisites,
+        uint prequisite_feat,
+        uint preprequisite_class,
+        uint prequisite_level,
+        string memory benefit
+    ) {
+        id = 61;
+        name = "Precise Shot";
+        prerequisites = true;
+        prequisite_feat = 37;
+        preprequisite_class = 2047;
+        prequisite_level = 0;
+        benefit = "You can shoot or throw ranged weapons at an opponent engaged in melee without taking the standard -4 penalty on your attack roll.";
+    }
+
+    function improved_precise_shot() public pure returns (
+        uint id,
+        string memory name,
+        bool prerequisites,
+        uint prequisite_feat,
+        uint preprequisite_class,
+        uint prequisite_level,
+        string memory benefit
+    ) {
+        id = 62;
+        name = "Improved Precise Shot";
+        prerequisites = true;
+        prequisite_feat = 61;
+        preprequisite_class = 2047;
+        prequisite_level = 0;
+        benefit = "Your ranged attacks ignore the AC bonus granted to targets by anything less than total cover, and the miss chance granted to targets by anything less than total concealment. Total cover and total concealment provide their normal benefits against your ranged attacks. In addition, when you shoot or throw ranged weapons at a grappling opponent, you automatically strike at the opponent you have chosen.";
+    }
+
+    function shield_proficiency() public pure returns (
+        uint id,
+        string memory name,
+        bool prerequisites,
+        uint prequisite_feat,
+        uint preprequisite_class,
+        uint prequisite_level,
+        string memory benefit
+    ) {
+        id = 64;
+        name = "Shield Proficiency";
+        prerequisites = false;
+        prequisite_feat = 0;
+        preprequisite_class = 2047;
+        prequisite_level = 0;
+        benefit = "You can use a shield and take only the standard penalties.";
+    }
+
+    function improved_shield_bash() public pure returns (
+        uint id,
+        string memory name,
+        bool prerequisites,
+        uint prequisite_feat,
+        uint preprequisite_class,
+        uint prequisite_level,
+        string memory benefit
+    ) {
+        id = 65;
+        name = "Improved Shield Bash";
+        prerequisites = true;
+        prequisite_feat = 64;
+        preprequisite_class = 2047;
+        prequisite_level = 0;
+        benefit = "When you perform a shield bash, you may still apply the shields shield bonus to your AC.";
+    }
+
+    function improved_sunder() public pure returns (
+        uint id,
+        string memory name,
+        bool prerequisites,
+        uint prequisite_feat,
+        uint preprequisite_class,
+        uint prequisite_level,
+        string memory benefit
+    ) {
+        id = 66;
+        name = "Improved Sunder";
+        prerequisites = true;
+        prequisite_feat = 13;
+        preprequisite_class = 2047;
+        prequisite_level = 0;
+        benefit = "When you strike at an object held or carried by an opponent (such as a weapon or shield), you do not provoke an attack of opportunity. You also gain a +4 bonus on any attack roll made to attack an object held or carried by another character.";
+    }
+
+    function improved_trip() public pure returns (
+        uint id,
+        string memory name,
+        bool prerequisites,
+        uint prequisite_feat,
+        uint preprequisite_class,
+        uint prequisite_level,
+        string memory benefit
+    ) {
+        id = 67;
+        name = "Improved Trip";
+        prerequisites = true;
+        prequisite_feat = 16;
+        preprequisite_class = 2047;
+        prequisite_level = 0;
+        benefit = "You do not provoke an attack of opportunity when you attempt to trip an opponent while you are unarmed. You also gain a +4 bonus on your Strength check to trip your opponent. If you trip an opponent in melee combat, you immediately get a melee attack against that opponent as if you hadnt used your attack for the trip attempt.";
+    }
 }

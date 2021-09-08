@@ -122,6 +122,26 @@ contract codex {
             return improved_bull_rush();
         } else if (_id == 54) {
             return improved_counterspell();
+        } else if (_id == 55) {
+            return improved_critical();
+        } else if (_id == 56) {
+            return improved_disarm();
+        } else if (_id == 57) {
+            return improved_feint();
+        } else if (_id == 58) {
+            return improved_grapple();
+        } else if (_id == 59) {
+            return improved_initiative();
+        } else if (_id == 60) {
+            return improved_overrun();
+        } else if (_id == 61) {
+            return precise_shot();
+        } else if (_id == 62) {
+            return improved_precise_shot();
+        } else if (_id == 63) {
+            return shield_proficiency();
+        } else if (_id == 64) {
+            return improved_shield_bash();
         }
     }
 
@@ -1250,7 +1270,7 @@ contract codex {
         uint prequisite_level,
         string memory benefit
     ) {
-        id = 64;
+        id = 63;
         name = "Shield Proficiency";
         prerequisites = false;
         prequisite_feat = 0;
@@ -1268,7 +1288,7 @@ contract codex {
         uint prequisite_level,
         string memory benefit
     ) {
-        id = 65;
+        id = 64;
         name = "Improved Shield Bash";
         prerequisites = true;
         prequisite_feat = 64;
@@ -1276,40 +1296,4 @@ contract codex {
         prequisite_level = 0;
         benefit = "When you perform a shield bash, you may still apply the shields shield bonus to your AC.";
     }
-
-    /*function improved_sunder() public pure returns (
-        uint id,
-        string memory name,
-        bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
-        string memory benefit
-    ) {
-        id = 66;
-        name = "Improved Sunder";
-        prerequisites = true;
-        prequisite_feat = 13;
-        preprequisite_class = 2047;
-        prequisite_level = 0;
-        benefit = "When you strike at an object held or carried by an opponent (such as a weapon or shield), you do not provoke an attack of opportunity. You also gain a +4 bonus on any attack roll made to attack an object held or carried by another character.";
-    }
-
-    function improved_trip() public pure returns (
-        uint id,
-        string memory name,
-        bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
-        string memory benefit
-    ) {
-        id = 67;
-        name = "Improved Trip";
-        prerequisites = true;
-        prequisite_feat = 16;
-        preprequisite_class = 2047;
-        prequisite_level = 0;
-        benefit = "You do not provoke an attack of opportunity when you attempt to trip an opponent while you are unarmed. You also gain a +4 bonus on your Strength check to trip your opponent. If you trip an opponent in melee combat, you immediately get a melee attack against that opponent as if you hadnt used your attack for the trip attempt.";
-    }*/
 }

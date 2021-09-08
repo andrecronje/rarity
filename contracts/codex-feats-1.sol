@@ -1116,8 +1116,6 @@ contract codex {
         prequisite_level = 0;
         benefit = "When counterspelling, you may use a spell of the same school that is one or more spell levels higher than the target spell.";
     }
-<<<<<<< HEAD:contracts/feats.sol
-=======
 
     function improved_critical() public pure returns (
         uint id,
@@ -1298,5 +1296,4 @@ contract codex {
         prequisite_level = 0;
         benefit = "When you perform a shield bash, you may still apply the shields shield bonus to your AC.";
     }
->>>>>>> 650989436e2294ac23d57d2698a66c477538dbfb:codex-feats-1.sol
 }

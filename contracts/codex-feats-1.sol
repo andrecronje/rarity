@@ -22,6 +22,126 @@ contract codex {
             return alertness();
         } else if (_id == 4) {
             return animal_affinity();
+        } else if (_id == 5) {
+            return armor_proficiency_light();
+        } else if (_id == 6) {
+            return armor_proficiency_medium();
+        } else if (_id == 7) {
+            return armor_proficiency_heavy();
+        } else if (_id == 8) {
+            return athletic();
+        } else if (_id == 9) {
+            return spell_focus();
+        } else if (_id == 10) {
+            return augment_summoning();
+        } else if (_id == 11) {
+            return blind_fight();
+        } else if (_id == 12) {
+            return brew_potion();
+        } else if (_id == 13) {
+            return power_attack();
+        } else if (_id == 14) {
+            return cleave();
+        } else if (_id == 15) {
+            return combat_casting();
+        } else if (_id == 16) {
+            return combat_expertise();
+        } else if (_id == 17) {
+            return combat_reflexes();
+        } else if (_id == 18) {
+            return craft_magic_arms_and_armor();
+        } else if (_id == 19) {
+            return craft_rod();
+        } else if (_id == 20) {
+            return craft_staff();
+        } else if (_id == 21) {
+            return craft_wand();
+        } else if (_id == 22) {
+            return craft_wondrous_item();
+        } else if (_id == 23) {
+            return deceitful();
+        } else if (_id == 24) {
+            return improved_unarmed_strike();
+        } else if (_id == 25) {
+            return deflect_arrows();
+        } else if (_id == 26) {
+            return deft_hands();
+        } else if (_id == 27) {
+            return endurance();
+        } else if (_id == 28) {
+            return diehard();
+        } else if (_id == 29) {
+            return diligent();
+        } else if (_id == 30) {
+            return dodge();
+        } else if (_id == 31) {
+            return empower_spell();
+        } else if (_id == 32) {
+            return enlarge_spell();
+        } else if (_id == 33) {
+            return eschew_materials();
+        } else if (_id == 34) {
+            return exotic_weapon_proficiency();
+        } else if (_id == 35) {
+            return extend_spell();
+        } else if (_id == 36) {
+            return extra_turning();
+        } else if (_id == 37) {
+            return point_blank_shot();
+        } else if (_id == 38) {
+            return far_shot();
+        } else if (_id == 39) {
+            return forge_ring();
+        } else if (_id == 40) {
+            return great_cleave();
+        } else if (_id == 41) {
+            return great_fortitude();
+        } else if (_id == 42) {
+            return greater_spell_focus();
+        } else if (_id == 43) {
+            return spell_penetration();
+        } else if (_id == 44) {
+            return greater_spell_peneratrion();
+        } else if (_id == 45) {
+            return two_weapon_fighting();
+        } else if (_id == 46) {
+            return improved_two_weapon_fighting();
+        } else if (_id == 47) {
+            return greater_two_weapon_fighting();
+        } else if (_id == 48) {
+            return weapon_focus();
+        } else if (_id == 49) {
+            return greater_weapon_focus();
+        } else if (_id == 50) {
+            return weapon_specialization();
+        } else if (_id == 51) {
+            return greater_weapon_specialization();
+        } else if (_id == 52) {
+            return heighten_spell();
+        } else if (_id == 53) {
+            return improved_bull_rush();
+        } else if (_id == 54) {
+            return improved_counterspell();
+        } else if (_id == 55) {
+            return improved_critical();
+        } else if (_id == 56) {
+            return improved_disarm();
+        } else if (_id == 57) {
+            return improved_feint();
+        } else if (_id == 58) {
+            return improved_grapple();
+        } else if (_id == 59) {
+            return improved_initiative();
+        } else if (_id == 60) {
+            return improved_overrun();
+        } else if (_id == 61) {
+            return precise_shot();
+        } else if (_id == 62) {
+            return improved_precise_shot();
+        } else if (_id == 63) {
+            return shield_proficiency();
+        } else if (_id == 64) {
+            return improved_shield_bash();
         }
     }
 
@@ -214,10 +334,10 @@ contract codex {
         uint prequisite_level,
         string memory benefit
     ) {
-        id = 10;
+        id = 11;
         name = "Blind-Fight";
-        prerequisites = true;
-        prequisite_feat = 9;
+        prerequisites = false;
+        prequisite_feat = 0;
         preprequisite_class = 2047;
         prequisite_level = 0;
         benefit = "In melee, every time you miss because of concealment, you can reroll your miss chance percentile roll one time to see if you actually hit. An invisible attacker gets no advantages related to hitting you in melee. That is, you dont lose your Dexterity bonus to Armor Class, and the attacker doesnt get the usual +2 bonus for being invisible. The invisible attackers bonuses do still apply for ranged attacks, however. You take only half the usual penalty to speed for being unable to see. Darkness and poor visibility in general reduces your speed to three-quarters normal, instead of one half.";
@@ -232,7 +352,7 @@ contract codex {
         uint prequisite_level,
         string memory benefit
     ) {
-        id = 11;
+        id = 12;
         name = "Brew Potion";
         prerequisites = true;
         prequisite_feat = 0;
@@ -250,7 +370,7 @@ contract codex {
         uint prequisite_level,
         string memory benefit
     ) {
-        id = 12;
+        id = 13;
         name = "Power Attack";
         prerequisites = false;
         prequisite_feat = 0;
@@ -268,10 +388,10 @@ contract codex {
         uint prequisite_level,
         string memory benefit
     ) {
-        id = 13;
+        id = 14;
         name = "Cleave";
         prerequisites = true;
-        prequisite_feat = 12;
+        prequisite_feat = 13;
         preprequisite_class = 2047;
         prequisite_level = 0;
         benefit = "If you deal a creature enough damage to make it drop (typically by dropping it to below 0 hit points or killing it), you get an immediate, extra melee attack against another creature within reach. You cannot take a 5-foot step before making this extra attack. The extra attack is with the same weapon and at the same bonus as the attack that dropped the previous creature. You can use this ability once per round.";
@@ -286,7 +406,7 @@ contract codex {
         uint prequisite_level,
         string memory benefit
     ) {
-        id = 14;
+        id = 15;
         name = "Combat Casting";
         prerequisites = false;
         prequisite_feat = 0;
@@ -304,7 +424,7 @@ contract codex {
         uint prequisite_level,
         string memory benefit
     ) {
-        id = 15;
+        id = 16;
         name = "Combat Expertise";
         prerequisites = false;
         prequisite_feat = 0;
@@ -322,7 +442,7 @@ contract codex {
         uint prequisite_level,
         string memory benefit
     ) {
-        id = 16;
+        id = 17;
         name = "Combat Reflexes";
         prerequisites = false;
         prequisite_feat = 0;
@@ -340,7 +460,7 @@ contract codex {
         uint prequisite_level,
         string memory benefit
     ) {
-        id = 17;
+        id = 18;
         name = "Craft Magic Arms And Armor";
         prerequisites = true;
         prequisite_feat = 0;
@@ -358,7 +478,7 @@ contract codex {
         uint prequisite_level,
         string memory benefit
     ) {
-        id = 18;
+        id = 19;
         name = "Craft Rod";
         prerequisites = true;
         prequisite_feat = 0;
@@ -376,7 +496,7 @@ contract codex {
         uint prequisite_level,
         string memory benefit
     ) {
-        id = 19;
+        id = 20;
         name = "Craft Staff";
         prerequisites = true;
         prequisite_feat = 0;
@@ -394,7 +514,7 @@ contract codex {
         uint prequisite_level,
         string memory benefit
     ) {
-        id = 20;
+        id = 21;
         name = "Craft Wand";
         prerequisites = true;
         prequisite_feat = 0;
@@ -412,7 +532,7 @@ contract codex {
         uint prequisite_level,
         string memory benefit
     ) {
-        id = 21;
+        id = 22;
         name = "Craft Wondrous Item";
         prerequisites = true;
         prequisite_feat = 0;
@@ -430,7 +550,7 @@ contract codex {
         uint prequisite_level,
         string memory benefit
     ) {
-        id = 22;
+        id = 23;
         name = "Deceitful";
         prerequisites = false;
         prequisite_feat = 0;
@@ -448,7 +568,7 @@ contract codex {
         uint prequisite_level,
         string memory benefit
     ) {
-        id = 23;
+        id = 24;
         name = "Improved Unarmed Strike";
         prerequisites = false;
         prequisite_feat = 0;
@@ -466,10 +586,10 @@ contract codex {
         uint prequisite_level,
         string memory benefit
     ) {
-        id = 24;
+        id = 25;
         name = "Deflect Arrows";
         prerequisites = true;
-        prequisite_feat = 23;
+        prequisite_feat = 24;
         preprequisite_class = 2047;
         prequisite_level = 0;
         benefit = "You must have at least one hand free (holding nothing) to use this feat. Once per round when you would normally be hit with a ranged weapon, you may deflect it so that you take no damage from it. You must be aware of the attack and not flat-footed. Attempting to deflect a ranged weapon doesnt count as an action. Unusually massive ranged weapons and ranged attacks generated by spell effects cant be deflected.";
@@ -484,7 +604,7 @@ contract codex {
         uint prequisite_level,
         string memory benefit
     ) {
-        id = 25;
+        id = 26;
         name = "Deft Hands";
         prerequisites = false;
         prequisite_feat = 0;
@@ -502,7 +622,7 @@ contract codex {
         uint prequisite_level,
         string memory benefit
     ) {
-        id = 26;
+        id = 27;
         name = "Endurance";
         prerequisites = false;
         prequisite_feat = 0;
@@ -520,10 +640,10 @@ contract codex {
         uint prequisite_level,
         string memory benefit
     ) {
-        id = 27;
+        id = 28;
         name = "Diehard";
         prerequisites = true;
-        prequisite_feat = 26;
+        prequisite_feat = 27;
         preprequisite_class = 2047;
         prequisite_level = 0;
         benefit = "When reduced to between -1 and -9 hit points, you automatically become stable. You dont have to roll d% to see if you lose 1 hit point each round. When reduced to negative hit points, you may choose to act as if you were disabled, rather than dying. You must make this decision as soon as you are reduced to negative hit points (even if it isnt your turn). If you do not choose to act as if you were disabled, you immediately fall unconscious. When using this feat, you can take either a single move or standard action each turn, but not both, and you cannot take a full round action. You can take a move action without further injuring yourself, but if you perform any standard action (or any other action deemed as strenuous, including some free actions, swift actions, or immediate actions, such as casting a quickened spell) you take 1 point of damage after completing the act. If you reach -10 hit points, you immediately die.";
@@ -538,7 +658,7 @@ contract codex {
         uint prequisite_level,
         string memory benefit
     ) {
-        id = 28;
+        id = 29;
         name = "Diligent";
         prerequisites = false;
         prequisite_feat = 0;
@@ -556,7 +676,7 @@ contract codex {
         uint prequisite_level,
         string memory benefit
     ) {
-        id = 29;
+        id = 30;
         name = "Dodge";
         prerequisites = false;
         prequisite_feat = 0;
@@ -574,7 +694,7 @@ contract codex {
         uint prequisite_level,
         string memory benefit
     ) {
-        id = 30;
+        id = 31;
         name = "Empower Spell";
         prerequisites = true;
         prequisite_feat = 0;
@@ -592,7 +712,7 @@ contract codex {
         uint prequisite_level,
         string memory benefit
     ) {
-        id = 31;
+        id = 32;
         name = "Enlarge Spell";
         prerequisites = true;
         prequisite_feat = 0;
@@ -610,7 +730,7 @@ contract codex {
         uint prequisite_level,
         string memory benefit
     ) {
-        id = 32;
+        id = 33;
         name = "Eschew Materials";
         prerequisites = false;
         prequisite_feat = 0;
@@ -628,7 +748,7 @@ contract codex {
         uint prequisite_level,
         string memory benefit
     ) {
-        id = 33;
+        id = 34;
         name = "Exotic Weapon Proficiency";
         prerequisites = false;
         prequisite_feat = 0;
@@ -646,7 +766,7 @@ contract codex {
         uint prequisite_level,
         string memory benefit
     ) {
-        id = 34;
+        id = 35;
         name = "Extend Spell";
         prerequisites = true;
         prequisite_feat = 0;
@@ -664,7 +784,7 @@ contract codex {
         uint prequisite_level,
         string memory benefit
     ) {
-        id = 35;
+        id = 36;
         name = "Extra Turning";
         prerequisites = true;
         prequisite_feat = 0;
@@ -682,7 +802,7 @@ contract codex {
         uint prequisite_level,
         string memory benefit
     ) {
-        id = 36;
+        id = 37;
         name = "Point Blank Shot";
         prerequisites = false;
         prequisite_feat = 0;
@@ -700,10 +820,10 @@ contract codex {
         uint prequisite_level,
         string memory benefit
     ) {
-        id = 37;
+        id = 38;
         name = "Far Shot";
         prerequisites = true;
-        prequisite_feat = 36;
+        prequisite_feat = 37;
         preprequisite_class = 2047;
         prequisite_level = 0;
         benefit = "When you use a projectile weapon, such as a bow, its range increment increases by one-half (multiply by 1.5). When you use a thrown weapon, its range increment is doubled.";
@@ -718,7 +838,7 @@ contract codex {
         uint prequisite_level,
         string memory benefit
     ) {
-        id = 38;
+        id = 39;
         name = "Forge Ring";
         prerequisites = true;
         prequisite_feat = 0;
@@ -736,10 +856,10 @@ contract codex {
         uint prequisite_level,
         string memory benefit
     ) {
-        id = 39;
+        id = 40;
         name = "Great Cleave";
         prerequisites = true;
-        prequisite_feat = 13;
+        prequisite_feat = 14;
         preprequisite_class = 2047;
         prequisite_level = 0;
         benefit = "This feat works like Cleave, except that there is no limit to the number of times you can use it per round.";
@@ -754,7 +874,7 @@ contract codex {
         uint prequisite_level,
         string memory benefit
     ) {
-        id = 40;
+        id = 41;
         name = "Great Fortitude";
         prerequisites = false;
         prequisite_feat = 0;
@@ -772,7 +892,7 @@ contract codex {
         uint prequisite_level,
         string memory benefit
     ) {
-        id = 41;
+        id = 42;
         name = "Greater Spell Focus";
         prerequisites = true;
         prequisite_feat = 9;
@@ -790,7 +910,7 @@ contract codex {
         uint prequisite_level,
         string memory benefit
     ) {
-        id = 42;
+        id = 43;
         name = "Spell Penetration";
         prerequisites = false;
         prequisite_feat = 0;
@@ -808,10 +928,10 @@ contract codex {
         uint prequisite_level,
         string memory benefit
     ) {
-        id = 43;
+        id = 44;
         name = "Greater Spell Penetration";
         prerequisites = true;
-        prequisite_feat = 42;
+        prequisite_feat = 43;
         preprequisite_class = 2047;
         prequisite_level = 0;
         benefit = "You get a +2 bonus on caster level checks (1d20 + caster level) made to overcome a creatures spell resistance. This bonus stacks with the one from Spell Penetration.";
@@ -826,7 +946,7 @@ contract codex {
         uint prequisite_level,
         string memory benefit
     ) {
-        id = 44;
+        id = 45;
         name = "Two-Weapon Fighting";
         prerequisites = false;
         prequisite_feat = 0;
@@ -844,10 +964,10 @@ contract codex {
         uint prequisite_level,
         string memory benefit
     ) {
-        id = 45;
+        id = 46;
         name = "Improved Two-Weapon Fighting";
         prerequisites = true;
-        prequisite_feat = 44;
+        prequisite_feat = 45;
         preprequisite_class = 2047;
         prequisite_level = 6;
         benefit = "In addition to the standard single extra attack you get with an off-hand weapon, you get a second attack with it, albeit at a -5 penalty. See the Two-Weapon Fighting special attack.";
@@ -862,10 +982,10 @@ contract codex {
         uint prequisite_level,
         string memory benefit
     ) {
-        id = 46;
+        id = 47;
         name = "Greater Two-Weapon Fighting";
         prerequisites = true;
-        prequisite_feat = 45;
+        prequisite_feat = 46;
         preprequisite_class = 2047;
         prequisite_level = 11;
         benefit = "You get a third attack with your off-hand weapon, albeit at a -10 penalty. See the Two-Weapon Fighting special attack.";
@@ -880,7 +1000,7 @@ contract codex {
         uint prequisite_level,
         string memory benefit
     ) {
-        id = 47;
+        id = 48;
         name = "Weapon Focus";
         prerequisites = false;
         prequisite_feat = 0;
@@ -898,10 +1018,10 @@ contract codex {
         uint prequisite_level,
         string memory benefit
     ) {
-        id = 48;
+        id = 49;
         name = "Greater Weapon Focus";
         prerequisites = true;
-        prequisite_feat = 47;
+        prequisite_feat = 48;
         preprequisite_class = 16;
         prequisite_level = 8;
         benefit = "You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses on attack rolls, including the one from Weapon Focus (see below).";
@@ -916,10 +1036,10 @@ contract codex {
         uint prequisite_level,
         string memory benefit
     ) {
-        id = 49;
+        id = 50;
         name = "Weapon Specialization";
         prerequisites = true;
-        prequisite_feat = 47;
+        prequisite_feat = 48;
         preprequisite_class = 16;
         prequisite_level = 4;
         benefit = "You gain a +2 bonus on all damage rolls you make using the selected weapon.";
@@ -934,10 +1054,10 @@ contract codex {
         uint prequisite_level,
         string memory benefit
     ) {
-        id = 50;
+        id = 51;
         name = "Greater Weapon Specialization";
         prerequisites = true;
-        prequisite_feat = 48;
+        prequisite_feat = 49;
         preprequisite_class = 16;
         prequisite_level = 12;
         benefit = "You gain a +2 bonus on all damage rolls you make using the selected weapon. This bonus stacks with other bonuses on damage rolls, including the one from Weapon Specialization (see below).";
@@ -952,7 +1072,7 @@ contract codex {
         uint prequisite_level,
         string memory benefit
     ) {
-        id = 51;
+        id = 52;
         name = "Heighten Spell";
         prerequisites = true;
         prequisite_feat = 0;
@@ -970,10 +1090,10 @@ contract codex {
         uint prequisite_level,
         string memory benefit
     ) {
-        id = 52;
+        id = 53;
         name = "Improved Bull Rush";
         prerequisites = true;
-        prequisite_feat = 12;
+        prequisite_feat = 13;
         preprequisite_class = 2047;
         prequisite_level = 0;
         benefit = "When you perform a bull rush you do not provoke an attack of opportunity from the defender. You also gain a +4 bonus on the opposed Strength check you make to push back the defender.";
@@ -988,7 +1108,7 @@ contract codex {
         uint prequisite_level,
         string memory benefit
     ) {
-        id = 53;
+        id = 54;
         name = "Improved Counterspell";
         prerequisites = true;
         prequisite_feat = 0;
@@ -996,4 +1116,187 @@ contract codex {
         prequisite_level = 0;
         benefit = "When counterspelling, you may use a spell of the same school that is one or more spell levels higher than the target spell.";
     }
+<<<<<<< HEAD:contracts/feats.sol
+=======
+
+    function improved_critical() public pure returns (
+        uint id,
+        string memory name,
+        bool prerequisites,
+        uint prequisite_feat,
+        uint preprequisite_class,
+        uint prequisite_level,
+        string memory benefit
+    ) {
+        id = 55;
+        name = "Improved Critical";
+        prerequisites = true;
+        prequisite_feat = 0;
+        preprequisite_class = 465;
+        prequisite_level = 8;
+        benefit = "When using the weapon you selected, your threat range is doubled.";
+    }
+
+    function improved_disarm() public pure returns (
+        uint id,
+        string memory name,
+        bool prerequisites,
+        uint prequisite_feat,
+        uint preprequisite_class,
+        uint prequisite_level,
+        string memory benefit
+    ) {
+        id = 56;
+        name = "Improved Disarm";
+        prerequisites = true;
+        prequisite_feat = 16;
+        preprequisite_class = 2047;
+        prequisite_level = 0;
+        benefit = "You do not provoke an attack of opportunity when you attempt to disarm an opponent, nor does the opponent have a chance to disarm you. You also gain a +4 bonus on the opposed attack roll you make to disarm your opponent.";
+    }
+
+    function improved_feint() public pure returns (
+        uint id,
+        string memory name,
+        bool prerequisites,
+        uint prequisite_feat,
+        uint preprequisite_class,
+        uint prequisite_level,
+        string memory benefit
+    ) {
+        id = 57;
+        name = "Improved Feint";
+        prerequisites = true;
+        prequisite_feat = 16;
+        preprequisite_class = 2047;
+        prequisite_level = 0;
+        benefit = "You can make a Bluff check to feint in combat as a move action.";
+    }
+
+    function improved_grapple() public pure returns (
+        uint id,
+        string memory name,
+        bool prerequisites,
+        uint prequisite_feat,
+        uint preprequisite_class,
+        uint prequisite_level,
+        string memory benefit
+    ) {
+        id = 58;
+        name = "Improved Grapple";
+        prerequisites = true;
+        prequisite_feat = 24;
+        preprequisite_class = 2047;
+        prequisite_level = 0;
+        benefit = "You do not provoke an attack of opportunity when you make a touch attack to start a grapple. You also gain a +4 bonus on all grapple checks, regardless of whether you started the grapple.";
+    }
+
+    function improved_initiative() public pure returns (
+        uint id,
+        string memory name,
+        bool prerequisites,
+        uint prequisite_feat,
+        uint preprequisite_class,
+        uint prequisite_level,
+        string memory benefit
+    ) {
+        id = 59;
+        name = "Improved Initiative";
+        prerequisites = false;
+        prequisite_feat = 0;
+        preprequisite_class = 2047;
+        prequisite_level = 0;
+        benefit = "You get a +4 bonus on initiative checks.";
+    }
+
+    function improved_overrun() public pure returns (
+        uint id,
+        string memory name,
+        bool prerequisites,
+        uint prequisite_feat,
+        uint preprequisite_class,
+        uint prequisite_level,
+        string memory benefit
+    ) {
+        id = 60;
+        name = "Improved Overrun";
+        prerequisites = true;
+        prequisite_feat = 13;
+        preprequisite_class = 2047;
+        prequisite_level = 0;
+        benefit = "When you attempt to overrun an opponent, the target may not choose to avoid you. You also gain a +4 bonus on your Strength check to knock down your opponent.";
+    }
+
+    function precise_shot() public pure returns (
+        uint id,
+        string memory name,
+        bool prerequisites,
+        uint prequisite_feat,
+        uint preprequisite_class,
+        uint prequisite_level,
+        string memory benefit
+    ) {
+        id = 61;
+        name = "Precise Shot";
+        prerequisites = true;
+        prequisite_feat = 37;
+        preprequisite_class = 2047;
+        prequisite_level = 0;
+        benefit = "You can shoot or throw ranged weapons at an opponent engaged in melee without taking the standard -4 penalty on your attack roll.";
+    }
+
+    function improved_precise_shot() public pure returns (
+        uint id,
+        string memory name,
+        bool prerequisites,
+        uint prequisite_feat,
+        uint preprequisite_class,
+        uint prequisite_level,
+        string memory benefit
+    ) {
+        id = 62;
+        name = "Improved Precise Shot";
+        prerequisites = true;
+        prequisite_feat = 61;
+        preprequisite_class = 2047;
+        prequisite_level = 0;
+        benefit = "Your ranged attacks ignore the AC bonus granted to targets by anything less than total cover, and the miss chance granted to targets by anything less than total concealment. Total cover and total concealment provide their normal benefits against your ranged attacks. In addition, when you shoot or throw ranged weapons at a grappling opponent, you automatically strike at the opponent you have chosen.";
+    }
+
+    function shield_proficiency() public pure returns (
+        uint id,
+        string memory name,
+        bool prerequisites,
+        uint prequisite_feat,
+        uint preprequisite_class,
+        uint prequisite_level,
+        string memory benefit
+    ) {
+        id = 63;
+        name = "Shield Proficiency";
+        prerequisites = false;
+        prequisite_feat = 0;
+        preprequisite_class = 2047;
+        prequisite_level = 0;
+        benefit = "You can use a shield and take only the standard penalties.";
+    }
+
+    function improved_shield_bash() public pure returns (
+        uint id,
+        string memory name,
+        bool prerequisites,
+        uint prequisite_feat,
+        uint preprequisite_class,
+        uint prequisite_level,
+        string memory benefit
+    ) {
+        id = 64;
+        name = "Improved Shield Bash";
+        prerequisites = true;
+        prequisite_feat = 64;
+        preprequisite_class = 2047;
+        prequisite_level = 0;
+        benefit = "When you perform a shield bash, you may still apply the shields shield bonus to your AC.";
+    }
+>>>>>>> 650989436e2294ac23d57d2698a66c477538dbfb:codex-feats-1.sol
 }

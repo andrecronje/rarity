@@ -9,7 +9,6 @@ Scarcity is achieved via an active economy, summoners must level, gain feats, le
 | attributes | [0x3a7c6a0e65480eb32a0ddf1cc2db6563aaed03ce](https://polygonscan.com/address/0x3a7c6a0e65480eb32a0ddf1cc2db6563aaed03ce) |
 | scarcity gold | [0x7303e7a860daffe4d0b33615479648cb3496903b](https://polygonscan.com/address/0x7303e7a860daffe4d0b33615479648cb3496903b) |
 | wrapped scarcity gold| [0x4f0D9adEc72551f02ec5A7A87381C84397F343c3](https://polygonscan.com/address/0x4f0D9adEc72551f02ec5A7A87381C84397F343c3) |
-
 | skills | [0x1e87AE9f19860679Feb4b6A95b72345Af63Bb5d1](https://polygonscan.com/address/0x1e87AE9f19860679Feb4b6A95b72345Af63Bb5d1) |
 | craft (I) | [0xef4c8e18c831cb7c937a0d17809102208570ec8f](https://polygonscan.com/address/0xef4c8e18c831cb7c937a0d17809102208570ec8f) |
 

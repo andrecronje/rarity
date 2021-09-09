@@ -28,9 +28,9 @@ interface codex_skills {
 
 contract rarity_skills {
 
-    rarity constant rm = rarity(0xce761D788DF608BD21bdd59d6f4B54b2e27F25Bb);
-    attributes constant _attr = attributes(0xB5F5AF1087A8DA62A23b08C00C6ec9af21F397a1);
-    codex_skills constant _codex_skills = codex_skills(0x67ae39a2Ee91D7258a86CD901B17527e19E493B3);
+    rarity constant rm = rarity(0x4fb729BDb96d735692DCACD9640cF7e3aA859B25);
+    attributes constant _attr = attributes(0x3a7c6a0E65480EB32A0ddf1cC2db6563Aaed03ce);
+    codex_skills constant _codex_skills = codex_skills(0xD62e9039AA2029f9F3eBE66E235213dD9a338EB8);
 
     function class_skills_by_name(uint _class) public view returns (string[] memory) {
         bool[36] memory _skills = class_skills(_class);

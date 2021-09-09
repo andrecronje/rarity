@@ -8,7 +8,7 @@ Rarity is achieved via an active economy, summoners must level, gain feats, lear
 | rarity | [0xce761D788DF608BD21bdd59d6f4B54b2e27F25Bb](https://ftmscan.com/address/0xce761D788DF608BD21bdd59d6f4B54b2e27F25Bb) |
 | attributes | [0xB5F5AF1087A8DA62A23b08C00C6ec9af21F397a1](https://ftmscan.com/address/0xB5F5AF1087A8DA62A23b08C00C6ec9af21F397a1) |
 | gold | [0x2069B76Afe6b734Fb65D1d099E7ec64ee9CC76B2](https://ftmscan.com/address/0x2069B76Afe6b734Fb65D1d099E7ec64ee9CC76B2) |
-| skills | [0x6292f3fB422e393342f257857e744d43b1Ae7e70](https://ftmscan.com/address/0x6292f3fB422e393342f257857e744d43b1Ae7e70) |
+| skills | [0x51C0B29A1d84611373BA301706c6B4b72283C80F](https://ftmscan.com/address/0x51C0B29A1d84611373BA301706c6B4b72283C80F) |
 | Craft (I) | [0x2A0F1cB17680161cF255348dDFDeE94ea8Ca196A](https://ftmscan.com/address/0x2A0F1cB17680161cF255348dDFDeE94ea8Ca196A) |
 
 # codex
@@ -16,7 +16,7 @@ Rarity is achieved via an active economy, summoners must level, gain feats, lear
 | Name | Address |
 | :--- | :--- |
 | skills | [0x67ae39a2Ee91D7258a86CD901B17527e19E493B3](https://ftmscan.com/address/0x67ae39a2Ee91D7258a86CD901B17527e19E493B3) |
-| class skills | [0x83F9D594E327EaFe466fbB2cf050Bf13BeCCB165](https://ftmscan.com/address/0x83F9D594E327EaFe466fbB2cf050Bf13BeCCB165) |
+| class skills | [0xf677eD67B7717f3a743BE8D9b6662B11b095DB43](https://ftmscan.com/address/0xf677eD67B7717f3a743BE8D9b6662B11b095DB43) |
 | feats-1 | [0x822F888f5DB8e1316717Eb904E550ebB1196EdbE](https://ftmscan.com/address/0x822F888f5DB8e1316717Eb904E550ebB1196EdbE) |
 
 # third party

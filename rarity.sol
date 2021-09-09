@@ -594,7 +594,7 @@ contract rarity is ERC721Enumerable {
         uint _xp_required = xp_required(_level);
         xp[_summoner] -= _xp_required;
         level[_summoner] = _level+1;
-        emit leveled(msg.sender, _level, _summoner);
+        emit leveled(msg.sender, level[_summoner], _summoner);
     }
 
     function summoner(uint _summoner) external view returns (uint _xp, uint _log, uint _class, uint _level) {

@@ -560,7 +560,7 @@ abstract contract ERC721Enumerable is ERC721, IERC721Enumerable {
     }
 }
 
-contract rarity is ERC721 {
+contract rarity is ERC721Enumerable {
     uint public next_summoner;
     uint constant xp_per_day = 250e18;
     uint constant DAY = 1 days;

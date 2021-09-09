@@ -8,7 +8,8 @@ module.exports = {
     matic: { // truffle deploy --network matic --reset
       provider: () => new HDWalletProvider(PRIVATE_KEY, 'https://polygon-mainnet.g.alchemy.com/v2/otv8MK4bZZfs0g1BDyastBFaKiHTiswG'),
       network_id: 137,
-      gas: 3000000,
+      gas: 7000000,
+      gasPrice: 44000000000,
       skipDryRun: true,
     },
     mumbai: { // truffle deploy --network mumbai --reset

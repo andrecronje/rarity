@@ -1,4 +1,4 @@
-const DaycareManager = artifacts.require("daycare-manager.sol")
+const DaycareManager = artifacts.require("DaycareManager")
 
 module.exports = async (deployer, network, accounts) => {
     await deployer.deploy(DaycareManager);

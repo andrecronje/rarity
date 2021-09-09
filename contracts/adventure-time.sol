@@ -10,7 +10,7 @@ interface IRarity {
  * @dev sends multiple summoners on an adventure
  */
 contract AdventureTime {
-    IRarity rarity = IRarity(0x4fb729bdb96d735692dcacd9640cf7e3aa859b25);
+    IRarity rarity = IRarity(0x4fb729BDb96d735692DCACD9640cF7e3aA859B25);
 
     // you'll be able to send summoners that you (the caller) don't own on an
     // adventure, as long as it's approved for this contract

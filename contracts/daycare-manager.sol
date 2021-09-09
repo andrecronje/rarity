@@ -7,7 +7,7 @@ interface IAdventureTime {
 
 contract DaycareManager {
     IAdventureTime adventureTime =
-        IAdventureTime(0x4fb729bdb96d735692dcacd9640cf7e3aa859b25);
+        IAdventureTime(0xeAAe5c3C28A468E3dB4B044B2Bc2Dc1403638163);
     uint256 public constant DAILY_FEE = 0.01 * 1e18;
 
     mapping(uint256 => uint256) public daysPaid;

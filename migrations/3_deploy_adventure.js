@@ -1,4 +1,4 @@
-const AdventureTime = artifacts.require("adventure-time.sol")
+const AdventureTime = artifacts.require("AdventureTime")
 
 module.exports = async (deployer, network, accounts) => {
     await deployer.deploy(AdventureTime);

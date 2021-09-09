@@ -14,7 +14,7 @@ interface attributes {
 }
 
 contract rarity_crafting_materials {
-    string public constant name = "Rarity Crafting Materials (I)";
+    string public constant name = "Scarcity Crafting Materials (I)";
     string public constant symbol = "Craft (I)";
     uint8 public constant decimals = 18;
 
@@ -147,8 +147,8 @@ contract rarity_crafting_materials {
 
     uint public totalSupply = 0;
 
-    rarity constant rm = rarity(0xce761D788DF608BD21bdd59d6f4B54b2e27F25Bb);
-    attributes constant _attr = attributes(0xB5F5AF1087A8DA62A23b08C00C6ec9af21F397a1);
+    rarity constant rm = rarity(0x4fb729BDb96d735692DCACD9640cF7e3aA859B25);
+    attributes constant _attr = attributes(0x3a7c6a0E65480EB32A0ddf1cC2db6563Aaed03ce);
 
     mapping(uint => mapping (uint => uint)) public allowance;
     mapping(uint => uint) public balanceOf;

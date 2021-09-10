@@ -30,6 +30,8 @@ contract codex {
             return light();
         } else if (_id == 10) {
             return ray_of_frost();
+        } else if (_id == 14) {
+            return magic_missile();
         }
     }
 

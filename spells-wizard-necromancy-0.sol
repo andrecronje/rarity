@@ -26,6 +26,8 @@ contract codex {
             return disrupt_undead();
         } else if (_id == 13) {
             return touch_of_fatigue();
+        } else if (_id == 15) {
+            return false_life();
         }
     }
 

@@ -177,7 +177,7 @@ contract codex {
         focus = false;
         xp_cost = 0;
         time = 1;
-        range = 120;
+        range = 4;
         duration = 0;
         saving_throw_type = 0;
         saving_throw_effect = 0;

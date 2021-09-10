@@ -43,6 +43,8 @@ Rarity is achieved via an active economy, summoners must level, gain feats, lear
 
 [rarityextended](https://rarityextended.com/)
 
+[rareplorer](https://rareplorer.com)
+
 # links
 
 [guilds banks](https://twitter.com/nomorebear/status/1434843331817738243)

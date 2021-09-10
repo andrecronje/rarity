@@ -251,7 +251,7 @@ contract codex {
         id = 8;
         name = "Breastplate";
         cost = 200e18;
-        proficiency = 5;
+        proficiency = 2;
         weight = 30;
         armor_bonus = 5;
         max_dex_bonus = 3;

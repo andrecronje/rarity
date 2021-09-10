@@ -152,4 +152,34 @@ contract codex {
         spell_resistance = true;
         description = "A ray of freezing air and ice projects from your pointing finger. You must succeed on a ranged touch attack with the ray to deal damage to a target. The ray deals 1d3 points of cold damage.";
     }
+    
+    function magic_missile() public pure returns (
+        uint id,
+        string memory name,
+        bool verbal,
+        bool somatic,
+        bool focus,
+        uint xp_cost,
+        uint time,
+        uint range,
+        uint duration,
+        uint saving_throw_type,
+        uint saving_throw_effect,
+        bool spell_resistance,
+        string memory description
+    ) {
+        id = 14;
+        name = "Magic Missile";
+        verbal = true;
+        somatic = true;
+        focus = false;
+        xp_cost = 0;
+        time = 1;
+        range = 120;
+        duration = 0;
+        saving_throw_type = 0;
+        saving_throw_effect = 0;
+        spell_resistance = false;
+        description = "You create three glowing darts of magical force. Each dart hits a creature of your choice that you can see within range. A dart deals 1d4 + 1 force damage to its target.";
+    }
 }

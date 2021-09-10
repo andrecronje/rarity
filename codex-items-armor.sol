@@ -161,7 +161,7 @@ contract codex {
         max_dex_bonus = 4;
         penalty = -2;
         spell_failure = 20;
-        description = "";
+        description = "A chain shirt comes with a steel cap.";
     }
 
     function hide() public pure returns (
@@ -209,7 +209,7 @@ contract codex {
         max_dex_bonus = 3;
         penalty = -4;
         spell_failure = 25;
-        description = "";
+        description = "The suit includes gauntlets.";
     }
 
     function chainmail() public pure returns (
@@ -233,7 +233,7 @@ contract codex {
         max_dex_bonus = 2;
         penalty = -5;
         spell_failure = 30;
-        description = "";
+        description = "The suit includes gauntlets";
     }
 
     function breastplate() public pure returns (
@@ -257,7 +257,7 @@ contract codex {
         max_dex_bonus = 3;
         penalty = -4;
         spell_failure = 25;
-        description = "";
+        description = "It comes with a helmet and greaves.";
     }
 
     function splint_mail() public pure returns (
@@ -281,7 +281,7 @@ contract codex {
         max_dex_bonus = 0;
         penalty = -7;
         spell_failure = 40;
-        description = "";
+        description = "The suit includes gauntlets.";
     }
 
     function banded_mail() public pure returns (
@@ -305,7 +305,7 @@ contract codex {
         max_dex_bonus = 1;
         penalty = -6;
         spell_failure = 35;
-        description = "";
+        description = "The suit includes gauntlets.";
     }
 
     function half_plate() public pure returns (
@@ -329,7 +329,7 @@ contract codex {
         max_dex_bonus = 0;
         penalty = -7;
         spell_failure = 40;
-        description = "";
+        description = "The suit includes gauntlets.";
     }
 
     function full_plate() public pure returns (
@@ -353,7 +353,7 @@ contract codex {
         max_dex_bonus = 1;
         penalty = -6;
         spell_failure = 35;
-        description = "";
+        description = "The suit includes gauntlets, heavy leather boots, a visored helmet, and a thick layer of padding that is worn underneath the armor. Each suit of full plate must be individually fitted to its owner by a master armorsmith, although a captured suit can be resized to fit a new owner at a cost of 200 to 800 (2d4x100) gold pieces.";
     }
 
     function buckler() public pure returns (
@@ -377,7 +377,7 @@ contract codex {
         max_dex_bonus = 8;
         penalty = -1;
         spell_failure = 5;
-        description = "";
+        description = "This small metal shield is worn strapped to your forearm. You can use a bow or crossbow without penalty while carrying it. You can also use your shield arm to wield a weapon (whether you are using an off-hand weapon or using your off hand to help wield a two-handed weapon), but you take a -1 penalty on attack rolls while doing so. This penalty stacks with those that may apply for fighting with your off hand and for fighting with two weapons. In any case, if you use a weapon in your off hand, you dont get the bucklers AC bonus for the rest of the round.";
     }
 
     function shield_light_wooden() public pure returns (
@@ -401,7 +401,7 @@ contract codex {
         max_dex_bonus = 8;
         penalty = -1;
         spell_failure = 5;
-        description = "";
+        description = "Wooden and steel shields offer the same basic protection, though they respond differently to special attacks";
     }
 
     function shield_light_steel() public pure returns (
@@ -425,7 +425,7 @@ contract codex {
         max_dex_bonus = 8;
         penalty = -1;
         spell_failure = 5;
-        description = "";
+        description = "Wooden and steel shields offer the same basic protection, though they respond differently to special attacks";
     }
 
     function shield_heavy_wooden() public pure returns (
@@ -449,7 +449,7 @@ contract codex {
         max_dex_bonus = 8;
         penalty = -2;
         spell_failure = 15;
-        description = "";
+        description = "Wooden and steel shields offer the same basic protection, though they respond differently to special attacks.";
     }
 
     function shield_heavy_steel() public pure returns (
@@ -473,7 +473,7 @@ contract codex {
         max_dex_bonus = 8;
         penalty = -2;
         spell_failure = 15;
-        description = "";
+        description = "Wooden and steel shields offer the same basic protection, though they respond differently to special attacks.";
     }
 
     function shield_tower() public pure returns (
@@ -497,6 +497,6 @@ contract codex {
         max_dex_bonus = 2;
         penalty = -10;
         spell_failure = 50;
-        description = "";
+        description = "This massive wooden shield is nearly as tall as you are. In most situations, it provides the indicated shield bonus to your AC. However, you can instead use it as total cover, though you must give up your attacks to do so. The shield does not, however, provide cover against targeted spells; a spellcaster can cast a spell on you by targeting the shield you are holding. You cannot bash with a tower shield, nor can you use your shield hand for anything else.";
     }
 }

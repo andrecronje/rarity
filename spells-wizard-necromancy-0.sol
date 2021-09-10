@@ -88,4 +88,34 @@ contract codex {
         spell_resistance = true;
         description = "You channel negative energy through your touch, fatiguing the target. You must succeed on a touch attack to strike a target. The subject is immediately fatigued for the spells duration. This spell has no effect on a creature that is already fatigued. Unlike with normal fatigue, the effect ends as soon as the spells duration expires.";
     }
+    
+    function false_life() public pure returns (
+        uint id,
+        string memory name,
+        bool verbal,
+        bool somatic,
+        bool focus,
+        uint xp_cost,
+        uint time,
+        uint range,
+        uint duration,
+        uint saving_throw_type,
+        uint saving_throw_effect,
+        bool spell_resistance,
+        string memory description
+    ) {
+        id = 15;
+        name = "False Life";
+        verbal = true;
+        somatic = true;
+        focus = false;
+        xp_cost = 0;
+        time = 1;
+        range = 1;
+        duration = 60;
+        saving_throw_type = 0;
+        saving_throw_effect = 0;
+        spell_resistance = true;
+        description = "Bolstering yourself with a necromantic facsimile of life, you gain 1d4 + 4 temporary hit points for the duration.";
+    }
 }

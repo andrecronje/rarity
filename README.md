@@ -11,6 +11,8 @@ Scarcity is achieved via an active economy, summoners must level, gain feats, le
 | wrapped scarcity gold| [0x4f0D9adEc72551f02ec5A7A87381C84397F343c3](https://polygonscan.com/address/0x4f0D9adEc72551f02ec5A7A87381C84397F343c3) |
 | skills | [0x1e87AE9f19860679Feb4b6A95b72345Af63Bb5d1](https://polygonscan.com/address/0x1e87AE9f19860679Feb4b6A95b72345Af63Bb5d1) |
 | craft (I) | [0xef4c8e18c831cb7c937a0d17809102208570ec8f](https://polygonscan.com/address/0xef4c8e18c831cb7c937a0d17809102208570ec8f) |
+| adventure time | [0xeAAe5c3C28A468E3dB4B044B2Bc2Dc1403638163](https://polygonscan.com/address/0xeAAe5c3C28A468E3dB4B044B2Bc2Dc1403638163) |
+| daycare manager | [0xEDB8B4B6c0223dC91326f0F886CCc7FF6f5135a3](https://polygonscan.com/address/0xEDB8B4B6c0223dC91326f0F886CCc7FF6f5135a3) |
 
 # Codex
 

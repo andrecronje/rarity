@@ -3,8 +3,8 @@ pragma solidity 0.8.7;
 
 contract codex {
     string constant public index = "Spells";
-    string constant public class = "Wizard";
-    string constant public school = "Abjuration";
+    string constant public class = "Cleric";
+    string constant public school = "Evocation";
     uint constant public level = 0;
 
     function spell_by_id(uint _id) external pure returns(
@@ -23,12 +23,12 @@ contract codex {
         bool spell_resistance,
         string memory description
     ) {
-        if (_id == 1) {
-            return resistance();
+        if (_id == 8) {
+            return light();
         }
     }
 
-    function resistance() public pure returns (
+    function light() public pure returns (
         uint id,
         string memory name,
         bool verbal,
@@ -44,19 +44,18 @@ contract codex {
         bool spell_resistance,
         string memory description
     ) {
-        id = 1;
-        name = "Resistance";
+        id = 8;
+        name = "Light";
         verbal = true;
-        somatic = true;
-        focus = false;
+        somatic = false;
+        focus = true;
         divine_focus = false;
         xp_cost = 0;
         time = 1;
         range = 1;
-        duration = 60;
-        saving_throw_type = 3;
-        saving_throw_effect = 3;
-        spell_resistance = true;
-        description = "You imbue the subject with magical energy that protects it from harm, granting it a +1 resistance bonus on saves. Resistance can be made permanent with a permanency spell.";
+        duration = 600;
+        saving_throw_type = 0;
+        saving_throw_effect = 0;
+        spell_resistance = false;
+        description = "This spell causes an object to glow like a torch, shedding bright light in a 20-foot radius (and dim light for an additional 20 feet) from the point you touch. The effect is immobile, but it can be cast on a movable object. Light taken into an area of magical darkness does not function. A light spell (one with the light descriptor) counters and dispels a darkness spell (one with the darkness descriptor) of an equal or lower level.";
     }
-}

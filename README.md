@@ -16,6 +16,7 @@ Rarity is achieved via an active economy, summoners must level, gain feats, lear
 
 | Name          | Address                                                                                                              |
 | :------------ | :------------------------------------------------------------------------------------------------------------------- |
+| random        | [0x7426dBE5207C2b5DaC57d8e55F0959fcD99661D4](https://ftmscan.com/address/0x7426dBE5207C2b5DaC57d8e55F0959fcD99661D4) |
 | skills        | [0x67ae39a2Ee91D7258a86CD901B17527e19E493B3](https://ftmscan.com/address/0x67ae39a2Ee91D7258a86CD901B17527e19E493B3) |
 | class skills  | [0xf677eD67B7717f3a743BE8D9b6662B11b095DB43](https://ftmscan.com/address/0xf677eD67B7717f3a743BE8D9b6662B11b095DB43) |
 | feats-1       | [0x822F888f5DB8e1316717Eb904E550ebB1196EdbE](https://ftmscan.com/address/0x822F888f5DB8e1316717Eb904E550ebB1196EdbE) |

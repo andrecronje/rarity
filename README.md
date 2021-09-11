@@ -31,28 +31,25 @@ Rarity is achieved via an active economy, summoners must level, gain feats, lear
 
 # UI's
 
-[rarity.game](https://rarity.game/)
+[rarity.game](https://rarity.game/)  
+[rarity-adventures](https://rarity-adventures.surge.sh/)  
+[rarity-visualizer](https://rarity-visualizer-ui.vercel.app/)  
+[raritymanifested](https://www.raritymanifested.com/profile)  
+[rarity-game](https://rarity-game.netlify.app/)  
+[rarityextended](https://rarityextended.com/)  
 
-[rarity-adventures](https://rarity-adventures.surge.sh/)
+# Economy
 
-[rarity-visualizer](https://rarity-visualizer-ui.vercel.app/)
-
-[raritymanifested](https://www.raritymanifested.com/profile)
-
-[rarity-game](https://rarity-game.netlify.app/)
-
-[rarityextended](https://rarityextended.com/)
+[summoner-market](https://summoner-market.alphafinance.io/)  
+[cryptomarkettoday.com/rarity](https://cryptomarkettoday.com/rarity/)  
 
 # links
 
-[guilds banks](https://twitter.com/nomorebear/status/1434843331817738243)
-
-[provably rare spell ingredients](https://github.com/sorawit/provably-rare-gems/blob/master/contracts/ProvablyRareGem.sol)
-
-[day care for summoners](https://github.com/abdullathedruid/daycare_manager/blob/main/contracts/DaycareManager.sol)
+[guilds banks](https://twitter.com/nomorebear/status/1434843331817738243)  
+[provably rare spell ingredients](https://github.com/sorawit/provably-rare-gems/blob/master/contracts/ProvablyRareGem.sol)  
+[day care for summoners](https://github.com/abdullathedruid/daycare_manager/blob/main/contracts/DaycareManager.sol)  
 
 # social
 
-[wiki](rarity.wiki)
-
-[discord](https://discord.gg/F5URbkcvmD)
+[wiki](rarity.wiki)  
+[discord](https://discord.gg/F5URbkcvmD)  

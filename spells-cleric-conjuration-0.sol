@@ -3,8 +3,8 @@ pragma solidity 0.8.7;
 
 contract codex {
     string constant public index = "Spells";
-    string constant public class = "Wizard";
-    string constant public school = "Necromancy";
+    string constant public class = "Cleric";
+    string constant public school = "Conjuration";
     uint constant public level = 0;
 
     function spell_by_id(uint _id) external pure returns(
@@ -23,14 +23,14 @@ contract codex {
         bool spell_resistance,
         string memory description
     ) {
-        if (_id == 12) {
-            return disrupt_undead();
-        } else if (_id == 13) {
-            return touch_of_fatigue();
+        if (_id == 2) {
+            return create_water();
+        } else if (_id == 3) {
+            return cure_minor_wounds();
         }
     }
 
-    function disrupt_undead() public pure returns (
+    function create_water() public pure returns (
         uint id,
         string memory name,
         bool verbal,
@@ -46,8 +46,8 @@ contract codex {
         bool spell_resistance,
         string memory description
     ) {
-        id = 12;
-        name = "Disrupt Undead";
+        id = 2;
+        name = "Create Water";
         verbal = true;
         somatic = true;
         focus = false;
@@ -58,11 +58,11 @@ contract codex {
         duration = 0;
         saving_throw_type = 0;
         saving_throw_effect = 0;
-        spell_resistance = true;
-        description = "You direct a ray of positive energy. You must make a ranged touch attack to hit, and if the ray hits an undead creature, it deals 1d6 points of damage to it.";
+        spell_resistance = false;
+        description = "This spell generates wholesome, drinkable water, just like clean rain water. Water can be created in an area as small as will actually contain the liquid, or in an area three times as large, possibly creating a downpour or filling many small receptacles. Note: Conjuration spells cant create substances or objects within a creature. Water weighs about 8 pounds per gallon. One cubic foot of water contains roughly 8 gallons and weighs about 60 pounds.";
     }
 
-    function touch_of_fatigue() public pure returns (
+    function cure_minor_wounds() public pure returns (
         uint id,
         string memory name,
         bool verbal,
@@ -78,8 +78,8 @@ contract codex {
         bool spell_resistance,
         string memory description
     ) {
-        id = 13;
-        name = "Touch of Fatigue";
+        id = 3;
+        name = "Cure Minor Wounds";
         verbal = true;
         somatic = true;
         focus = false;
@@ -87,10 +87,10 @@ contract codex {
         xp_cost = 0;
         time = 1;
         range = 1;
-        duration = 1;
-        saving_throw_type = 1;
-        saving_throw_effect = 3;
+        duration = 0;
+        saving_throw_type = 3;
+        saving_throw_effect = 2;
         spell_resistance = true;
-        description = "You channel negative energy through your touch, fatiguing the target. You must succeed on a touch attack to strike a target. The subject is immediately fatigued for the spells duration. This spell has no effect on a creature that is already fatigued. Unlike with normal fatigue, the effect ends as soon as the spells duration expires.";
+        description = "This spell functions like cure light wounds, except that it cures only 1 point of damage.";
     }
 }

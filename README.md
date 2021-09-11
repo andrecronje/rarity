@@ -52,5 +52,5 @@ Rarity is achieved via an active economy, summoners must level, gain feats, lear
 
 # social
 
-[wiki](rarity.wiki)  
+[wiki](http://rarity.wiki/)  
 [discord](https://discord.gg/F5URbkcvmD)  

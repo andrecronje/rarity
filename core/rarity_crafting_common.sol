@@ -590,7 +590,7 @@ contract rarity_crafting is ERC721Enumerable {
         if (crafted) {
             uint _cost = get_item_cost(_base_type, _item_type);
             require(_gold.transferFrom(SUMMMONER_ID, _summoner, SUMMMONER_ID, _cost), "!gold");
-            items[next_item] = item(_base_type, _item_type, uint32(block.timestamp), 0);
+            items[next_item] = item(_base_type, _item_type, uint32(block.timestamp), _summoner);
             emit Crafted(msg.sender, uint(check), _summoner, _base_type, _item_type, _cost, _crafting_materials);
             next_item++;
         }

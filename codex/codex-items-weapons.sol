@@ -1,3 +1,7 @@
+/**
+ *Submitted for verification at FtmScan.com on 2021-09-11
+*/
+
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.7;
 
@@ -39,20 +43,22 @@ contract codex {
         }
     }
 
-    function item_by_id(uint _id) public pure returns(
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
+    struct weapon {
+        uint id;
+        uint cost;
+        uint proficiency;
+        uint encumbrance;
+        uint damage_type;
+        uint weight;
+        uint damage;
+        uint critical;
+        int critical_modifier;
+        uint range_increment;
+        string name;
+        string description;
+    }
+
+    function item_by_id(uint _id) public pure returns(weapon memory _weapon) {
         if (_id == 1) {
             return gauntlet();
         } else if (_id == 2) {
@@ -174,1655 +180,888 @@ contract codex {
         }
     }
 
-    function gauntlet() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 1;
-        name = "Gauntlet";
-        cost = 2e18;
-        proficiency = 1;
-        encumbrance = 1;
-        damage_type = 1;
-        weight = 1;
-        damage = 3;
-        critical = 2;
-        critical_modifier = 0;
-        range_increment = 0;
-        description = "This metal glove lets you deal lethal damage rather than nonlethal damage with unarmed strikes. A strike with a gauntlet is otherwise considered an unarmed attack. The cost and weight given are for a single gauntlet. Medium and heavy armors (except breastplate) come with gauntlets.";
+    function gauntlet() public pure returns (weapon memory _weapon) {
+        _weapon.id = 1;
+        _weapon.name = "Gauntlet";
+        _weapon.cost = 2e18;
+        _weapon.proficiency = 1;
+        _weapon.encumbrance = 1;
+        _weapon.damage_type = 1;
+        _weapon.weight = 1;
+        _weapon.damage = 3;
+        _weapon.critical = 2;
+        _weapon.critical_modifier = 0;
+        _weapon.range_increment = 0;
+        _weapon.description = "This metal glove lets you deal lethal damage rather than nonlethal damage with unarmed strikes. A strike with a gauntlet is otherwise considered an unarmed attack. The cost and weight given are for a single gauntlet. Medium and heavy armors (except breastplate) come with gauntlets.";
     }
 
-    function dagger() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 2;
-        name = "Dagger";
-        cost = 2e18;
-        proficiency = 1;
-        encumbrance = 2;
-        damage_type = 2;
-        weight = 1;
-        damage = 4;
-        critical = 2;
-        critical_modifier = -1;
-        range_increment = 0;
-        description = "You get a +2 bonus on Sleight of Hand checks made to conceal a dagger on your body (see the Sleight of Hand skill).";
+    function dagger() public pure returns (weapon memory _weapon) {
+        _weapon.id = 2;
+        _weapon.name = "Dagger";
+        _weapon.cost = 2e18;
+        _weapon.proficiency = 1;
+        _weapon.encumbrance = 2;
+        _weapon.damage_type = 2;
+        _weapon.weight = 1;
+        _weapon.damage = 4;
+        _weapon.critical = 2;
+        _weapon.critical_modifier = -1;
+        _weapon.range_increment = 0;
+        _weapon.description = "You get a +2 bonus on Sleight of Hand checks made to conceal a dagger on your body (see the Sleight of Hand skill).";
     }
 
-    function gauntlet_spiked() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 3;
-        name = "Gauntlet, spiked";
-        cost = 5e18;
-        proficiency = 1;
-        encumbrance = 2;
-        damage_type = 2;
-        weight = 1;
-        damage = 4;
-        critical = 2;
-        critical_modifier = 0;
-        range_increment = 0;
-        description = "Your opponent cannot use a disarm action to disarm you of spiked gauntlets. The cost and weight given are for a single gauntlet. An attack with a spiked gauntlet is considered an armed attack.";
+    function gauntlet_spiked() public pure returns (weapon memory _weapon) {
+        _weapon.id = 3;
+        _weapon.name = "Gauntlet, spiked";
+        _weapon.cost = 5e18;
+        _weapon.proficiency = 1;
+        _weapon.encumbrance = 2;
+        _weapon.damage_type = 2;
+        _weapon.weight = 1;
+        _weapon.damage = 4;
+        _weapon.critical = 2;
+        _weapon.critical_modifier = 0;
+        _weapon.range_increment = 0;
+        _weapon.description = "Your opponent cannot use a disarm action to disarm you of spiked gauntlets. The cost and weight given are for a single gauntlet. An attack with a spiked gauntlet is considered an armed attack.";
     }
 
-    function mace_light() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 4;
-        name = "Mace, light";
-        cost = 5e18;
-        proficiency = 1;
-        encumbrance = 2;
-        damage_type = 1;
-        weight = 4;
-        damage = 6;
-        critical = 2;
-        critical_modifier = 0;
-        range_increment = 0;
-        description = "";
+    function mace_light() public pure returns (weapon memory _weapon) {
+        _weapon.id = 4;
+        _weapon.name = "Mace, light";
+        _weapon.cost = 5e18;
+        _weapon.proficiency = 1;
+        _weapon.encumbrance = 2;
+        _weapon.damage_type = 1;
+        _weapon.weight = 4;
+        _weapon.damage = 6;
+        _weapon.critical = 2;
+        _weapon.critical_modifier = 0;
+        _weapon.range_increment = 0;
+        _weapon.description = "";
     }
 
-    function sickle() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 5;
-        name = "Sickle";
-        cost = 6e18;
-        proficiency = 1;
-        encumbrance = 2;
-        damage_type = 3;
-        weight = 2;
-        damage = 6;
-        critical = 2;
-        critical_modifier = 0;
-        range_increment = 0;
-        description = "A sickle can be used to make trip attacks. If you are tripped during your own trip attempt, you can drop the sickle to avoid being tripped.";
+    function sickle() public pure returns (weapon memory _weapon) {
+        _weapon.id = 5;
+        _weapon.name = "Sickle";
+        _weapon.cost = 6e18;
+        _weapon.proficiency = 1;
+        _weapon.encumbrance = 2;
+        _weapon.damage_type = 3;
+        _weapon.weight = 2;
+        _weapon.damage = 6;
+        _weapon.critical = 2;
+        _weapon.critical_modifier = 0;
+        _weapon.range_increment = 0;
+        _weapon.description = "A sickle can be used to make trip attacks. If you are tripped during your own trip attempt, you can drop the sickle to avoid being tripped.";
     }
 
-    function club() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 6;
-        name = "Club";
-        cost = 1e17;
-        proficiency = 1;
-        encumbrance = 3;
-        damage_type = 1;
-        weight = 3;
-        damage = 6;
-        critical = 2;
-        critical_modifier = 0;
-        range_increment = 0;
-        description = "";
+    function club() public pure returns (weapon memory _weapon) {
+        _weapon.id = 6;
+        _weapon.name = "Club";
+        _weapon.cost = 1e17;
+        _weapon.proficiency = 1;
+        _weapon.encumbrance = 3;
+        _weapon.damage_type = 1;
+        _weapon.weight = 3;
+        _weapon.damage = 6;
+        _weapon.critical = 2;
+        _weapon.critical_modifier = 0;
+        _weapon.range_increment = 0;
+        _weapon.description = "";
     }
 
-    function mace_heavy() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 7;
-        name = "Mace, heavy";
-        cost = 12e18;
-        proficiency = 1;
-        encumbrance = 3;
-        damage_type = 1;
-        weight = 8;
-        damage = 8;
-        critical = 2;
-        critical_modifier = 0;
-        range_increment = 0;
-        description = "";
+    function mace_heavy() public pure returns (weapon memory _weapon) {
+        _weapon.id = 7;
+        _weapon.name = "Mace, heavy";
+        _weapon.cost = 12e18;
+        _weapon.proficiency = 1;
+        _weapon.encumbrance = 3;
+        _weapon.damage_type = 1;
+        _weapon.weight = 8;
+        _weapon.damage = 8;
+        _weapon.critical = 2;
+        _weapon.critical_modifier = 0;
+        _weapon.range_increment = 0;
+        _weapon.description = "";
     }
 
-    function morningstar() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 8;
-        name = "Morningstar";
-        cost = 8e18;
-        proficiency = 1;
-        encumbrance = 3;
-        damage_type = 1;
-        weight = 6;
-        damage = 8;
-        critical = 2;
-        critical_modifier = 0;
-        range_increment = 0;
-        description = "";
+    function morningstar() public pure returns (weapon memory _weapon) {
+        _weapon.id = 8;
+        _weapon.name = "Morningstar";
+        _weapon.cost = 8e18;
+        _weapon.proficiency = 1;
+        _weapon.encumbrance = 3;
+        _weapon.damage_type = 1;
+        _weapon.weight = 6;
+        _weapon.damage = 8;
+        _weapon.critical = 2;
+        _weapon.critical_modifier = 0;
+        _weapon.range_increment = 0;
+        _weapon.description = "";
     }
 
-    function shortspear() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 9;
-        name = "Shortspear";
-        cost = 1e18;
-        proficiency = 1;
-        encumbrance = 3;
-        damage_type = 2;
-        weight = 3;
-        damage = 6;
-        critical = 2;
-        critical_modifier = 0;
-        range_increment = 0;
-        description = "A shortspear is small enough to wield one-handed. It may also be thrown.";
+    function shortspear() public pure returns (weapon memory _weapon) {
+        _weapon.id = 9;
+        _weapon.name = "Shortspear";
+        _weapon.cost = 1e18;
+        _weapon.proficiency = 1;
+        _weapon.encumbrance = 3;
+        _weapon.damage_type = 2;
+        _weapon.weight = 3;
+        _weapon.damage = 6;
+        _weapon.critical = 2;
+        _weapon.critical_modifier = 0;
+        _weapon.range_increment = 0;
+        _weapon.description = "A shortspear is small enough to wield one-handed. It may also be thrown.";
     }
 
-    function longspear() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 10;
-        name = "Longspear";
-        cost = 5e18;
-        proficiency = 1;
-        encumbrance = 4;
-        damage_type = 2;
-        weight = 9;
-        damage = 8;
-        critical = 3;
-        critical_modifier = 0;
-        range_increment = 0;
-        description = "A longspear has reach. You can strike opponents 10 feet away with it, but you cant use it against an adjacent foe. If you use a ready action to set a longspear against a charge, you deal double damage on a successful hit against a charging character.";
+    function longspear() public pure returns (weapon memory _weapon) {
+        _weapon.id = 10;
+        _weapon.name = "Longspear";
+        _weapon.cost = 5e18;
+        _weapon.proficiency = 1;
+        _weapon.encumbrance = 4;
+        _weapon.damage_type = 2;
+        _weapon.weight = 9;
+        _weapon.damage = 8;
+        _weapon.critical = 3;
+        _weapon.critical_modifier = 0;
+        _weapon.range_increment = 0;
+        _weapon.description = "A longspear has reach. You can strike opponents 10 feet away with it, but you cant use it against an adjacent foe. If you use a ready action to set a longspear against a charge, you deal double damage on a successful hit against a charging character.";
     }
 
-    function quarterstaff() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 11;
-        name = "Quarterstaff";
-        cost = 1e17;
-        proficiency = 1;
-        encumbrance = 4;
-        damage_type = 1;
-        weight = 4;
-        damage = 6;
-        critical = 2;
-        critical_modifier = 0;
-        range_increment = 0;
-        description = "A quarterstaff is a double weapon. You can fight with it as if fighting with two weapons, but if you do, you incur all the normal attack penalties associated with fighting with two weapons, just as if you were using a one-handed weapon and a light weapon. A creature wielding a quarterstaff in one hand cant use it as a double weapon-only one end of the weapon can be used in any given round.";
+    function quarterstaff() public pure returns (weapon memory _weapon) {
+        _weapon.id = 11;
+        _weapon.name = "Quarterstaff";
+        _weapon.cost = 1e17;
+        _weapon.proficiency = 1;
+        _weapon.encumbrance = 4;
+        _weapon.damage_type = 1;
+        _weapon.weight = 4;
+        _weapon.damage = 6;
+        _weapon.critical = 2;
+        _weapon.critical_modifier = 0;
+        _weapon.range_increment = 0;
+        _weapon.description = "A quarterstaff is a double weapon. You can fight with it as if fighting with two weapons, but if you do, you incur all the normal attack penalties associated with fighting with two weapons, just as if you were using a one-handed weapon and a light weapon. A creature wielding a quarterstaff in one hand cant use it as a double weapon-only one end of the weapon can be used in any given round.";
     }
 
-    function spear() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 12;
-        name = "Spear";
-        cost = 2e18;
-        proficiency = 1;
-        encumbrance = 4;
-        damage_type = 2;
-        weight = 6;
-        damage = 8;
-        critical = 3;
-        critical_modifier = 0;
-        range_increment = 0;
-        description = "";
+    function spear() public pure returns (weapon memory _weapon) {
+        _weapon.id = 12;
+        _weapon.name = "Spear";
+        _weapon.cost = 2e18;
+        _weapon.proficiency = 1;
+        _weapon.encumbrance = 4;
+        _weapon.damage_type = 2;
+        _weapon.weight = 6;
+        _weapon.damage = 8;
+        _weapon.critical = 3;
+        _weapon.critical_modifier = 0;
+        _weapon.range_increment = 0;
+        _weapon.description = "";
     }
 
-    function crossbow_heavy() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 13;
-        name = "Crossbow, heavy";
-        cost = 50e18;
-        proficiency = 1;
-        encumbrance = 5;
-        damage_type = 2;
-        weight = 8;
-        damage = 10;
-        critical = 2;
-        critical_modifier = -1;
-        range_increment = 120;
-        description = "You draw a heavy crossbow back by turning a small winch. Loading a heavy crossbow is a full-round action that provokes attacks of opportunity.";
+    function crossbow_heavy() public pure returns (weapon memory _weapon) {
+        _weapon.id = 13;
+        _weapon.name = "Crossbow, heavy";
+        _weapon.cost = 50e18;
+        _weapon.proficiency = 1;
+        _weapon.encumbrance = 5;
+        _weapon.damage_type = 2;
+        _weapon.weight = 8;
+        _weapon.damage = 10;
+        _weapon.critical = 2;
+        _weapon.critical_modifier = -1;
+        _weapon.range_increment = 120;
+        _weapon.description = "You draw a heavy crossbow back by turning a small winch. Loading a heavy crossbow is a full-round action that provokes attacks of opportunity.";
     }
 
-    function crossbow_light() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 14;
-        name = "Crossbow, light";
-        cost = 35e18;
-        proficiency = 1;
-        encumbrance = 5;
-        damage_type = 2;
-        weight = 4;
-        damage = 8;
-        critical = 2;
-        critical_modifier = -1;
-        range_increment = 80;
-        description = "You draw a light crossbow back by pulling a lever. Loading a light crossbow is a move action that provokes attacks of opportunity.";
+    function crossbow_light() public pure returns (weapon memory _weapon) {
+        _weapon.id = 14;
+        _weapon.name = "Crossbow, light";
+        _weapon.cost = 35e18;
+        _weapon.proficiency = 1;
+        _weapon.encumbrance = 5;
+        _weapon.damage_type = 2;
+        _weapon.weight = 4;
+        _weapon.damage = 8;
+        _weapon.critical = 2;
+        _weapon.critical_modifier = -1;
+        _weapon.range_increment = 80;
+        _weapon.description = "You draw a light crossbow back by pulling a lever. Loading a light crossbow is a move action that provokes attacks of opportunity.";
     }
 
-    function dart() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 15;
-        name = "Dart";
-        cost = 5e17;
-        proficiency = 1;
-        encumbrance = 5;
-        damage_type = 2;
-        weight = 1;
-        damage = 4;
-        critical = 2;
-        critical_modifier = 0;
-        range_increment = 20;
-        description = "";
+    function dart() public pure returns (weapon memory _weapon) {
+        _weapon.id = 15;
+        _weapon.name = "Dart";
+        _weapon.cost = 5e17;
+        _weapon.proficiency = 1;
+        _weapon.encumbrance = 5;
+        _weapon.damage_type = 2;
+        _weapon.weight = 1;
+        _weapon.damage = 4;
+        _weapon.critical = 2;
+        _weapon.critical_modifier = 0;
+        _weapon.range_increment = 20;
+        _weapon.description = "";
     }
 
-    function javelin() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 16;
-        name = "Javelin";
-        cost = 1e18;
-        proficiency = 1;
-        encumbrance = 5;
-        damage_type = 2;
-        weight = 2;
-        damage = 6;
-        critical = 2;
-        critical_modifier = 0;
-        range_increment = 30;
-        description = "Since it is not designed for melee, you are treated as nonproficient with it and take a -4 penalty on attack rolls if you use a javelin as a melee weapon.";
+    function javelin() public pure returns (weapon memory _weapon) {
+        _weapon.id = 16;
+        _weapon.name = "Javelin";
+        _weapon.cost = 1e18;
+        _weapon.proficiency = 1;
+        _weapon.encumbrance = 5;
+        _weapon.damage_type = 2;
+        _weapon.weight = 2;
+        _weapon.damage = 6;
+        _weapon.critical = 2;
+        _weapon.critical_modifier = 0;
+        _weapon.range_increment = 30;
+        _weapon.description = "Since it is not designed for melee, you are treated as nonproficient with it and take a -4 penalty on attack rolls if you use a javelin as a melee weapon.";
     }
 
-    function sling() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 17;
-        name = "Sling";
-        cost = 1e17;
-        proficiency = 1;
-        encumbrance = 5;
-        damage_type = 1;
-        weight = 0;
-        damage = 4;
-        critical = 2;
-        critical_modifier = 0;
-        range_increment = 50;
-        description = "Your Strength modifier applies to damage rolls when you use a sling, just as it does for thrown weapons. You can fire, but not load, a sling with one hand. Loading a sling is a move action that requires two hands and provokes attacks of opportunity.";
+    function sling() public pure returns (weapon memory _weapon) {
+        _weapon.id = 17;
+        _weapon.name = "Sling";
+        _weapon.cost = 1e17;
+        _weapon.proficiency = 1;
+        _weapon.encumbrance = 5;
+        _weapon.damage_type = 1;
+        _weapon.weight = 0;
+        _weapon.damage = 4;
+        _weapon.critical = 2;
+        _weapon.critical_modifier = 0;
+        _weapon.range_increment = 50;
+        _weapon.description = "Your Strength modifier applies to damage rolls when you use a sling, just as it does for thrown weapons. You can fire, but not load, a sling with one hand. Loading a sling is a move action that requires two hands and provokes attacks of opportunity.";
     }
 
-    function axe() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 18;
-        name = "Axe";
-        cost = 8e18;
-        proficiency = 2;
-        encumbrance = 2;
-        damage_type = 3;
-        weight = 2;
-        damage = 6;
-        critical = 2;
-        critical_modifier = 0;
-        range_increment = 0;
-        description = "";
+    function axe() public pure returns (weapon memory _weapon) {
+        _weapon.id = 18;
+        _weapon.name = "Axe";
+        _weapon.cost = 8e18;
+        _weapon.proficiency = 2;
+        _weapon.encumbrance = 2;
+        _weapon.damage_type = 3;
+        _weapon.weight = 2;
+        _weapon.damage = 6;
+        _weapon.critical = 2;
+        _weapon.critical_modifier = 0;
+        _weapon.range_increment = 0;
+        _weapon.description = "";
     }
 
-    function hammer_light() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 19;
-        name = "Hammer, light";
-        cost = 1e18;
-        proficiency = 2;
-        encumbrance = 2;
-        damage_type = 1;
-        weight = 2;
-        damage = 4;
-        critical = 2;
-        critical_modifier = 0;
-        range_increment = 0;
-        description = "";
+    function hammer_light() public pure returns (weapon memory _weapon) {
+        _weapon.id = 19;
+        _weapon.name = "Hammer, light";
+        _weapon.cost = 1e18;
+        _weapon.proficiency = 2;
+        _weapon.encumbrance = 2;
+        _weapon.damage_type = 1;
+        _weapon.weight = 2;
+        _weapon.damage = 4;
+        _weapon.critical = 2;
+        _weapon.critical_modifier = 0;
+        _weapon.range_increment = 0;
+        _weapon.description = "";
     }
 
-    function handaxe() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 20;
-        name = "Handaxe";
-        cost = 6e18;
-        proficiency = 2;
-        encumbrance = 2;
-        damage_type = 3;
-        weight = 3;
-        damage = 6;
-        critical = 3;
-        critical_modifier = 0;
-        range_increment = 0;
-        description = "";
+    function handaxe() public pure returns (weapon memory _weapon) {
+        _weapon.id = 20;
+        _weapon.name = "Handaxe";
+        _weapon.cost = 6e18;
+        _weapon.proficiency = 2;
+        _weapon.encumbrance = 2;
+        _weapon.damage_type = 3;
+        _weapon.weight = 3;
+        _weapon.damage = 6;
+        _weapon.critical = 3;
+        _weapon.critical_modifier = 0;
+        _weapon.range_increment = 0;
+        _weapon.description = "";
     }
 
-    function kukri() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 21;
-        name = "Kukri";
-        cost = 8e18;
-        proficiency = 2;
-        encumbrance = 2;
-        damage_type = 3;
-        weight = 2;
-        damage = 4;
-        critical = 2;
-        critical_modifier = -2;
-        range_increment = 0;
-        description = "";
+    function kukri() public pure returns (weapon memory _weapon) {
+        _weapon.id = 21;
+        _weapon.name = "Kukri";
+        _weapon.cost = 8e18;
+        _weapon.proficiency = 2;
+        _weapon.encumbrance = 2;
+        _weapon.damage_type = 3;
+        _weapon.weight = 2;
+        _weapon.damage = 4;
+        _weapon.critical = 2;
+        _weapon.critical_modifier = -2;
+        _weapon.range_increment = 0;
+        _weapon.description = "";
     }
 
-    function pick_light() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 22;
-        name = "Pick, light";
-        cost = 4e18;
-        proficiency = 2;
-        encumbrance = 2;
-        damage_type = 2;
-        weight = 3;
-        damage = 4;
-        critical = 4;
-        critical_modifier = 0;
-        range_increment = 0;
-        description = "";
+    function pick_light() public pure returns (weapon memory _weapon) {
+        _weapon.id = 22;
+        _weapon.name = "Pick, light";
+        _weapon.cost = 4e18;
+        _weapon.proficiency = 2;
+        _weapon.encumbrance = 2;
+        _weapon.damage_type = 2;
+        _weapon.weight = 3;
+        _weapon.damage = 4;
+        _weapon.critical = 4;
+        _weapon.critical_modifier = 0;
+        _weapon.range_increment = 0;
+        _weapon.description = "";
     }
 
-    function sap() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 23;
-        name = "Sap";
-        cost = 1e18;
-        proficiency = 2;
-        encumbrance = 2;
-        damage_type = 1;
-        weight = 2;
-        damage = 6;
-        critical = 2;
-        critical_modifier = 0;
-        range_increment = 0;
-        description = "";
+    function sap() public pure returns (weapon memory _weapon) {
+        _weapon.id = 23;
+        _weapon.name = "Sap";
+        _weapon.cost = 1e18;
+        _weapon.proficiency = 2;
+        _weapon.encumbrance = 2;
+        _weapon.damage_type = 1;
+        _weapon.weight = 2;
+        _weapon.damage = 6;
+        _weapon.critical = 2;
+        _weapon.critical_modifier = 0;
+        _weapon.range_increment = 0;
+        _weapon.description = "";
     }
 
-    function sword_short() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 24;
-        name = "Sword, short";
-        cost = 10e18;
-        proficiency = 2;
-        encumbrance = 2;
-        damage_type = 2;
-        weight = 2;
-        damage = 6;
-        critical = 2;
-        critical_modifier = -1;
-        range_increment = 0;
-        description = "";
+    function sword_short() public pure returns (weapon memory _weapon) {
+        _weapon.id = 24;
+        _weapon.name = "Sword, short";
+        _weapon.cost = 10e18;
+        _weapon.proficiency = 2;
+        _weapon.encumbrance = 2;
+        _weapon.damage_type = 2;
+        _weapon.weight = 2;
+        _weapon.damage = 6;
+        _weapon.critical = 2;
+        _weapon.critical_modifier = -1;
+        _weapon.range_increment = 0;
+        _weapon.description = "";
     }
 
-    function battleaxe() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 25;
-        name = "Battleaxe";
-        cost = 10e18;
-        proficiency = 2;
-        encumbrance = 3;
-        damage_type = 3;
-        weight = 6;
-        damage = 8;
-        critical = 3;
-        critical_modifier = 0;
-        range_increment = 0;
-        description = "";
+    function battleaxe() public pure returns (weapon memory _weapon) {
+        _weapon.id = 25;
+        _weapon.name = "Battleaxe";
+        _weapon.cost = 10e18;
+        _weapon.proficiency = 2;
+        _weapon.encumbrance = 3;
+        _weapon.damage_type = 3;
+        _weapon.weight = 6;
+        _weapon.damage = 8;
+        _weapon.critical = 3;
+        _weapon.critical_modifier = 0;
+        _weapon.range_increment = 0;
+        _weapon.description = "";
     }
 
-    function flail() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 26;
-        name = "Flail";
-        cost = 8e18;
-        proficiency = 2;
-        encumbrance = 3;
-        damage_type = 1;
-        weight = 5;
-        damage = 8;
-        critical = 2;
-        critical_modifier = 0;
-        range_increment = 0;
-        description = "With a flail, you get a +2 bonus on opposed attack rolls made to disarm an enemy (including the roll to avoid being disarmed if such an attempt fails).";
+    function flail() public pure returns (weapon memory _weapon) {
+        _weapon.id = 26;
+        _weapon.name = "Flail";
+        _weapon.cost = 8e18;
+        _weapon.proficiency = 2;
+        _weapon.encumbrance = 3;
+        _weapon.damage_type = 1;
+        _weapon.weight = 5;
+        _weapon.damage = 8;
+        _weapon.critical = 2;
+        _weapon.critical_modifier = 0;
+        _weapon.range_increment = 0;
+        _weapon.description = "With a flail, you get a +2 bonus on opposed attack rolls made to disarm an enemy (including the roll to avoid being disarmed if such an attempt fails).";
     }
 
-    function longsword() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 27;
-        name = "Longsword";
-        cost = 15e18;
-        proficiency = 2;
-        encumbrance = 3;
-        damage_type = 3;
-        weight = 4;
-        damage = 8;
-        critical = 2;
-        critical_modifier = -1;
-        range_increment = 0;
-        description = "";
+    function longsword() public pure returns (weapon memory _weapon) {
+        _weapon.id = 27;
+        _weapon.name = "Longsword";
+        _weapon.cost = 15e18;
+        _weapon.proficiency = 2;
+        _weapon.encumbrance = 3;
+        _weapon.damage_type = 3;
+        _weapon.weight = 4;
+        _weapon.damage = 8;
+        _weapon.critical = 2;
+        _weapon.critical_modifier = -1;
+        _weapon.range_increment = 0;
+        _weapon.description = "";
     }
 
-    function pick_heavy() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 28;
-        name = "Pick, heavy";
-        cost = 8e18;
-        proficiency = 2;
-        encumbrance = 3;
-        damage_type = 2;
-        weight = 6;
-        damage = 6;
-        critical = 4;
-        critical_modifier = 0;
-        range_increment = 0;
-        description = "";
+    function pick_heavy() public pure returns (weapon memory _weapon) {
+        _weapon.id = 28;
+        _weapon.name = "Pick, heavy";
+        _weapon.cost = 8e18;
+        _weapon.proficiency = 2;
+        _weapon.encumbrance = 3;
+        _weapon.damage_type = 2;
+        _weapon.weight = 6;
+        _weapon.damage = 6;
+        _weapon.critical = 4;
+        _weapon.critical_modifier = 0;
+        _weapon.range_increment = 0;
+        _weapon.description = "";
     }
 
-    function rapier() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 29;
-        name = "Rapier";
-        cost = 20e18;
-        proficiency = 2;
-        encumbrance = 3;
-        damage_type = 2;
-        weight = 2;
-        damage = 6;
-        critical = 2;
-        critical_modifier = -2;
-        range_increment = 0;
-        description = "You can use the Weapon Finesse feat to apply your Dexterity modifier instead of your Strength modifier to attack rolls with a rapier sized for you, even though it isnt a light weapon for you. You cant wield a rapier in two hands in order to apply 1.5 times your Strength bonus to damage.";
+    function rapier() public pure returns (weapon memory _weapon) {
+        _weapon.id = 29;
+        _weapon.name = "Rapier";
+        _weapon.cost = 20e18;
+        _weapon.proficiency = 2;
+        _weapon.encumbrance = 3;
+        _weapon.damage_type = 2;
+        _weapon.weight = 2;
+        _weapon.damage = 6;
+        _weapon.critical = 2;
+        _weapon.critical_modifier = -2;
+        _weapon.range_increment = 0;
+        _weapon.description = "You can use the Weapon Finesse feat to apply your Dexterity modifier instead of your Strength modifier to attack rolls with a rapier sized for you, even though it isnt a light weapon for you. You cant wield a rapier in two hands in order to apply 1.5 times your Strength bonus to damage.";
     }
 
-    function scimitar() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 30;
-        name = "Scimitar";
-        cost = 15e18;
-        proficiency = 2;
-        encumbrance = 3;
-        damage_type = 3;
-        weight = 4;
-        damage = 6;
-        critical = 2;
-        critical_modifier = -2;
-        range_increment = 0;
-        description = "";
+    function scimitar() public pure returns (weapon memory _weapon) {
+        _weapon.id = 30;
+        _weapon.name = "Scimitar";
+        _weapon.cost = 15e18;
+        _weapon.proficiency = 2;
+        _weapon.encumbrance = 3;
+        _weapon.damage_type = 3;
+        _weapon.weight = 4;
+        _weapon.damage = 6;
+        _weapon.critical = 2;
+        _weapon.critical_modifier = -2;
+        _weapon.range_increment = 0;
+        _weapon.description = "";
     }
 
-    function trident() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 31;
-        name = "Trident";
-        cost = 15e18;
-        proficiency = 2;
-        encumbrance = 3;
-        damage_type = 2;
-        weight = 4;
-        damage = 8;
-        critical = 2;
-        critical_modifier = 0;
-        range_increment = 0;
-        description = "This weapon can be thrown. If you use a ready action to set a trident against a charge, you deal double damage on a successful hit against a charging character.";
+    function trident() public pure returns (weapon memory _weapon) {
+        _weapon.id = 31;
+        _weapon.name = "Trident";
+        _weapon.cost = 15e18;
+        _weapon.proficiency = 2;
+        _weapon.encumbrance = 3;
+        _weapon.damage_type = 2;
+        _weapon.weight = 4;
+        _weapon.damage = 8;
+        _weapon.critical = 2;
+        _weapon.critical_modifier = 0;
+        _weapon.range_increment = 0;
+        _weapon.description = "This weapon can be thrown. If you use a ready action to set a trident against a charge, you deal double damage on a successful hit against a charging character.";
     }
 
-    function warhammer() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 32;
-        name = "Warhammer";
-        cost = 12e18;
-        proficiency = 2;
-        encumbrance = 3;
-        damage_type = 1;
-        weight = 5;
-        damage = 8;
-        critical = 3;
-        critical_modifier = 0;
-        range_increment = 0;
-        description = "";
+    function warhammer() public pure returns (weapon memory _weapon) {
+        _weapon.id = 32;
+        _weapon.name = "Warhammer";
+        _weapon.cost = 12e18;
+        _weapon.proficiency = 2;
+        _weapon.encumbrance = 3;
+        _weapon.damage_type = 1;
+        _weapon.weight = 5;
+        _weapon.damage = 8;
+        _weapon.critical = 3;
+        _weapon.critical_modifier = 0;
+        _weapon.range_increment = 0;
+        _weapon.description = "";
     }
 
-    function falchion() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 33;
-        name = "Falchion";
-        cost = 75e18;
-        proficiency = 2;
-        encumbrance = 4;
-        damage_type = 3;
-        weight = 8;
-        damage = 8;
-        critical = 2;
-        critical_modifier = -2;
-        range_increment = 0;
-        description = "";
+    function falchion() public pure returns (weapon memory _weapon) {
+        _weapon.id = 33;
+        _weapon.name = "Falchion";
+        _weapon.cost = 75e18;
+        _weapon.proficiency = 2;
+        _weapon.encumbrance = 4;
+        _weapon.damage_type = 3;
+        _weapon.weight = 8;
+        _weapon.damage = 8;
+        _weapon.critical = 2;
+        _weapon.critical_modifier = -2;
+        _weapon.range_increment = 0;
+        _weapon.description = "";
     }
 
-    function glaive() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 34;
-        name = "Glaive";
-        cost = 8e18;
-        proficiency = 2;
-        encumbrance = 4;
-        damage_type = 3;
-        weight = 10;
-        damage = 10;
-        critical = 3;
-        critical_modifier = 0;
-        range_increment = 0;
-        description = "A glaive has reach. You can strike opponents 10 feet away with it, but you cant use it against an adjacent foe.";
+    function glaive() public pure returns (weapon memory _weapon) {
+        _weapon.id = 34;
+        _weapon.name = "Glaive";
+        _weapon.cost = 8e18;
+        _weapon.proficiency = 2;
+        _weapon.encumbrance = 4;
+        _weapon.damage_type = 3;
+        _weapon.weight = 10;
+        _weapon.damage = 10;
+        _weapon.critical = 3;
+        _weapon.critical_modifier = 0;
+        _weapon.range_increment = 0;
+        _weapon.description = "A glaive has reach. You can strike opponents 10 feet away with it, but you cant use it against an adjacent foe.";
     }
 
-    function greataxe() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 35;
-        name = "Greataxe";
-        cost = 20e18;
-        proficiency = 2;
-        encumbrance = 4;
-        damage_type = 3;
-        weight = 12;
-        damage = 12;
-        critical = 3;
-        critical_modifier = 0;
-        range_increment = 0;
-        description = "";
+    function greataxe() public pure returns (weapon memory _weapon) {
+        _weapon.id = 35;
+        _weapon.name = "Greataxe";
+        _weapon.cost = 20e18;
+        _weapon.proficiency = 2;
+        _weapon.encumbrance = 4;
+        _weapon.damage_type = 3;
+        _weapon.weight = 12;
+        _weapon.damage = 12;
+        _weapon.critical = 3;
+        _weapon.critical_modifier = 0;
+        _weapon.range_increment = 0;
+        _weapon.description = "";
     }
 
-    function greatclub() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 36;
-        name = "Greatclub";
-        cost = 5e18;
-        proficiency = 2;
-        encumbrance = 4;
-        damage_type = 1;
-        weight = 8;
-        damage = 10;
-        critical = 2;
-        critical_modifier = 0;
-        range_increment = 0;
-        description = "";
+    function greatclub() public pure returns (weapon memory _weapon) {
+        _weapon.id = 36;
+        _weapon.name = "Greatclub";
+        _weapon.cost = 5e18;
+        _weapon.proficiency = 2;
+        _weapon.encumbrance = 4;
+        _weapon.damage_type = 1;
+        _weapon.weight = 8;
+        _weapon.damage = 10;
+        _weapon.critical = 2;
+        _weapon.critical_modifier = 0;
+        _weapon.range_increment = 0;
+        _weapon.description = "";
     }
 
-    function flail_heavy() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 37;
-        name = "Flail, heavy";
-        cost = 15e18;
-        proficiency = 2;
-        encumbrance = 4;
-        damage_type = 1;
-        weight = 10;
-        damage = 10;
-        critical = 2;
-        critical_modifier = -1;
-        range_increment = 0;
-        description = "With a flail, you get a +2 bonus on opposed attack rolls made to disarm an enemy (including the roll to avoid being disarmed if such an attempt fails).";
+    function flail_heavy() public pure returns (weapon memory _weapon) {
+        _weapon.id = 37;
+        _weapon.name = "Flail, heavy";
+        _weapon.cost = 15e18;
+        _weapon.proficiency = 2;
+        _weapon.encumbrance = 4;
+        _weapon.damage_type = 1;
+        _weapon.weight = 10;
+        _weapon.damage = 10;
+        _weapon.critical = 2;
+        _weapon.critical_modifier = -1;
+        _weapon.range_increment = 0;
+        _weapon.description = "With a flail, you get a +2 bonus on opposed attack rolls made to disarm an enemy (including the roll to avoid being disarmed if such an attempt fails).";
     }
 
-    function greatsword() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 38;
-        name = "Greatsword";
-        cost = 50e18;
-        proficiency = 2;
-        encumbrance = 4;
-        damage_type = 3;
-        weight = 8;
-        damage = 12;
-        critical = 2;
-        critical_modifier = -1;
-        range_increment = 0;
-        description = "";
+    function greatsword() public pure returns (weapon memory _weapon) {
+        _weapon.id = 38;
+        _weapon.name = "Greatsword";
+        _weapon.cost = 50e18;
+        _weapon.proficiency = 2;
+        _weapon.encumbrance = 4;
+        _weapon.damage_type = 3;
+        _weapon.weight = 8;
+        _weapon.damage = 12;
+        _weapon.critical = 2;
+        _weapon.critical_modifier = -1;
+        _weapon.range_increment = 0;
+        _weapon.description = "";
     }
 
-    function guisarme() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 39;
-        name = "Guisarme";
-        cost = 9e18;
-        proficiency = 2;
-        encumbrance = 4;
-        damage_type = 3;
-        weight = 12;
-        damage = 8;
-        critical = 3;
-        critical_modifier = 0;
-        range_increment = 0;
-        description = "A guisarme has reach. You can strike opponents 10 feet away with it, but you cant use it against an adjacent foe.";
+    function guisarme() public pure returns (weapon memory _weapon) {
+        _weapon.id = 39;
+        _weapon.name = "Guisarme";
+        _weapon.cost = 9e18;
+        _weapon.proficiency = 2;
+        _weapon.encumbrance = 4;
+        _weapon.damage_type = 3;
+        _weapon.weight = 12;
+        _weapon.damage = 8;
+        _weapon.critical = 3;
+        _weapon.critical_modifier = 0;
+        _weapon.range_increment = 0;
+        _weapon.description = "A guisarme has reach. You can strike opponents 10 feet away with it, but you cant use it against an adjacent foe.";
     }
 
-    function halberd() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 40;
-        name = "Halberd";
-        cost = 10e18;
-        proficiency = 2;
-        encumbrance = 4;
-        damage_type = 2;
-        weight = 12;
-        damage = 10;
-        critical = 3;
-        critical_modifier = 0;
-        range_increment = 0;
-        description = "If you use a ready action to set a halberd against a charge, you deal double damage on a successful hit against a charging character.";
+    function halberd() public pure returns (weapon memory _weapon) {
+        _weapon.id = 40;
+        _weapon.name = "Halberd";
+        _weapon.cost = 10e18;
+        _weapon.proficiency = 2;
+        _weapon.encumbrance = 4;
+        _weapon.damage_type = 2;
+        _weapon.weight = 12;
+        _weapon.damage = 10;
+        _weapon.critical = 3;
+        _weapon.critical_modifier = 0;
+        _weapon.range_increment = 0;
+        _weapon.description = "If you use a ready action to set a halberd against a charge, you deal double damage on a successful hit against a charging character.";
     }
 
-    function lance() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 41;
-        name = "Lance";
-        cost = 10e18;
-        proficiency = 2;
-        encumbrance = 4;
-        damage_type = 2;
-        weight = 10;
-        damage = 8;
-        critical = 3;
-        critical_modifier = 0;
-        range_increment = 0;
-        description = "A lance deals double damage when used from the back of a charging mount. It has reach, so you can strike opponents 10 feet away with it, but you cant use it against an adjacent foe.";
+    function lance() public pure returns (weapon memory _weapon) {
+        _weapon.id = 41;
+        _weapon.name = "Lance";
+        _weapon.cost = 10e18;
+        _weapon.proficiency = 2;
+        _weapon.encumbrance = 4;
+        _weapon.damage_type = 2;
+        _weapon.weight = 10;
+        _weapon.damage = 8;
+        _weapon.critical = 3;
+        _weapon.critical_modifier = 0;
+        _weapon.range_increment = 0;
+        _weapon.description = "A lance deals double damage when used from the back of a charging mount. It has reach, so you can strike opponents 10 feet away with it, but you cant use it against an adjacent foe.";
     }
 
-    function ranseur() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 42;
-        name = "Ranseur";
-        cost = 10e18;
-        proficiency = 2;
-        encumbrance = 4;
-        damage_type = 2;
-        weight = 12;
-        damage = 8;
-        critical = 3;
-        critical_modifier = 0;
-        range_increment = 0;
-        description = "A ranseur has reach. You can strike opponents 10 feet away with it, but you cant use it against an adjacent foe.";
+    function ranseur() public pure returns (weapon memory _weapon) {
+        _weapon.id = 42;
+        _weapon.name = "Ranseur";
+        _weapon.cost = 10e18;
+        _weapon.proficiency = 2;
+        _weapon.encumbrance = 4;
+        _weapon.damage_type = 2;
+        _weapon.weight = 12;
+        _weapon.damage = 8;
+        _weapon.critical = 3;
+        _weapon.critical_modifier = 0;
+        _weapon.range_increment = 0;
+        _weapon.description = "A ranseur has reach. You can strike opponents 10 feet away with it, but you cant use it against an adjacent foe.";
     }
 
-    function scythe() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 43;
-        name = "Scythe";
-        cost = 18e18;
-        proficiency = 2;
-        encumbrance = 4;
-        damage_type = 3;
-        weight = 10;
-        damage = 8;
-        critical = 4;
-        critical_modifier = 0;
-        range_increment = 0;
-        description = "A scythe can be used to make trip attacks. If you are tripped during your own trip attempt, you can drop the scythe to avoid being tripped.";
+    function scythe() public pure returns (weapon memory _weapon) {
+        _weapon.id = 43;
+        _weapon.name = "Scythe";
+        _weapon.cost = 18e18;
+        _weapon.proficiency = 2;
+        _weapon.encumbrance = 4;
+        _weapon.damage_type = 3;
+        _weapon.weight = 10;
+        _weapon.damage = 8;
+        _weapon.critical = 4;
+        _weapon.critical_modifier = 0;
+        _weapon.range_increment = 0;
+        _weapon.description = "A scythe can be used to make trip attacks. If you are tripped during your own trip attempt, you can drop the scythe to avoid being tripped.";
     }
 
-    function longbow() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 44;
-        name = "Longbow";
-        cost = 75e18;
-        proficiency = 2;
-        encumbrance = 5;
-        damage_type = 2;
-        weight = 3;
-        damage = 8;
-        critical = 3;
-        critical_modifier = 0;
-        range_increment = 100;
-        description = "You need at least two hands to use a bow, regardless of its size. A longbow is too unwieldy to use while you are mounted. If you have a penalty for low Strength, apply it to damage rolls when you use a longbow. If you have a bonus for high Strength, you can apply it to damage rolls when you use a composite longbow (see below) but not a regular longbow.";
+    function longbow() public pure returns (weapon memory _weapon) {
+        _weapon.id = 44;
+        _weapon.name = "Longbow";
+        _weapon.cost = 75e18;
+        _weapon.proficiency = 2;
+        _weapon.encumbrance = 5;
+        _weapon.damage_type = 2;
+        _weapon.weight = 3;
+        _weapon.damage = 8;
+        _weapon.critical = 3;
+        _weapon.critical_modifier = 0;
+        _weapon.range_increment = 100;
+        _weapon.description = "You need at least two hands to use a bow, regardless of its size. A longbow is too unwieldy to use while you are mounted. If you have a penalty for low Strength, apply it to damage rolls when you use a longbow. If you have a bonus for high Strength, you can apply it to damage rolls when you use a composite longbow (see below) but not a regular longbow.";
     }
 
-    function longbow_composite() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 45;
-        name = "Longbow, composite";
-        cost = 100e18;
-        proficiency = 2;
-        encumbrance = 5;
-        damage_type = 2;
-        weight = 3;
-        damage = 8;
-        critical = 3;
-        critical_modifier = 0;
-        range_increment = 110;
-        description = "You need at least two hands to use a bow, regardless of its size. You can use a composite longbow while mounted. All composite bows are made with a particular strength rating (that is, each requires a minimum Strength modifier to use with proficiency). If your Strength bonus is less than the strength rating of the composite bow, you cant effectively use it, so you take a -2 penalty on attacks with it. The default composite longbow requires a Strength modifier of +0 or higher to use with proficiency. A composite longbow can be made with a high strength rating to take advantage of an above-average Strength score; this feature allows you to add your Strength bonus to damage, up to the maximum bonus indicated for the bow. Each point of Strength bonus granted by the bow adds 100 gp to its cost.";
+    function longbow_composite() public pure returns (weapon memory _weapon) {
+        _weapon.id = 45;
+        _weapon.name = "Longbow, composite";
+        _weapon.cost = 100e18;
+        _weapon.proficiency = 2;
+        _weapon.encumbrance = 5;
+        _weapon.damage_type = 2;
+        _weapon.weight = 3;
+        _weapon.damage = 8;
+        _weapon.critical = 3;
+        _weapon.critical_modifier = 0;
+        _weapon.range_increment = 110;
+        _weapon.description = "You need at least two hands to use a bow, regardless of its size. You can use a composite longbow while mounted. All composite bows are made with a particular strength rating (that is, each requires a minimum Strength modifier to use with proficiency). If your Strength bonus is less than the strength rating of the composite bow, you cant effectively use it, so you take a -2 penalty on attacks with it. The default composite longbow requires a Strength modifier of +0 or higher to use with proficiency. A composite longbow can be made with a high strength rating to take advantage of an above-average Strength score; this feature allows you to add your Strength bonus to damage, up to the maximum bonus indicated for the bow. Each point of Strength bonus granted by the bow adds 100 gp to its cost.";
     }
 
-    function shortbow() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 46;
-        name = "Shortbow";
-        cost = 30e18;
-        proficiency = 2;
-        encumbrance = 5;
-        damage_type = 2;
-        weight = 2;
-        damage = 6;
-        critical = 3;
-        critical_modifier = 0;
-        range_increment = 60;
-        description = "You need at least two hands to use a bow, regardless of its size. You can use a shortbow while mounted. If you have a penalty for low Strength, apply it to damage rolls when you use a shortbow. If you have a bonus for high Strength, you can apply it to damage rolls when you use a composite shortbow (see below) but not a regular shortbow.";
+    function shortbow() public pure returns (weapon memory _weapon) {
+        _weapon.id = 46;
+        _weapon.name = "Shortbow";
+        _weapon.cost = 30e18;
+        _weapon.proficiency = 2;
+        _weapon.encumbrance = 5;
+        _weapon.damage_type = 2;
+        _weapon.weight = 2;
+        _weapon.damage = 6;
+        _weapon.critical = 3;
+        _weapon.critical_modifier = 0;
+        _weapon.range_increment = 60;
+        _weapon.description = "You need at least two hands to use a bow, regardless of its size. You can use a shortbow while mounted. If you have a penalty for low Strength, apply it to damage rolls when you use a shortbow. If you have a bonus for high Strength, you can apply it to damage rolls when you use a composite shortbow (see below) but not a regular shortbow.";
     }
 
-    function shortbow_composite() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 47;
-        name = "Shortbow, composite";
-        cost = 75e18;
-        proficiency = 2;
-        encumbrance = 5;
-        damage_type = 2;
-        weight = 2;
-        damage = 6;
-        critical = 3;
-        critical_modifier = 0;
-        range_increment = 70;
-        description = "You need at least two hands to use a bow, regardless of its size. You can use a composite shortbow while mounted. All composite bows are made with a particular strength rating (that is, each requires a minimum Strength modifier to use with proficiency). If your Strength bonus is lower than the strength rating of the composite bow, you cant effectively use it, so you take a -2 penalty on attacks with it. The default composite shortbow requires a Strength modifier of +0 or higher to use with proficiency. A composite shortbow can be made with a high strength rating to take advantage of an above-average Strength score; this feature allows you to add your Strength bonus to damage, up to the maximum bonus indicated for the bow. Each point of Strength bonus granted by the bow adds 75 gp to its cost.";
+    function shortbow_composite() public pure returns (weapon memory _weapon) {
+        _weapon.id = 47;
+        _weapon.name = "Shortbow, composite";
+        _weapon.cost = 75e18;
+        _weapon.proficiency = 2;
+        _weapon.encumbrance = 5;
+        _weapon.damage_type = 2;
+        _weapon.weight = 2;
+        _weapon.damage = 6;
+        _weapon.critical = 3;
+        _weapon.critical_modifier = 0;
+        _weapon.range_increment = 70;
+        _weapon.description = "You need at least two hands to use a bow, regardless of its size. You can use a composite shortbow while mounted. All composite bows are made with a particular strength rating (that is, each requires a minimum Strength modifier to use with proficiency). If your Strength bonus is lower than the strength rating of the composite bow, you cant effectively use it, so you take a -2 penalty on attacks with it. The default composite shortbow requires a Strength modifier of +0 or higher to use with proficiency. A composite shortbow can be made with a high strength rating to take advantage of an above-average Strength score; this feature allows you to add your Strength bonus to damage, up to the maximum bonus indicated for the bow. Each point of Strength bonus granted by the bow adds 75 gp to its cost.";
     }
 
-    function kama() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 48;
-        name = "Kama";
-        cost = 2e18;
-        proficiency = 3;
-        encumbrance = 2;
-        damage_type = 3;
-        weight = 2;
-        damage = 6;
-        critical = 2;
-        critical_modifier = 0;
-        range_increment = 0;
-        description = "The kama is a special monk weapon. This designation gives a monk wielding a kama special options.";
+    function kama() public pure returns (weapon memory _weapon) {
+        _weapon.id = 48;
+        _weapon.name = "Kama";
+        _weapon.cost = 2e18;
+        _weapon.proficiency = 3;
+        _weapon.encumbrance = 2;
+        _weapon.damage_type = 3;
+        _weapon.weight = 2;
+        _weapon.damage = 6;
+        _weapon.critical = 2;
+        _weapon.critical_modifier = 0;
+        _weapon.range_increment = 0;
+        _weapon.description = "The kama is a special monk weapon. This designation gives a monk wielding a kama special options.";
     }
 
-    function nunchaku() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 49;
-        name = "Nunchaku";
-        cost = 2e18;
-        proficiency = 3;
-        encumbrance = 2;
-        damage_type = 1;
-        weight = 2;
-        damage = 6;
-        critical = 2;
-        critical_modifier = 0;
-        range_increment = 0;
-        description = "The nunchaku is a special monk weapon. This designation gives a monk wielding a nunchaku special options. With a nunchaku, you get a +2 bonus on opposed attack rolls made to disarm an enemy (including the roll to avoid being disarmed if such an attempt fails).";
+    function nunchaku() public pure returns (weapon memory _weapon) {
+        _weapon.id = 49;
+        _weapon.name = "Nunchaku";
+        _weapon.cost = 2e18;
+        _weapon.proficiency = 3;
+        _weapon.encumbrance = 2;
+        _weapon.damage_type = 1;
+        _weapon.weight = 2;
+        _weapon.damage = 6;
+        _weapon.critical = 2;
+        _weapon.critical_modifier = 0;
+        _weapon.range_increment = 0;
+        _weapon.description = "The nunchaku is a special monk weapon. This designation gives a monk wielding a nunchaku special options. With a nunchaku, you get a +2 bonus on opposed attack rolls made to disarm an enemy (including the roll to avoid being disarmed if such an attempt fails).";
     }
 
-    function sai() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 50;
-        name = "Sai";
-        cost = 1e18;
-        proficiency = 3;
-        encumbrance = 2;
-        damage_type = 1;
-        weight = 1;
-        damage = 4;
-        critical = 2;
-        critical_modifier = 0;
-        range_increment = 0;
-        description = "With a sai, you get a +4 bonus on opposed attack rolls made to disarm an enemy (including the roll to avoid being disarmed if such an attempt fails).";
+    function sai() public pure returns (weapon memory _weapon) {
+        _weapon.id = 50;
+        _weapon.name = "Sai";
+        _weapon.cost = 1e18;
+        _weapon.proficiency = 3;
+        _weapon.encumbrance = 2;
+        _weapon.damage_type = 1;
+        _weapon.weight = 1;
+        _weapon.damage = 4;
+        _weapon.critical = 2;
+        _weapon.critical_modifier = 0;
+        _weapon.range_increment = 0;
+        _weapon.description = "With a sai, you get a +4 bonus on opposed attack rolls made to disarm an enemy (including the roll to avoid being disarmed if such an attempt fails).";
     }
 
-    function siangham() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 51;
-        name = "Siangham";
-        cost = 3e18;
-        proficiency = 3;
-        encumbrance = 2;
-        damage_type = 2;
-        weight = 1;
-        damage = 6;
-        critical = 2;
-        critical_modifier = 0;
-        range_increment = 0;
-        description = "The siangham is a special monk weapon. This designation gives a monk wielding a siangham special options.";
+    function siangham() public pure returns (weapon memory _weapon) {
+        _weapon.id = 51;
+        _weapon.name = "Siangham";
+        _weapon.cost = 3e18;
+        _weapon.proficiency = 3;
+        _weapon.encumbrance = 2;
+        _weapon.damage_type = 2;
+        _weapon.weight = 1;
+        _weapon.damage = 6;
+        _weapon.critical = 2;
+        _weapon.critical_modifier = 0;
+        _weapon.range_increment = 0;
+        _weapon.description = "The siangham is a special monk weapon. This designation gives a monk wielding a siangham special options.";
     }
 
-    function sword_bastard() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 52;
-        name = "Sword, bastard";
-        cost = 35e18;
-        proficiency = 3;
-        encumbrance = 3;
-        damage_type = 3;
-        weight = 6;
-        damage = 10;
-        critical = 2;
-        critical_modifier = -1;
-        range_increment = 0;
-        description = "A bastard sword is too large to use in one hand without special training; thus, it is an exotic weapon. A character can use a bastard sword two-handed as a martial weapon.";
+    function sword_bastard() public pure returns (weapon memory _weapon) {
+        _weapon.id = 52;
+        _weapon.name = "Sword, bastard";
+        _weapon.cost = 35e18;
+        _weapon.proficiency = 3;
+        _weapon.encumbrance = 3;
+        _weapon.damage_type = 3;
+        _weapon.weight = 6;
+        _weapon.damage = 10;
+        _weapon.critical = 2;
+        _weapon.critical_modifier = -1;
+        _weapon.range_increment = 0;
+        _weapon.description = "A bastard sword is too large to use in one hand without special training; thus, it is an exotic weapon. A character can use a bastard sword two-handed as a martial weapon.";
     }
 
-    function waraxe_dwarven() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 53;
-        name = "Waraxe, dwarven";
-        cost = 30e18;
-        proficiency = 3;
-        encumbrance = 3;
-        damage_type = 3;
-        weight = 8;
-        damage = 10;
-        critical = 3;
-        critical_modifier = 0;
-        range_increment = 0;
-        description = "A dwarven waraxe is too large to use in one hand without special training; thus, it is an exotic weapon. A Medium character can use a dwarven waraxe two-handed as a martial weapon, or a Large creature can use it one-handed in the same way. A dwarf treats a dwarven waraxe as a martial weapon even when using it in one hand.";
+    function waraxe_dwarven() public pure returns (weapon memory _weapon) {
+        _weapon.id = 53;
+        _weapon.name = "Waraxe, dwarven";
+        _weapon.cost = 30e18;
+        _weapon.proficiency = 3;
+        _weapon.encumbrance = 3;
+        _weapon.damage_type = 3;
+        _weapon.weight = 8;
+        _weapon.damage = 10;
+        _weapon.critical = 3;
+        _weapon.critical_modifier = 0;
+        _weapon.range_increment = 0;
+        _weapon.description = "A dwarven waraxe is too large to use in one hand without special training; thus, it is an exotic weapon. A Medium character can use a dwarven waraxe two-handed as a martial weapon, or a Large creature can use it one-handed in the same way. A dwarf treats a dwarven waraxe as a martial weapon even when using it in one hand.";
     }
 
-    function axe_orc_double() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 54;
-        name = "Axe, orc double";
-        cost = 60e18;
-        proficiency = 3;
-        encumbrance = 4;
-        damage_type = 3;
-        weight = 15;
-        damage = 8;
-        critical = 3;
-        critical_modifier = 0;
-        range_increment = 0;
-        description = "An orc double axe is a double weapon. You can fight with it as if fighting with two weapons, but if you do, you incur all the normal attack penalties associated with fighting with two weapons, just as if you were using a one-handed weapon and a light weapon.";
+    function axe_orc_double() public pure returns (weapon memory _weapon) {
+        _weapon.id = 54;
+        _weapon.name = "Axe, orc double";
+        _weapon.cost = 60e18;
+        _weapon.proficiency = 3;
+        _weapon.encumbrance = 4;
+        _weapon.damage_type = 3;
+        _weapon.weight = 15;
+        _weapon.damage = 8;
+        _weapon.critical = 3;
+        _weapon.critical_modifier = 0;
+        _weapon.range_increment = 0;
+        _weapon.description = "An orc double axe is a double weapon. You can fight with it as if fighting with two weapons, but if you do, you incur all the normal attack penalties associated with fighting with two weapons, just as if you were using a one-handed weapon and a light weapon.";
     }
 
-    function chain_spiked() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 55;
-        name = "Chain, spiked";
-        cost = 25e18;
-        proficiency = 3;
-        encumbrance = 4;
-        damage_type = 2;
-        weight = 10;
-        damage = 8;
-        critical = 2;
-        critical_modifier = 0;
-        range_increment = 0;
-        description = "A spiked chain has reach, so you can strike opponents 10 feet away with it. In addition, unlike most other weapons with reach, it can be used against an adjacent foe.";
+    function chain_spiked() public pure returns (weapon memory _weapon) {
+        _weapon.id = 55;
+        _weapon.name = "Chain, spiked";
+        _weapon.cost = 25e18;
+        _weapon.proficiency = 3;
+        _weapon.encumbrance = 4;
+        _weapon.damage_type = 2;
+        _weapon.weight = 10;
+        _weapon.damage = 8;
+        _weapon.critical = 2;
+        _weapon.critical_modifier = 0;
+        _weapon.range_increment = 0;
+        _weapon.description = "A spiked chain has reach, so you can strike opponents 10 feet away with it. In addition, unlike most other weapons with reach, it can be used against an adjacent foe.";
     }
 
-    function flail_dire() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 56;
-        name = "Flail, dire";
-        cost = 90e18;
-        proficiency = 3;
-        encumbrance = 4;
-        damage_type = 1;
-        weight = 10;
-        damage = 8;
-        critical = 2;
-        critical_modifier = 0;
-        range_increment = 0;
-        description = "A dire flail is a double weapon. You can fight with it as if fighting with two weapons, but if you do, you incur all the normal attack penalties associated with fighting with two weapons, just as if you were using a one-handed weapon and a light weapon. A creature wielding a dire flail in one hand cant use it as a double weapon- only one end of the weapon can be used in any given round.";
+    function flail_dire() public pure returns (weapon memory _weapon) {
+        _weapon.id = 56;
+        _weapon.name = "Flail, dire";
+        _weapon.cost = 90e18;
+        _weapon.proficiency = 3;
+        _weapon.encumbrance = 4;
+        _weapon.damage_type = 1;
+        _weapon.weight = 10;
+        _weapon.damage = 8;
+        _weapon.critical = 2;
+        _weapon.critical_modifier = 0;
+        _weapon.range_increment = 0;
+        _weapon.description = "A dire flail is a double weapon. You can fight with it as if fighting with two weapons, but if you do, you incur all the normal attack penalties associated with fighting with two weapons, just as if you were using a one-handed weapon and a light weapon. A creature wielding a dire flail in one hand cant use it as a double weapon- only one end of the weapon can be used in any given round.";
     }
 
-    function crossbow_hand() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 57;
-        name = "Crossbow, hand";
-        cost = 100e18;
-        proficiency = 3;
-        encumbrance = 5;
-        damage_type = 2;
-        weight = 2;
-        damage = 4;
-        critical = 2;
-        critical_modifier = -1;
-        range_increment = 30;
-        description = "You can draw a hand crossbow back by hand. Loading a hand crossbow is a move action that provokes attacks of opportunity.";
+    function crossbow_hand() public pure returns (weapon memory _weapon) {
+        _weapon.id = 57;
+        _weapon.name = "Crossbow, hand";
+        _weapon.cost = 100e18;
+        _weapon.proficiency = 3;
+        _weapon.encumbrance = 5;
+        _weapon.damage_type = 2;
+        _weapon.weight = 2;
+        _weapon.damage = 4;
+        _weapon.critical = 2;
+        _weapon.critical_modifier = -1;
+        _weapon.range_increment = 30;
+        _weapon.description = "You can draw a hand crossbow back by hand. Loading a hand crossbow is a move action that provokes attacks of opportunity.";
     }
 
-    function crossbow_repeating_heavy() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 58;
-        name = "Crossbow, repeating heavy";
-        cost = 400e18;
-        proficiency = 3;
-        encumbrance = 5;
-        damage_type = 2;
-        weight = 12;
-        damage = 10;
-        critical = 2;
-        critical_modifier = -1;
-        range_increment = 120;
-        description = "The repeating crossbow (whether heavy or light) holds 5 crossbow bolts. As long as it holds bolts, you can reload it by pulling the reloading lever (a free action). Loading a new case of 5 bolts is a full-round action that provokes attacks of opportunity.";
+    function crossbow_repeating_heavy() public pure returns (weapon memory _weapon) {
+        _weapon.id = 58;
+        _weapon.name = "Crossbow, repeating heavy";
+        _weapon.cost = 400e18;
+        _weapon.proficiency = 3;
+        _weapon.encumbrance = 5;
+        _weapon.damage_type = 2;
+        _weapon.weight = 12;
+        _weapon.damage = 10;
+        _weapon.critical = 2;
+        _weapon.critical_modifier = -1;
+        _weapon.range_increment = 120;
+        _weapon.description = "The repeating crossbow (whether heavy or light) holds 5 crossbow bolts. As long as it holds bolts, you can reload it by pulling the reloading lever (a free action). Loading a new case of 5 bolts is a full-round action that provokes attacks of opportunity.";
     }
 
-    function crossbow_repeating_light() public pure returns (
-        uint id,
-        uint cost,
-        uint proficiency,
-        uint encumbrance,
-        uint damage_type,
-        uint weight,
-        uint damage,
-        uint critical,
-        int critical_modifier,
-        uint range_increment,
-        string memory name,
-        string memory description
-    ) {
-        id = 59;
-        name = "Crossbow, repeating light";
-        cost = 250e18;
-        proficiency = 3;
-        encumbrance = 5;
-        damage_type = 2;
-        weight = 6;
-        damage = 8;
-        critical = 2;
-        critical_modifier = -1;
-        range_increment = 80;
-        description = "The repeating crossbow (whether heavy or light) holds 5 crossbow bolts. As long as it holds bolts, you can reload it by pulling the reloading lever (a free action). Loading a new case of 5 bolts is a full-round action that provokes attacks of opportunity.";
+    function crossbow_repeating_light() public pure returns (weapon memory _weapon) {
+        _weapon.id = 59;
+        _weapon.name = "Crossbow, repeating light";
+        _weapon.cost = 250e18;
+        _weapon.proficiency = 3;
+        _weapon.encumbrance = 5;
+        _weapon.damage_type = 2;
+        _weapon.weight = 6;
+        _weapon.damage = 8;
+        _weapon.critical = 2;
+        _weapon.critical_modifier = -1;
+        _weapon.range_increment = 80;
+        _weapon.description = "The repeating crossbow (whether heavy or light) holds 5 crossbow bolts. As long as it holds bolts, you can reload it by pulling the reloading lever (a free action). Loading a new case of 5 bolts is a full-round action that provokes attacks of opportunity.";
     }
 }

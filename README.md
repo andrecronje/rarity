@@ -21,6 +21,7 @@ Rarity is achieved via an active economy, summoners must level, gain feats, lear
 | feats-1       | [0x822F888f5DB8e1316717Eb904E550ebB1196EdbE](https://ftmscan.com/address/0x822F888f5DB8e1316717Eb904E550ebB1196EdbE) |
 | Items (Goods) | [0x0C5C1CC0A7AE65FE372fbb08FF16578De4b980f3](https://ftmscan.com/address/0x0C5C1CC0A7AE65FE372fbb08FF16578De4b980f3) |
 | Items (Armor) | [0xf5114A952Aca3e9055a52a87938efefc8BB7878C](https://ftmscan.com/address/0xf5114A952Aca3e9055a52a87938efefc8BB7878C) |
+| Items (Weapons) | [0x116C5DF08fef0E24Ca6295c55Fcc42A2756c387a](https://ftmscan.com/address/0x116C5DF08fef0E24Ca6295c55Fcc42A2756c387a) |
 
 # third party
 

@@ -469,8 +469,8 @@ contract rarity_crafting is ERC721Enumerable {
     codex_items_armor constant _armor = codex_items_armor(0xf5114A952Aca3e9055a52a87938efefc8BB7878C);
     codex_items_weapons constant _weapons = codex_items_weapons(0xeE1a2EA55945223404d73C0BbE57f540BBAAD0D8);
 
-    string constant name = "Rarity Crafting";
-    string constant symbol = "R(C)";
+    string constant name = "Rarity Crafting (I)";
+    string constant symbol = "RC(I)";
 
     event Crafted(address indexed owner, uint check, uint summoner, uint base_type, uint item_type, uint gold, uint craft_i);
 
@@ -540,34 +540,58 @@ contract rarity_crafting is ERC721Enumerable {
         return (int(_attribute) - 10) / 2;
     }
 
-    function craft_skillcheck(uint _summoner, uint _dc) public view returns (bool success) {
-        int _craft = int(uint(_skills.get_skills(_summoner)[5]));
-        if (_craft == 0) {
-            return false;
+    function craft_skillcheck(uint _summoner, uint _dc) public view returns (bool crafted, int check) {
+        check = int(uint(_skills.get_skills(_summoner)[5]));
+        if (check == 0) {
+            return (false, 0);
         }
         (,,,uint _int,,) = _attr.ability_scores(_summoner);
-        _craft += modifier_for_attribute(_int);
-        if (_craft <= 0) {
-            return false;
+        check += modifier_for_attribute(_int);
+        if (check <= 0) {
+            return (false, 0);
         }
-        _craft += int(_random.d20(_summoner));
-        return _craft >= int(_dc);
+        check += int(_random.d20(_summoner));
+        return (check >= int(_dc), check);
+    }
+
+    function isValid(uint _base_type, uint _item_type) public pure returns (bool) {
+        if (_base_type == 1) {
+            return (1 <= _item_type && _item_type <= 24);
+        } else if (_base_type == 2) {
+            return (1 <= _item_type && _item_type <= 18);
+        } else if (_base_type == 3) {
+            return (1 <= _item_type && _item_type <= 59);
+        }
+        return false;
+    }
+
+    function simulate(uint _summoner, uint _base_type, uint _item_type, uint _crafting_materials) external view returns (bool crafted, int check, uint cost, uint dc) {
+        dc = get_dc(_base_type, _item_type);
+        if (_crafting_materials >= 10) {
+            dc = dc - (_crafting_materials / 10);
+        }
+        (crafted, check) = craft_skillcheck(_summoner, dc);
+        if (crafted) {
+            cost = get_item_cost(_base_type, _item_type);
+        }
     }
 
     function craft(uint _summoner, uint8 _base_type, uint8 _item_type, uint _crafting_materials) external {
         require(_isApprovedOrOwner(_summoner), "!owner");
         require(_attr.character_created(_summoner), "!created");
         require(_summoner != SUMMMONER_ID, "hax0r");
+        require(isValid(_base_type, _item_type), "!valid");
         uint _dc = get_dc(_base_type, _item_type);
         if (_crafting_materials >= 10) {
             require(_craft_i.transferFrom(SUMMMONER_ID, _summoner, SUMMMONER_ID, _crafting_materials), "!craft");
             _dc = _dc - (_crafting_materials / 10);
         }
-        if (craft_skillcheck(_summoner, _dc)) {
+        (bool crafted, int check) = craft_skillcheck(_summoner, _dc);
+        if (crafted) {
             uint _cost = get_item_cost(_base_type, _item_type);
             require(_gold.transferFrom(SUMMMONER_ID, _summoner, SUMMMONER_ID, _cost), "!gold");
             items[next_item] = item(_base_type, _item_type, uint32(block.timestamp), 0);
-            emit Crafted(msg.sender, 20, 0, _base_type, _item_type, 0, 0);
+            emit Crafted(msg.sender, uint(check), _summoner, _base_type, _item_type, _cost, _crafting_materials);
             next_item++;
         }
         _rm.spend_xp(_summoner, craft_xp_per_day);

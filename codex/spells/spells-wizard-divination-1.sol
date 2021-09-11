@@ -81,7 +81,7 @@ contract codex {
         string memory description
     ) {
         id = 21;
-        name = "Detect Secret Doors;
+        name = "Detect Secret Doors";
         verbal = true;
         somatic = true;
         focus = false;

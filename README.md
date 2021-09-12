@@ -29,7 +29,7 @@ Rarity is achieved via an active economy, summoners must level, gain feats, lear
 
 | Name | Address |
 | :--- | :--- |
-| names | [0xc73e1237a5a9ba5b0f790b6580f32d04a727dc19](https://ftmscan.com/address/0x4c40ce3fb33a6781c903bc830804de4195cc966f) |
+| names | [0xc73e1237a5a9ba5b0f790b6580f32d04a727dc19](https://ftmscan.com/address/0xc73e1237a5a9ba5b0f790b6580f32d04a727dc19) |
 | forest | [0xb37d3d79ea86B0334d9322c695339D577A3D57be](https://ftmscan.com/address/0xb37d3d79ea86B0334d9322c695339D577A3D57be) |
 
 

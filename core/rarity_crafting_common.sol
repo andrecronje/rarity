@@ -469,8 +469,8 @@ contract rarity_crafting is ERC721Enumerable {
     codex_items_armor constant _armor = codex_items_armor(0xf5114A952Aca3e9055a52a87938efefc8BB7878C);
     codex_items_weapons constant _weapons = codex_items_weapons(0xeE1a2EA55945223404d73C0BbE57f540BBAAD0D8);
 
-    string constant name = "Rarity Crafting (I)";
-    string constant symbol = "RC(I)";
+    string constant public name = "Rarity Crafting (I)";
+    string constant public symbol = "RC(I)";
 
     event Crafted(address indexed owner, uint check, uint summoner, uint base_type, uint item_type, uint gold, uint craft_i);
 
@@ -590,7 +590,8 @@ contract rarity_crafting is ERC721Enumerable {
         if (crafted) {
             uint _cost = get_item_cost(_base_type, _item_type);
             require(_gold.transferFrom(SUMMMONER_ID, _summoner, SUMMMONER_ID, _cost), "!gold");
-            items[next_item] = item(_base_type, _item_type, uint32(block.timestamp), 0);
+            items[next_item] = item(_base_type, _item_type, uint32(block.timestamp), _summoner);
+            _safeMint(msg.sender, next_item);
             emit Crafted(msg.sender, uint(check), _summoner, _base_type, _item_type, _cost, _crafting_materials);
             next_item++;
         }
@@ -698,7 +699,7 @@ contract rarity_crafting is ERC721Enumerable {
     function toString(int value) internal pure returns (string memory) {
         string memory _string = '';
         if (value < 0) {
-            _string = '-1';
+            _string = '-';
             value = value * -1;
         }
         return string(abi.encodePacked(_string, toString(uint(value))));

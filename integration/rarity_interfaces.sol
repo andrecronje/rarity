@@ -2,6 +2,22 @@
 pragma solidity ^0.8.7;
 
 import "./IERC721.sol";
+import "./rarity_structs.sol";
+
+interface rarity_lib {
+    function name(uint _s) external view returns (string memory);
+    function base(uint _s) external view returns (rl._base memory);
+    function description(uint _s) external view returns (string memory);
+    function ability_scores(uint _s) external view returns (rl._ability_scores memory);
+    function ability_modifiers(uint _s) external view returns (rl._ability_modifiers memory);
+    function ability_scores_full(uint _s) external view returns (rl._ability_scores_full memory);
+    function skills(uint _s) external view returns (rl._skills memory);
+    function gold(uint _s) external view returns (rl._gold memory);
+    function materials(uint _s) external view returns (rl._material[] memory);
+    function summoner_full(uint _s) external view returns (rl._summoner memory);
+    function summoners_full(uint[] calldata _s) external view returns (rl._summoner[] memory);
+    function items1(address _owner) external view returns (rl._item1[] memory);
+}
 
 interface rarity_manifested is IERC721 {
     function summoner(uint _summoner) external view returns (uint _xp, uint _log, uint _class, uint _level);

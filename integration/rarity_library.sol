@@ -1,7 +1,6 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.7;
 
-import "./rarity_structs.sol";
 import "./rarity_interfaces.sol";
 
 

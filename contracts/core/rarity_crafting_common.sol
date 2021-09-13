@@ -458,19 +458,19 @@ contract rarity_crafting is ERC721Enumerable {
     uint public next_item;
     uint constant craft_xp_per_day = 250e18;
 
-    rarity constant _rm = rarity(0xce761D788DF608BD21bdd59d6f4B54b2e27F25Bb);
-    rarity_attributes constant _attr = rarity_attributes(0xB5F5AF1087A8DA62A23b08C00C6ec9af21F397a1);
-    rarity_crafting_materials_i constant _craft_i = rarity_crafting_materials_i(0x2A0F1cB17680161cF255348dDFDeE94ea8Ca196A);
-    rarity_gold constant _gold = rarity_gold(0x2069B76Afe6b734Fb65D1d099E7ec64ee9CC76B2);
-    rarity_skills constant _skills = rarity_skills(0x51C0B29A1d84611373BA301706c6B4b72283C80F);
+    rarity constant _rm = rarity(0x4fb729BDb96d735692DCACD9640cF7e3aA859B25);
+    rarity_attributes constant _attr = rarity_attributes(0x3a7c6a0E65480EB32A0ddf1cC2db6563Aaed03ce);
+    rarity_crafting_materials_i constant _craft_i = rarity_crafting_materials_i(0xEF4C8E18c831cB7C937A0D17809102208570eC8F);
+    rarity_gold constant _gold = rarity_gold(0x7303E7a860DAFfE4d0b33615479648cb3496903b);
+    rarity_skills constant _skills = rarity_skills(0xf740103f4eDB85609292472048Dc823b5417D9a6);
 
-    codex_base_random constant _random = codex_base_random(0x7426dBE5207C2b5DaC57d8e55F0959fcD99661D4);
-    codex_items_goods constant _goods = codex_items_goods(0x0C5C1CC0A7AE65FE372fbb08FF16578De4b980f3);
-    codex_items_armor constant _armor = codex_items_armor(0xf5114A952Aca3e9055a52a87938efefc8BB7878C);
-    codex_items_weapons constant _weapons = codex_items_weapons(0xeE1a2EA55945223404d73C0BbE57f540BBAAD0D8);
+    codex_base_random constant _random = codex_base_random(0x101682Aca42c7793a83596d20dbB77F4782e2ecA);
+    codex_items_goods constant _goods = codex_items_goods(0xc36400d5EB01dB28EceA220CA1cc9cA7b97171ad);
+    codex_items_armor constant _armor = codex_items_armor(0x4976373A1528476b252451E2E096269b8B4De1Cf);
+    codex_items_weapons constant _weapons = codex_items_weapons(0xa6E9b54C99545623D0827Be9A786EdeD9b23Bf62);
 
-    string constant public name = "Rarity Crafting (I)";
-    string constant public symbol = "RC(I)";
+    string constant public name = "Scarcity Crafting (I)";
+    string constant public symbol = "SC(I)";
 
     event Crafted(address indexed owner, uint check, uint summoner, uint base_type, uint item_type, uint gold, uint craft_i);
 

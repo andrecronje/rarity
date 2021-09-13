@@ -58,7 +58,7 @@ contract codex {
         saving_throw_type = 3;
         saving_throw_effect = 3;
         spell_resistance = true;
-        description = "This charm makes a humanoid creature regard you as its trusted friend and ally (treat the target’s attitude as friendly). If the creature is currently being threatened or attacked by you or your allies, however, it receives a +5 bonus on its saving throw.";
+        description = "This charm makes a humanoid creature regard you as its trusted friend and ally (treat the targets attitude as friendly). If the creature is currently being threatened or attacked by you or your allies, however, it receives a +5 bonus on its saving throw.";
     }
 
     function hypnotism() public pure returns (

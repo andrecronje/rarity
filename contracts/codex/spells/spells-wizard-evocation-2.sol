@@ -64,7 +64,7 @@ contract codex {
         saving_throw_type = 0;
         saving_throw_effect = 0;
         spell_resistance = false;
-        description = A flame, equivalent in brightness to a torch, springs forth from an object that you touch. The effect looks like a regular flame, but it creates no heat and doesn’t use oxygen. A continual flame can be covered and hidden but not smothered or quenched. Light spells counter and dispel darkness spells of an equal or lower level.";
+        description = "A flame, equivalent in brightness to a torch, springs forth from an object that you touch. The effect looks like a regular flame, but it creates no heat and doesnt use oxygen. A continual flame can be covered and hidden but not smothered or quenched. Light spells counter and dispel darkness spells of an equal or lower level.";
     }
 
     function darkness() public pure returns (
@@ -154,7 +154,7 @@ contract codex {
         saving_throw_type = 1;
         saving_throw_effect = 3;
         spell_resistance = true;
-        description = "This spell creates a severe blast of air (approximately 50 mph) that originates from you, affecting all creatures in its path. A Tiny or smaller creature on the ground is knocked down and rolled 1d4x10 feet, taking 1d4 points of nonlethal damage per 10 feet. If flying, a Tiny or smaller creature is blown back 2d6x10 feet and takes 2d6 points of nonlethal damage due to battering and buffeting. Small creatures are knocked prone by the force of the wind, or if flying are blown back 1d6x10 feet. Medium creatures are unable to move forward against the force of the wind, or if flying are blown back 1d6x5 feet. Large or larger creatures may move normally within a gust of wind effect. Any creature, regardless of size, takes a –4 penalty on ranged attacks and Listen checks in the area of a gust of wind.";
+        description = "This spell creates a severe blast of air (approximately 50 mph) that originates from you, affecting all creatures in its path. A Tiny or smaller creature on the ground is knocked down and rolled 1d4x10 feet, taking 1d4 points of nonlethal damage per 10 feet. If flying, a Tiny or smaller creature is blown back 2d6x10 feet and takes 2d6 points of nonlethal damage due to battering and buffeting. Small creatures are knocked prone by the force of the wind, or if flying are blown back 1d6x10 feet. Medium creatures are unable to move forward against the force of the wind, or if flying are blown back 1d6x5 feet. Large or larger creatures may move normally within a gust of wind effect. Any creature, regardless of size, takes a -4 penalty on ranged attacks and Listen checks in the area of a gust of wind.";
     }
 
     function scorching_ray() public pure returns (
@@ -173,7 +173,7 @@ contract codex {
         string memory description
     ) {
         id = 42;
-        name = "Scorching Ray;
+        name = "Scorching Ray";
         verbal = true;
         somatic = true;
         focus = false;
@@ -203,7 +203,7 @@ contract codex {
         string memory description
     ) {
         id = 43;
-        name = "Shatter;
+        name = "Shatter";
         verbal = true;
         somatic = true;
         focus = false;
@@ -213,7 +213,7 @@ contract codex {
         duration = 0;
         saving_throw_type = 3;
         saving_throw_effect = 3;
-        spell_resistance = yes;
+        spell_resistance = true;
         description = "Shatter creates a loud, ringing noise that breaks brittle, nonmagical objects; sunders a single solid, nonmagical object; or damages a crystalline creature. Alternatively, you can target shatter against a single solid object, regardless of composition, weighing up to 10 pounds per caster level. Targeted against a crystalline creature (of any weight), shatter deals 1d6 points of sonic damage per caster level (maximum 10d6)";
     }
 }

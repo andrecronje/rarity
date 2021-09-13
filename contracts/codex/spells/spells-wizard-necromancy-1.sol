@@ -60,7 +60,7 @@ contract codex {
         duration = 1; // 4 rounds, 24 seconds. round up to 1 min
         saving_throw_type = 3;
         saving_throw_effect = 0; // need mechanic to reduce spell duration
-        spell_resistance = yes;
+        spell_resistance = true;
         description = "The affected creature becomes frightened. Creatures with 6 or more Hit Dice are immune to this effect.";
     }
 

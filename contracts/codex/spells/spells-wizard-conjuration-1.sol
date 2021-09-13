@@ -99,7 +99,7 @@ contract codex {
         saving_throw_type = 2;
         saving_throw_effect = 3;
         spell_resistance = false;
-        description = "An invisible but tangible field of force surrounds the subject of a mage armor spell, providing a +4 armor bonus to AC.;
+        description = "An invisible but tangible field of force surrounds the subject of a mage armor spell, providing a +4 armor bonus to AC.";
     }
 
     function mount() public pure returns (

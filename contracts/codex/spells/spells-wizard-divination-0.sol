@@ -13,6 +13,7 @@ contract codex {
         bool verbal,
         bool somatic,
         bool focus,
+        bool divine_focus,
         uint xp_cost,
         uint time,
         uint range,
@@ -37,6 +38,7 @@ contract codex {
         bool verbal,
         bool somatic,
         bool focus,
+        bool divine_focus,
         uint xp_cost,
         uint time,
         uint range,
@@ -51,6 +53,7 @@ contract codex {
         verbal = true;
         somatic = true;
         focus = false;
+        divine_focus = false;
         xp_cost = 0;
         time = 1;
         range = 2;
@@ -67,6 +70,7 @@ contract codex {
         bool verbal,
         bool somatic,
         bool focus,
+        bool divine_focus,
         uint xp_cost,
         uint time,
         uint range,
@@ -81,6 +85,7 @@ contract codex {
         verbal = true;
         somatic = true;
         focus = false;
+        divine_focus = false;
         xp_cost = 0;
         time = 1;
         range = 3;
@@ -97,6 +102,7 @@ contract codex {
         bool verbal,
         bool somatic,
         bool focus,
+        bool divine_focus,
         uint xp_cost,
         uint time,
         uint range,
@@ -111,6 +117,7 @@ contract codex {
         verbal = true;
         somatic = true;
         focus = true;
+        divine_focus = false;
         xp_cost = 0;
         time = 1;
         range = 0;

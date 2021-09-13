@@ -8,11 +8,8 @@ Scarcity is achieved via an active economy, summoners must level, gain feats, le
 | scarcity | [0x4fb729bdb96d735692dcacd9640cf7e3aa859b25](https://polygonscan.com/address/0x4fb729bdb96d735692dcacd9640cf7e3aa859b25) |
 | attributes | [0x3a7c6a0e65480eb32a0ddf1cc2db6563aaed03ce](https://polygonscan.com/address/0x3a7c6a0e65480eb32a0ddf1cc2db6563aaed03ce) |
 | scarcity gold | [0x7303e7a860daffe4d0b33615479648cb3496903b](https://polygonscan.com/address/0x7303e7a860daffe4d0b33615479648cb3496903b) |
-| wrapped scarcity gold| [0x4f0D9adEc72551f02ec5A7A87381C84397F343c3](https://polygonscan.com/address/0x4f0D9adEc72551f02ec5A7A87381C84397F343c3) |
 | skills | [0x1e87AE9f19860679Feb4b6A95b72345Af63Bb5d1](https://polygonscan.com/address/0x1e87AE9f19860679Feb4b6A95b72345Af63Bb5d1) |
 | craft (I) | [0xef4c8e18c831cb7c937a0d17809102208570ec8f](https://polygonscan.com/address/0xef4c8e18c831cb7c937a0d17809102208570ec8f) |
-| adventure time | [0xeAAe5c3C28A468E3dB4B044B2Bc2Dc1403638163](https://polygonscan.com/address/0xeAAe5c3C28A468E3dB4B044B2Bc2Dc1403638163) |
-| daycare manager | [0xEDB8B4B6c0223dC91326f0F886CCc7FF6f5135a3](https://polygonscan.com/address/0xEDB8B4B6c0223dC91326f0F886CCc7FF6f5135a3) |
 
 # Codex
 
@@ -21,6 +18,19 @@ Scarcity is achieved via an active economy, summoners must level, gain feats, le
 | skills | [0xD62e9039AA2029f9F3eBE66E235213dD9a338EB8](https://polygonscan.com/address/0xd62e9039aa2029f9f3ebe66e235213dd9a338eb8) |
 | class skills | [0x09966cce97ac54683d8fce2958d4a548e57467f6](https://polygonscan.com/address/0x09966cce97ac54683d8fce2958d4a548e57467f6) |
 | feats-1 | [0x2371ada21cc0c51443114a701fa29a551766fffc](https://polygonscan.com/address/0x2371ada21cc0c51443114a701fa29a551766fffc) |
+
+# Wrappers
+
+| Name | Address |
+| :--- | :--- |
+| wrapped scarcity gold| [0x4f0D9adEc72551f02ec5A7A87381C84397F343c3](https://polygonscan.com/address/0x4f0D9adEc72551f02ec5A7A87381C84397F343c3) |
+
+# 3rd Party
+
+| Name | Address |
+| :--- | :--- |
+| adventure time | [0xeAAe5c3C28A468E3dB4B044B2Bc2Dc1403638163](https://polygonscan.com/address/0xeAAe5c3C28A468E3dB4B044B2Bc2Dc1403638163) |
+| daycare manager | [0xEDB8B4B6c0223dC91326f0F886CCc7FF6f5135a3](https://polygonscan.com/address/0xEDB8B4B6c0223dC91326f0F886CCc7FF6f5135a3) |
 
 # Links
 

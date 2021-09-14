@@ -1,0 +1,3246 @@
+{
+  "domains": {
+    "domain": [
+      {
+        "name": "Artifice",
+        "granted_powers": "Gain +4 bonus on Craft checks. The character casts conjuration (creation) spells at +1 caster level. (Those with access to both the Artifice and Creation domains cast conjuration [creation] spells at +3 caster level.)",
+        "spell_1": "animate rope",
+        "spell_2": "wood shape",
+        "spell_3": "stone shape",
+        "spell_4": "minor creation",
+        "spell_5": "fabricate",
+        "spell_6": "major creation",
+        "spell_7": "hardening",
+        "spell_8": "true creation",
+        "spell_9": "prismatic sphere",
+        "full_text": {
+          "div": {
+            "p": {
+              "h2": "Artifice Domain"
+            },
+            "div": [
+              {
+                "p": {
+                  "#text": "Gain +4 bonus on Craft checks. The character casts conjuration (creation) spells at +1 caster level. (Those with access to both the Artifice and Creation domains cast conjuration [creation] spells at +3 caster level.)",
+                  "b": "Granted Power:"
+                }
+              },
+              {
+                "p": {
+                  "h5": {
+                    "b": "Artifice Domain Spells"
+                  }
+                },
+                "div": [
+                  {
+                    "p": {
+                      "b": "1 Animate rope"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "2 Wood shape"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "3 Stone shape"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "4 Minor creation"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "5 Fabricate"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "6 Major creation"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "7 Hardening"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "8 True creation"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "9 Prismatic sphere"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "reference": "SRD 3.5 DivineDomainsandSpells"
+      },
+      {
+        "name": "Charm",
+        "granted_powers": "The character can boost his or her Charisma by 4 points once per day. Activating this power is a free action. The Charisma increase lasts 1 minute.",
+        "spell_1": "charm person",
+        "spell_2": "calm emotions",
+        "spell_3": "suggestion",
+        "spell_4": "emotion",
+        "spell_5": "charm monster",
+        "spell_6": "geas/quest",
+        "spell_7": "insanity",
+        "spell_8": "demand",
+        "spell_9": "dominate monster",
+        "full_text": {
+          "div": {
+            "p": {
+              "h2": "Charm Domain"
+            },
+            "div": [
+              {
+                "p": {
+                  "#text": "The character can boost his or her Charisma by 4 points once per day. Activating this power is a free action. The Charisma increase lasts 1 minute.",
+                  "b": "Granted Power:"
+                }
+              },
+              {
+                "p": {
+                  "h5": {
+                    "b": "Charm Domain Spells"
+                  }
+                },
+                "div": [
+                  {
+                    "p": {
+                      "b": "1 Charm person"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "2 Calm emotions"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "3 Suggestion"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "4 Emotion"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "5 Charm monster"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "6 Geas/quest"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "7 Insanity"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "8 Demand"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "9 Dominate monster"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "reference": "SRD 3.5 DivineDomainsandSpells"
+      },
+      {
+        "name": "Community",
+        "granted_powers": "Use calm emotions as a spell-like ability once per day. Gain a +2 competence bonus on Diplomacy checks.",
+        "spell_1": "bless",
+        "spell_2": "shield other",
+        "spell_3": "prayer",
+        "spell_4": "status",
+        "spell_5": "telepathic bond",
+        "spell_6": "heroes' feast",
+        "spell_7": "refuge",
+        "spell_8": "mass heal",
+        "spell_9": "miracle",
+        "full_text": {
+          "div": {
+            "p": {
+              "h2": "Community Domain"
+            },
+            "div": [
+              {
+                "p": {
+                  "#text": "Useas a spell-like ability once per day. Gain a +2 competence bonus on Diplomacy checks.",
+                  "b": "Granted Power:",
+                  "i": "calm emotions"
+                }
+              },
+              {
+                "p": {
+                  "h5": {
+                    "b": "Community Domain Spells"
+                  }
+                },
+                "div": [
+                  {
+                    "p": {
+                      "b": "1 Bless"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "2 Shield other"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "3 Prayer"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "4 Status"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "5 Telepathic bond"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "6 Heroes' feast"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "7 Refuge"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "8 Mass heal"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "9 Miracle"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "reference": "SRD 3.5 DivineDomainsandSpells"
+      },
+      {
+        "name": "Creation",
+        "granted_powers": "Cast conjuration (creation) spells at +2 caster level. (Those with access to both the Artifice and Creation domains cast conjuration (creation) spells at +3 caster level.)",
+        "spell_1": "create water",
+        "spell_2": "minor image",
+        "spell_3": "create food and water",
+        "spell_4": "minor creation",
+        "spell_5": "major creation",
+        "spell_6": "heroes' feast",
+        "spell_7": "permanent image",
+        "spell_8": "true creation",
+        "spell_9": "genesis",
+        "full_text": {
+          "div": {
+            "p": {
+              "h2": "Creation Domain"
+            },
+            "div": [
+              {
+                "p": {
+                  "#text": "Cast conjuration (creation) spells at +2 caster level. (Those with access to both the Artifice and Creation domains cast conjuration (creation) spells at +3 caster level.)",
+                  "b": "Granted Power:"
+                }
+              },
+              {
+                "p": {
+                  "h5": {
+                    "b": "Creation Domain Spells"
+                  }
+                },
+                "div": [
+                  {
+                    "p": {
+                      "b": "1 Create water"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "2 Minor image"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "3 Create food and water"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "4 Minor creation"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "5 Major creation"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "6 Heroes' feast"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "7 Permanent image"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "8 True creation"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "9 Genesis"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "reference": "SRD 3.5 DivineDomainsandSpells"
+      },
+      {
+        "name": "Darkness",
+        "granted_powers": "Free Blind-Fight feat.",
+        "spell_1": "obscuring mist",
+        "spell_2": "blindness",
+        "spell_3": "blacklight",
+        "spell_4": "armor of darkness",
+        "spell_5": "summon monster V (only summons 1d3 shadows)",
+        "spell_6": "prying eyes",
+        "spell_7": "nightmare",
+        "spell_8": "power word blind",
+        "spell_9": "power word kill",
+        "full_text": {
+          "div": {
+            "p": {
+              "h2": "Darkness Domain"
+            },
+            "div": [
+              {
+                "p": {
+                  "#text": "Free Blind-Fight feat.",
+                  "b": "Granted Power:"
+                }
+              },
+              {
+                "p": {
+                  "h5": {
+                    "b": "Darkness Domain Spells"
+                  }
+                },
+                "div": [
+                  {
+                    "p": {
+                      "b": "1 Obscuring mist"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "2 Blindness"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "3 Blacklight"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "4 Armor of darkness"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "5 Summon monster V (only summons 1d3 shadows)"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "6 Prying eyes"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "7 Nightmare"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "8 Power word, blind"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "9 Power word, kill"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "reference": "SRD 3.5 DivineDomainsandSpells"
+      },
+      {
+        "name": "Glory",
+        "granted_powers": "Turn undead with a +2 bonus on the turning check and +1d6 to the turning damage roll.",
+        "spell_1": "disrupt undead",
+        "spell_2": "bless weapon",
+        "spell_3": "searing light",
+        "spell_4": "holy smite",
+        "spell_5": "holy sword",
+        "spell_6": "bolt of glory",
+        "spell_7": "sunbeam",
+        "spell_8": "crown of glory",
+        "spell_9": "gate",
+        "full_text": {
+          "div": {
+            "p": {
+              "h2": "Glory Domain"
+            },
+            "div": [
+              {
+                "p": {
+                  "#text": "Turn undead with a +2 bonus on the turning check and +1d6 to the turning damage roll.",
+                  "b": "Granted Power:"
+                }
+              },
+              {
+                "p": {
+                  "h5": {
+                    "b": "Glory Domain Spells"
+                  }
+                },
+                "div": [
+                  {
+                    "p": {
+                      "b": "1 Disrupt undead"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "2 Bless weapon"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "3 Searing light"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "4 Holy smite"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "5 Holy sword"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "6 Bolt of glory"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "7 Sunbeam"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "8 Crown of glory"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "9 Gate"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "reference": "SRD 3.5 DivineDomainsandSpells"
+      },
+      {
+        "name": "Liberation",
+        "granted_powers": "The character gains a +2 morale bonus on all saving throws against enchantment spells or effects.",
+        "spell_1": "remove fear",
+        "spell_2": "remove paralysis",
+        "spell_3": "remove curse",
+        "spell_4": "freedom of movement",
+        "spell_5": "break enchantment",
+        "spell_6": "greater dispel magic",
+        "spell_7": "refuge",
+        "spell_8": "mind blank",
+        "spell_9": "unbinding",
+        "full_text": {
+          "div": {
+            "p": {
+              "h2": "Liberation Domain"
+            },
+            "div": [
+              {
+                "p": {
+                  "#text": "The character gains a +2 morale bonus on all saving throws against enchantment spells or effects.",
+                  "b": "Granted Power:"
+                }
+              },
+              {
+                "p": {
+                  "h5": {
+                    "b": "Liberation Domain Spells"
+                  }
+                },
+                "div": [
+                  {
+                    "p": {
+                      "b": "1 Remove fear"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "2 Remove paralysis"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "3 Remove curse"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "4 Freedom of movement"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "5 Break enchantment"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "6 Greater dispel magic"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "7 Refuge"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "8 Mind blank"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "9 Unbinding"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "reference": "SRD 3.5 DivineDomainsandSpells"
+      },
+      {
+        "name": "Madness",
+        "granted_powers": "The character gains an Insanity score equal to half his or her class level. For spellcasting (determining bonus spells and DCs), the character uses his or her Wisdom score plus his or her Insanity score in place of Wisdom alone.For all other purposes, such as skills and saves, use Wisdom minus Insanity in place of Wisdom.Once per day, the character can see and act with the clarity of true madness. Use the character's Insanity score as a positive rather than a negative modifier on a single roll involving Wisdom. Choose to use this power before the roll is made.",
+        "spell_1": "random action",
+        "spell_2": "touch of madness",
+        "spell_3": "rage",
+        "spell_4": "confusion",
+        "spell_5": "bolts of bedevilment",
+        "spell_6": "phantasmal killer",
+        "spell_7": "insanity",
+        "spell_8": "maddening scream",
+        "spell_9": "weird",
+        "full_text": {
+          "div": {
+            "p": {
+              "h2": "Madness Domain"
+            },
+            "div": [
+              {
+                "p": [
+                  {
+                    "#text": "The character gains an Insanity score equal to half his or her class level. For spellcasting (determining bonus spells and DCs), the character uses his or her Wisdom score plus his or her Insanity score in place of Wisdom alone.",
+                    "b": "Granted Power:"
+                  },
+                  "For all other purposes, such as skills and saves, use Wisdom minus Insanity in place of Wisdom.",
+                  "Once per day, the character can see and act with the clarity of true madness. Use the character's Insanity score as a positive rather than a negative modifier on a single roll involving Wisdom. Choose to use this power before the roll is made."
+                ]
+              },
+              {
+                "p": {
+                  "h5": {
+                    "b": "Madness Domain Spells"
+                  }
+                },
+                "div": [
+                  {
+                    "p": {
+                      "b": "1 Random action"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "2 Touch of madness"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "3 Rage"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "4 Confusion"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "5 Bolts of bedevilment"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "6 Phantasmal killer"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "7 Insanity"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "8 Maddening scream"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "9 Weird"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "reference": "SRD 3.5 DivineDomainsandSpells"
+      },
+      {
+        "name": "Nobility",
+        "granted_powers": "The character has the spell-like ability to inspire allies, giving them a +2 morale bonus on saving throws, attack rolls, ability checks, skill checks, and weapon damage rolls. Allies must be able to hear the character speak for 1 round. Using this ability is a standard action. It lasts a number of rounds equal to the character's Charisma bonus and can be used once per day.",
+        "spell_1": "divine favor",
+        "spell_2": "enthrall",
+        "spell_3": "magic vestment",
+        "spell_4": "discern lies",
+        "spell_5": "greater command",
+        "spell_6": "geas/quest",
+        "spell_7": "repulsion",
+        "spell_8": "demand",
+        "spell_9": "storm of vengeance",
+        "full_text": {
+          "div": {
+            "p": {
+              "h2": "Nobility Domain"
+            },
+            "div": [
+              {
+                "p": {
+                  "#text": "The character has the spell-like ability to inspire allies, giving them a +2 morale bonus on saving throws, attack rolls, ability checks, skill checks, and weapon damage rolls. Allies must be able to hear the character speak for 1 round. Using this ability is a standard action. It lasts a number of rounds equal to the character's Charisma bonus and can be used once per day.",
+                  "b": "Granted Power:"
+                }
+              },
+              {
+                "p": {
+                  "h5": {
+                    "b": "Nobility Domain Spells"
+                  }
+                },
+                "div": [
+                  {
+                    "p": {
+                      "b": "1 Divine favor"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "2 Enthrall"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "3 Magic vestment"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "4 Discern lies"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "5 Greater command"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "6 Geas/quest"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "7 Repulsion"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "8 Demand"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "9 Storm of vengeance"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "reference": "SRD 3.5 DivineDomainsandSpells"
+      },
+      {
+        "name": "Repose",
+        "granted_powers": "The character may use a death touch once per day. The death touch is a spell-like ability that is a death effect. The character must succeed at a melee touch attack against a living creature (using the rules for touch spells). When the character touches, roll 1d6 per his or her cleric level. If the total at least equals the creature's current hit points, it dies.",
+        "spell_1": "deathwatch",
+        "spell_2": "gentle repose",
+        "spell_3": "speak with dead",
+        "spell_4": "death ward",
+        "spell_5": "slay living",
+        "spell_6": "undeath to death",
+        "spell_7": "destruction",
+        "spell_8": "surelife",
+        "spell_9": "wail of the banshee",
+        "full_text": {
+          "div": {
+            "p": [
+              {
+                "h2": "Repose Domain"
+              },
+              "The Repose domain is similar to the Death domain, but is granted by good-aligned deities whose clerics are barred from casting evil spells."
+            ],
+            "div": [
+              {
+                "p": {
+                  "#text": "The character may use aonce per day. Theis a spell-like ability that is a death effect. The character must succeed at a melee touch attack against a living creature (using the rules for touch spells). When the character touches, roll 1d6 per his or her cleric level. If the total at least equals the creature's current hit points, it dies.",
+                  "b": "Granted Power:",
+                  "i": [
+                    "death touch",
+                    "death touch"
+                  ]
+                }
+              },
+              {
+                "p": {
+                  "h5": {
+                    "b": "Repose Domain Spells"
+                  }
+                },
+                "div": [
+                  {
+                    "p": {
+                      "b": "1 Deathwatch"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "2 Gentle repose"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "3 Speak with dead"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "4 Death ward"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "5 Slay living"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "6 Undeath to death"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "7 Destruction"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "8 Surelife"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "9 Wail of the banshee"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "reference": "SRD 3.5 DivineDomainsandSpells"
+      },
+      {
+        "name": "Rune",
+        "granted_powers": "Free Scribe Scroll feat.",
+        "spell_1": "erase",
+        "spell_2": "secret page",
+        "spell_3": "glyph of warding",
+        "spell_4": "explosive runes",
+        "spell_5": "lesser planar binding",
+        "spell_6": "greater glyph of warding",
+        "spell_7": "instant summons",
+        "spell_8": "symbol",
+        "spell_9": "teleportation circle",
+        "full_text": {
+          "div": {
+            "p": {
+              "h2": "Rune Domain"
+            },
+            "div": [
+              {
+                "p": {
+                  "#text": "Free Scribe Scroll feat.",
+                  "b": "Granted Power:"
+                }
+              },
+              {
+                "p": {
+                  "h5": {
+                    "b": "Rune Domain Spells"
+                  }
+                },
+                "div": [
+                  {
+                    "p": {
+                      "b": "1 Erase"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "2 Secret page"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "3 Glyph of warding"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "4 Explosive runes"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "5 Lesser planar binding"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "6 Greater glyph of warding"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "7 Instant summons"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "8 Symbol"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "9 Teleportation circle"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "reference": "SRD 3.5 DivineDomainsandSpells"
+      },
+      {
+        "name": "Scalykind",
+        "granted_powers": "Rebuke or command animals (reptilian creatures and snakes only) as an evil cleric rebukes or commands undead.Use this ability a total number of times per day equal to 3 + Charisma modifier.",
+        "spell_1": "magic fang",
+        "spell_2": "animal trance",
+        "spell_3": "greater magic fang",
+        "spell_4": "poison",
+        "spell_5": "animal growth",
+        "spell_6": "eyebite",
+        "spell_7": "creeping doom (composed of tiny snakes)",
+        "spell_8": "animal shapes",
+        "spell_9": "shapechange",
+        "full_text": {
+          "div": {
+            "p": {
+              "h2": "Scalykind Domain"
+            },
+            "div": [
+              {
+                "p": [
+                  {
+                    "#text": "Rebuke or command animals (reptilian creatures and snakes only) as an evil cleric rebukes or commands undead.",
+                    "b": "Granted Power:"
+                  },
+                  "Use this ability a total number of times per day equal to 3 + Charisma modifier."
+                ]
+              },
+              {
+                "p": {
+                  "h5": {
+                    "b": "Scalykind Domain Spells"
+                  }
+                },
+                "div": [
+                  {
+                    "p": {
+                      "b": "1 Magic fang"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "2 Animal trance"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "3 Greater magic fang"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "4 Poison"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "5 Animal growth"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "6 Eyebite"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "7 Creeping doom (composed of tiny snakes)"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "8 Animal shapes"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "9 Shapechange"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "reference": "SRD 3.5 DivineDomainsandSpells"
+      },
+      {
+        "name": "Weather",
+        "granted_powers": "Survival is a class skill.",
+        "spell_1": "obscuring mist",
+        "spell_2": "fog cloud",
+        "spell_3": "call lightning",
+        "spell_4": "sleet storm",
+        "spell_5": "ice storm",
+        "spell_6": "control winds",
+        "spell_7": "control weather",
+        "spell_8": "whirlwind",
+        "spell_9": "storm of vengeance",
+        "full_text": {
+          "div": {
+            "p": {
+              "h2": "Weather Domain"
+            },
+            "div": [
+              {
+                "p": {
+                  "#text": "Survival is a class skill.",
+                  "b": "Granted Power:"
+                }
+              },
+              {
+                "p": {
+                  "h5": {
+                    "b": "Weather Domain Spells"
+                  }
+                },
+                "div": [
+                  {
+                    "p": {
+                      "b": "1 Obscuring mist"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "2 Fog cloud"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "3 Call lightning"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "4 Sleet storm"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "5 Ice storm"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "6 Control winds"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "7 Control weather"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "8 Whirlwind"
+                    }
+                  },
+                  {
+                    "p": {
+                      "b": "9 Storm of vengeance"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "reference": "SRD 3.5 DivineDomainsandSpells"
+      },
+      {
+        "name": "Mind",
+        "granted_powers": "Gain a +2 bonus on Bluff, Diplomacy, and Sense Motive checks. Gain a +2 bonus on Will saves against enchantment spells and effects.",
+        "spell_1": "comprehend languages",
+        "spell_2": "detect thoughts",
+        "spell_3": "lesser telepathic bond",
+        "spell_4": "discern lies",
+        "spell_5": "telepathic bond",
+        "spell_6": "probe thoughts",
+        "spell_7": "brain spider",
+        "spell_8": "mind blank",
+        "spell_9": "weird",
+        "full_text": {
+          "div": {
+            "p": {
+              "h3": "Mind Domain"
+            },
+            "div": [
+              {
+                "p": {
+                  "#text": "Gain a +2 bonus on Bluff, Diplomacy, and Sense Motive checks. Gain a +2 bonus on Will saves against enchantment spells and effects.",
+                  "b": "Granted Power:"
+                }
+              },
+              {
+                "p": {
+                  "h5": {
+                    "b": "Mind Domain Spells"
+                  }
+                },
+                "div": [
+                  {
+                    "p": {
+                      "#text": "You understand all spoken and written languages.",
+                      "b": "1 Comprehend Languages:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Allows 'listening' to surface thoughts.",
+                      "b": "2 Detect Thoughts:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Link with subject within 30 ft. for 10 min./level.",
+                      "b": "3 Telepathic Bond, Lesser:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Reveals deliberate falsehoods.",
+                      "b": "4 Discern Lies:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Link lets allies communicate.",
+                      "b": "5 Telepathic Bond:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Read subject's memories, one question/round.",
+                      "b": "6 Probe Thoughts:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Eavesdrop on thoughts of up to eight other creatures.",
+                      "b": "7 Brain Spider:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Subject is immune to mental/emotional magic and scrying.",
+                      "b": "8 Mind Blank:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Fearful illusion affects all within 30 ft., either killing or dealing 3d6 damage.",
+                      "b": "9 Weird:"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "reference": "SRD 3.5 PsionicSpells"
+      },
+      {
+        "name": "Air",
+        "granted_powers": "Turn or destroy earth creatures as a good cleric turns undead. Rebuke, command, or bolster air creatures as an evil cleric rebukes undead. Use these abilities a total number of times per day equal to 3 + your Charisma modifier. This granted power is a supernatural ability.",
+        "spell_1": "obscuring mist",
+        "spell_2": "wind wall",
+        "spell_3": "gaseous form",
+        "spell_4": "air walk",
+        "spell_5": "control winds",
+        "spell_6": "chain lightning",
+        "spell_7": "control weather",
+        "spell_8": "whirlwind",
+        "spell_9": "elemental swarm",
+        "full_text": {
+          "div": {
+            "p": {
+              "h4": "Air Domain"
+            },
+            "div": [
+              {
+                "p": {
+                  "#text": "Turn or destroy earth creatures as a good cleric turns undead. Rebuke, command, or bolster air creatures as an evil cleric rebukes undead. Use these abilities a total number of times per day equal to 3 + your Charisma modifier. This granted power is a supernatural ability.",
+                  "b": "Granted Powers:"
+                }
+              },
+              {
+                "p": {
+                  "h5": {
+                    "b": "Air Domain Spells"
+                  }
+                },
+                "div": [
+                  {
+                    "p": {
+                      "#text": "Fog surrounds you.",
+                      "b": "1 Obscuring Mist:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Deflects arrows, smaller creatures, and gases.",
+                      "b": "2 Wind Wall:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Subject becomes insubstantial and can fly slowly.",
+                      "b": "3 Gaseous Form:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Subject treads on air as if solid (climb at 45-degree angle).",
+                      "b": "4 Air Walk:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Change wind direction and speed.",
+                      "b": "5 Control Winds:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "1d6/level damage; 1 secondary bolt/level each deals half damage.",
+                      "b": "6 Chain Lightning:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Changes weather in local area.",
+                      "b": "7 Control Weather:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Cyclone deals damage and can pick up creatures.",
+                      "b": "8 Whirlwind:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Summons multiple elementals.",
+                      "b": "9 Elemental Swarm*:"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "reference": "SRD 3.5 SpellListI"
+      },
+      {
+        "name": "Animal",
+        "granted_powers": "You can use speak with animals once per day as a spell-like ability.Add Knowledge (nature) to your list of cleric class skills.",
+        "spell_1": "calm animals",
+        "spell_2": "hold animal",
+        "spell_3": "dominate animal",
+        "spell_4": "summon nature's ally IV",
+        "spell_5": "commune with nature",
+        "spell_6": "antilife shell",
+        "spell_7": "animal shapes",
+        "spell_8": "summon nature's ally VIII",
+        "spell_9": "shapechange",
+        "full_text": {
+          "div": {
+            "p": {
+              "h4": "Animal Domain"
+            },
+            "div": [
+              {
+                "p": [
+                  {
+                    "#text": "You can useonce per day as a spell-like ability.",
+                    "b": "Granted Powers:",
+                    "i": "speak with animals"
+                  },
+                  "Add Knowledge (nature) to your list of cleric class skills."
+                ]
+              },
+              {
+                "p": {
+                  "h5": {
+                    "b": "Animal Domain Spells"
+                  }
+                },
+                "div": [
+                  {
+                    "p": {
+                      "#text": "Calms (2d4 + level) HD of animals.",
+                      "b": "1 Calm Animals:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Paralyzes one animal for 1 round/level.",
+                      "b": "2 Hold Animal:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Subject animal obeys silent mental commands.",
+                      "b": "3 Dominate Animal:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Calls creature to fight.",
+                      "b": "4 Summon Nature's Ally IV*:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Learn about terrain for 1 mile/level.",
+                      "b": "5 Commune with Nature:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "10-ft. field hedges out living creatures.",
+                      "b": "6 Antilife Shell:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "One ally/level polymorphs into chosen animal.",
+                      "b": "7 Animal Shapes:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Calls creature to fight.",
+                      "b": "8 Summon Nature's Ally VIII*:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Transforms you into any creature, and change forms once per round.",
+                      "b": "9 Shapechange:"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "reference": "SRD 3.5 SpellListI"
+      },
+      {
+        "name": "Chaos",
+        "granted_powers": "You cast chaos spells at +1 caster level.",
+        "spell_1": "protection from law",
+        "spell_2": "shatter",
+        "spell_3": "magic circle against law",
+        "spell_4": "chaos hammer",
+        "spell_5": "dispel law",
+        "spell_6": "animate objects",
+        "spell_7": "word of chaos",
+        "spell_8": "cloak of chaos",
+        "spell_9": "summon monster IX",
+        "full_text": {
+          "div": {
+            "p": {
+              "h4": "Chaos Domain"
+            },
+            "div": [
+              {
+                "p": {
+                  "#text": "You cast chaos spells at +1 caster level.",
+                  "b": "Granted Power:"
+                }
+              },
+              {
+                "p": {
+                  "h5": {
+                    "b": "Chaos Domain Spells"
+                  }
+                },
+                "div": [
+                  {
+                    "p": {
+                      "#text": "+2 to AC and saves, counter mind control, hedge out elementals and outsiders.",
+                      "b": "1 Protection from Law:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Sonic vibration damages objects or crystalline creatures.",
+                      "b": "2 Shatter:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Asspells, but 10-ft. radius and 10 min./level.",
+                      "b": "3 Magic Circle against Law:",
+                      "i": "protection"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Damages and staggers lawful creatures.",
+                      "b": "4 Chaos Hammer:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "+4 bonus against attacks by lawful creatures.",
+                      "b": "5 Dispel Law:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Objects attack your foes.",
+                      "b": "6 Animate Objects:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Kills,,  stuns, or deafens nonchaotic subjects.",
+                      "b": "7 Word of Chaos:",
+                      "i": "confuses"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "+4 to AC, +4 resistance, spell resistance 25 against lawful spells.",
+                      "b": "8 Cloak of Chaos:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Calls extraplanar creature to fight for you.",
+                      "b": "9 Summon Monster IX*:"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "reference": "SRD 3.5 SpellListI"
+      },
+      {
+        "name": "Death",
+        "granted_powers": "You may use a death touch once per day. Your death touch is a supernatural ability that produces a death effect. You must succeed on a melee touch attack against a living creature (using the rules for touch spells). When you touch, roll 1d6 per cleric level you possess. If the total at least equals the creature's current hit points, it dies (no save).",
+        "spell_1": "cause fear",
+        "spell_2": "death knell",
+        "spell_3": "animate dead",
+        "spell_4": "death ward",
+        "spell_5": "slay living",
+        "spell_6": "create undead",
+        "spell_7": "destruction",
+        "spell_8": "create greater undead",
+        "spell_9": "wail of the banshee",
+        "full_text": {
+          "div": {
+            "p": {
+              "h4": "Death Domain"
+            },
+            "div": [
+              {
+                "p": {
+                  "#text": "You may use a death touch once per day. Your death touch is a supernatural ability that produces a death effect. You must succeed on a melee touch attack against a living creature (using the rules for touch spells). When you touch, roll 1d6 per cleric level you possess. If the total at least equals the creature's current hit points, it dies (no save).",
+                  "b": "Granted Power:"
+                }
+              },
+              {
+                "p": {
+                  "h5": {
+                    "b": "Death Domain Spells"
+                  }
+                },
+                "div": [
+                  {
+                    "p": {
+                      "#text": "One creature of 5 HD or less flees for 1d4 rounds.",
+                      "b": "1 Cause Fear:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Kill dying creature and gain 1d8 temporary hp, +2 to Str, and +1 caster level.",
+                      "b": "2 Death Knell:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Creates undead skeletons and zombies.",
+                      "b": "3 Animate Dead:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Grants immunity to death spells and negative energy effects.",
+                      "b": "4 Death Ward:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Touch attack kills subject.",
+                      "b": "5 Slay Living:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Create ghouls, ghasts, mummies, or mohrgs.",
+                      "b": "6 Create Undead:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Kills subject and destroys remains.",
+                      "b": "7 Destruction:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Create shadows, wraiths, spectres, r devourers.",
+                      "b": "8 Create Greater Undead:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Kills one creature/level.",
+                      "b": "9 Wail of the Banshee:"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "reference": "SRD 3.5 SpellListI"
+      },
+      {
+        "name": "Destruction",
+        "granted_powers": "You gain the smite power, the supernatural ability to make a single melee attack with a +4 bonus on attack rolls and a bonus on damage rolls equal to your cleric level (if you hit). You must declare the smite before making the attack. This ability is usable once per day.",
+        "spell_1": "inflict light wounds",
+        "spell_2": "shatter",
+        "spell_3": "contagion",
+        "spell_4": "inflict critical wounds",
+        "spell_5": "mass inflict light wounds",
+        "spell_6": "harm",
+        "spell_7": "disintegrate",
+        "spell_8": "earthquake",
+        "spell_9": "implosion",
+        "full_text": {
+          "div": {
+            "p": {
+              "h4": "Destruction Domain"
+            },
+            "div": [
+              {
+                "p": {
+                  "#text": "You gain the smite power, the supernatural ability to make a single melee attack with a +4 bonus on attack rolls and a bonus on damage rolls equal to your cleric level (if you hit). You must declare the smite before making the attack. This ability is usable once per day.",
+                  "b": "Granted Power:"
+                }
+              },
+              {
+                "p": {
+                  "h5": {
+                    "b": "Destruction Domain Spells"
+                  }
+                },
+                "div": [
+                  {
+                    "p": {
+                      "#text": "Touch attack, 1d8 damage +1/level (max +5).",
+                      "b": "1 Inflict Light Wounds:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Sonic vibration damages objects or crystalline creatures.",
+                      "b": "2 Shatter:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Infects subject with chosen disease.",
+                      "b": "3 Contagion:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Touch attack, 4d8 damage +1/level (max +20).",
+                      "b": "4 Inflict Critical Wounds:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Deals 1d8 damage +1/level to any creatures.",
+                      "b": "5 Inflict Light Wounds, Mass:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "6Deals 10 points/level damage to target.",
+                      "b": "Harm:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Makes one creature or object vanish.",
+                      "b": "7 Disintegrate:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Intense tremor shakes 80-ft. -radius.",
+                      "b": "8 Earthquake:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Kills one creature/round.",
+                      "b": "9 Implosion:"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "reference": "SRD 3.5 SpellListI"
+      },
+      {
+        "name": "Earth",
+        "granted_powers": "Turn or destroy air creatures as a good cleric turns undead. Rebuke, command, or bolster earth creatures as an evil cleric rebukes undead. Use these abilities a total number of times per day equal to 3 + your Charisma modifier. This granted power is a supernatural ability.",
+        "spell_1": "magic stone",
+        "spell_2": "soften earth and stone",
+        "spell_3": "stone shape",
+        "spell_4": "spike stones",
+        "spell_5": "wall of stone",
+        "spell_6": "stoneskin",
+        "spell_7": "earthquake",
+        "spell_8": "iron body",
+        "spell_9": "elemental swarm",
+        "full_text": {
+          "div": {
+            "p": {
+              "h4": "Earth Domain"
+            },
+            "div": [
+              {
+                "p": {
+                  "#text": "Turn or destroy air creatures as a good cleric turns undead. Rebuke, command, or bolster earth creatures as an evil cleric rebukes undead. Use these abilities a total number of times per day equal to 3 + your Charisma modifier. This granted power is a supernatural ability.",
+                  "b": "Granted Power:"
+                }
+              },
+              {
+                "p": {
+                  "h5": {
+                    "b": "Earth Domain Spells"
+                  }
+                },
+                "div": [
+                  {
+                    "p": {
+                      "#text": "Three stones become +1 projectiles, 1d6 +1 damage.",
+                      "b": "1 Magic Stone:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Turns stone to clay or dirt to sand or mud.",
+                      "b": "2 Soften Earth and Stone:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Sculpts stone into any shape.",
+                      "b": "3 Stone Shape:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Creatures in area take 1d8 damage, may be.",
+                      "b": "4 Spike Stones:",
+                      "i": "lowed"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Creates a stone wall that can be shaped.",
+                      "b": "5 Wall of Stone:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Ignore 10 points of damage per attack.",
+                      "b": "6 Stoneskin:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Intense tremor shakes 80-ft. -radius.",
+                      "b": "7 Earthquake:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Your body becomes living iron.",
+                      "b": "8 Iron Body:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Summons multiple elementals.",
+                      "b": "9 Elemental Swarm*:"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "reference": "SRD 3.5 SpellListI"
+      },
+      {
+        "name": "Evil",
+        "granted_powers": "You cast evil spells at +1 caster level.",
+        "spell_1": "protection from good",
+        "spell_2": "desecrate",
+        "spell_3": "magic circle against good",
+        "spell_4": "unholy blight",
+        "spell_5": "dispel good",
+        "spell_6": "create undead",
+        "spell_7": "blasphemy",
+        "spell_8": "unholy aura",
+        "spell_9": "summon monster IX",
+        "full_text": {
+          "div": {
+            "p": {
+              "h4": "Evil Domain"
+            },
+            "div": [
+              {
+                "p": {
+                  "#text": "You cast evil spells at +1 caster level.",
+                  "b": "Granted Power:"
+                }
+              },
+              {
+                "p": {
+                  "h5": {
+                    "b": "Evil Domain Spells"
+                  }
+                },
+                "div": [
+                  {
+                    "p": {
+                      "#text": "+2 to AC and saves, counter mind control, hedge out elementals and outsiders.",
+                      "b": "1 Protection from Good:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Fills area with negative energy, making undead stronger.",
+                      "b": "2 Desecrate:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Asspells, but 10-ft. radius and 10 min./level.",
+                      "b": "3 Magic Circle against Good:",
+                      "i": "protection"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Damages and sickens good creatures.",
+                      "b": "4 Unholy Blight:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "+4 bonus against attacks by good creatures.",
+                      "b": "5 Dispel Good:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Create ghouls, ghasts, mummies, or mohrgs.",
+                      "b": "6 Create Undead:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Kills, paralyzes, weakens, or dazes nonevil subjects.",
+                      "b": "7 Blasphemy:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "+4 to AC, +4 resistance, spell resistance 25 against good spells.",
+                      "b": "8 Unholy Aura:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Calls extraplanar creature to fight for you.",
+                      "b": "9 Summon Monster IX*:"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "reference": "SRD 3.5 SpellListI"
+      },
+      {
+        "name": "Fire",
+        "granted_powers": "Turn or destroy water creatures as a good cleric turns undead. Rebuke, command, or bolster fire creatures as an evil cleric rebukes undead. Use these abilities a total number of times per day equal to 3 + your Charisma modifier. This granted power is a supernatural ability.",
+        "spell_1": "burning hands",
+        "spell_2": "produce flame",
+        "spell_3": "resist energy",
+        "spell_4": "wall of fire",
+        "spell_5": "fire shield",
+        "spell_6": "fire seeds",
+        "spell_7": "fire storm",
+        "spell_8": "incendiary cloud",
+        "spell_9": "elemental swarm",
+        "full_text": {
+          "div": {
+            "p": {
+              "h4": "Fire Domain"
+            },
+            "div": [
+              {
+                "p": {
+                  "#text": "Turn or destroy water creatures as a good cleric turns undead. Rebuke, command, or bolster fire creatures as an evil cleric rebukes undead. Use these abilities a total number of times per day equal to 3 + your Charisma modifier. This granted power is a supernatural ability.",
+                  "b": "Granted Power:"
+                }
+              },
+              {
+                "p": {
+                  "h5": {
+                    "b": "Fire Domain Spells"
+                  }
+                },
+                "div": [
+                  {
+                    "p": {
+                      "#text": "1d4/level fire damage (max 5d4).",
+                      "b": "1 Burning Hands:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "1d6 damage +1/level, touch or thrown.",
+                      "b": "2 Produce Flame:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Ignores 10 (or more) points of damage/attack from specified energy type.",
+                      "b": "3 Resist Energy*:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Deals 2d4 fire damage out to 10 ft. and 1d4 out to 20 ft. Passing through wall deals 2d6 damage +1/level.",
+                      "b": "4 Wall of Fire:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Creatures attacking you take fire damage; you're protected from heat or cold.",
+                      "b": "5 Fire Shield:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Acorns and berries become grenades and bombs.",
+                      "b": "6 Fire Seeds:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Deals 1d6/level fire damage.",
+                      "b": "7 Fire Storm:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Cloud deals 4d6 fire damage/round.",
+                      "b": "8 Incendiary Cloud:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Summons multiple elementals.",
+                      "b": "9 Elemental Swarm**:"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "reference": "SRD 3.5 SpellListI"
+      },
+      {
+        "name": "Good",
+        "granted_powers": "You cast good spells at +1 caster level.",
+        "spell_1": "protection from evil",
+        "spell_2": "aid",
+        "spell_3": "magic circle against evil",
+        "spell_4": "holy smite",
+        "spell_5": "dispel evil",
+        "spell_6": "blade barrier",
+        "spell_7": "holy word",
+        "spell_8": "holy aura",
+        "spell_9": "summon monster IX",
+        "full_text": {
+          "div": {
+            "p": {
+              "h4": "Good Domain"
+            },
+            "div": [
+              {
+                "p": {
+                  "#text": "You cast good spells at +1 caster level.",
+                  "b": "Granted Power:"
+                }
+              },
+              {
+                "p": {
+                  "h5": {
+                    "b": "Good Domain Spells"
+                  }
+                },
+                "div": [
+                  {
+                    "p": {
+                      "#text": "+2 to AC and saves, counter mind control, hedge out elementals and outsiders.",
+                      "b": "1 Protection from Evil:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "+1 on attack rolls, +1 on saves against fear, 1d8 temporary hp +1/level (max +10).",
+                      "b": "2 Aid:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Asspells, but 10-ft. radius and 10 min./level.",
+                      "b": "3 Magic Circle against Evil:",
+                      "i": "protection"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Damages and blinds evil creatures.",
+                      "b": "4 Holy Smite:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "+4 bonus against attacks by evil creatures.",
+                      "b": "5 Dispel Evil:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Wall of blades deals 1d6/level damage.",
+                      "b": "6 Blade Barrier:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Kills, paralyzes, slows, or deafens nongood subjects.",
+                      "b": "7 Holy Word:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "+4 to AC, +4 resistance, and spell resistance 25 against evil spells.",
+                      "b": "8 Holy Aura:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Calls extraplanar creature to fight for you.",
+                      "b": "9 Summon Monster IX*:"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "reference": "SRD 3.5 SpellListI"
+      },
+      {
+        "name": "Healing",
+        "granted_powers": "You cast healing spells at +1 caster level.",
+        "spell_1": "cure light wounds",
+        "spell_2": "cure moderate wounds",
+        "spell_3": "cure serious wounds",
+        "spell_4": "cure critical wounds",
+        "spell_5": "mass cure light wounds",
+        "spell_6": "heal",
+        "spell_7": "regenerate",
+        "spell_8": "mass cure critical wounds",
+        "spell_9": "mass heal",
+        "full_text": {
+          "div": {
+            "p": {
+              "h4": "Healing Domain"
+            },
+            "div": [
+              {
+                "p": {
+                  "#text": "You cast healing spells at +1 caster level.",
+                  "b": "Granted Power:"
+                }
+              },
+              {
+                "p": {
+                  "h5": {
+                    "b": "Healing Domain Spells"
+                  }
+                },
+                "div": [
+                  {
+                    "p": {
+                      "#text": "Cures 1d8 damage +1/level (max +5).",
+                      "b": "1 Cure Light Wounds:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Cures 2d8 damage +1/level (max +10).",
+                      "b": "2 Cure Moderate Wounds:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Cures 3d8 damage +1/level (max +15).",
+                      "b": "3 Cure Serious Wounds:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Cures 4d8 damage +1/level (max +20).",
+                      "b": "4 Cure Critical Wounds:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Cures 1d8 damage +1/level (max +25) for many creatures.",
+                      "b": "5 Cure Light Wounds, Mass:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Cures 10 points/level of damage, all diseases and mental conditions.",
+                      "b": "6 Heal:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Subject's severed limbs grow back, cures 4d8 damage +1/level (max +35).",
+                      "b": "7 Regenerate:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Cures 4d8 damage +1/level (max +40) for many creatures.",
+                      "b": "8 Cure Critical Wounds, Mass:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "As, but with several subjects.",
+                      "b": "9 Heal, Mass:",
+                      "i": "heal"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "reference": "SRD 3.5 SpellListI"
+      },
+      {
+        "name": "Knowledge",
+        "granted_powers": "Add all Knowledge skills to your list of cleric class skills.You cast divination spells at +1 caster level.",
+        "spell_1": "detect secret doors",
+        "spell_2": "detect thoughts",
+        "spell_3": "clairaudience/clairvoyance",
+        "spell_4": "divination",
+        "spell_5": "true seeing",
+        "spell_6": "find the path",
+        "spell_7": "legend lore",
+        "spell_8": "discern location",
+        "spell_9": "foresight",
+        "full_text": {
+          "div": {
+            "p": {
+              "h4": "Knowledge Domain"
+            },
+            "div": [
+              {
+                "p": [
+                  {
+                    "#text": "Add all Knowledge skills to your list of cleric class skills.",
+                    "b": "Granted Power:"
+                  },
+                  "You cast divination spells at +1 caster level."
+                ]
+              },
+              {
+                "p": {
+                  "h5": {
+                    "b": "Knowledge Domain Spells"
+                  }
+                },
+                "div": [
+                  {
+                    "p": {
+                      "#text": "Reveals hidden doors within 60 ft.",
+                      "b": "1 Detect Secret Doors:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Allows 'listening' to surface thoughts.",
+                      "b": "2 Detect Thoughts:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Hear or see at a distance for 1 min./level.",
+                      "b": "3 Clairaudience/Clairvoyance:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Provides useful advice for specific proposed actions.",
+                      "b": "4 Divination:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Lets you see all things as they really are.",
+                      "b": "5 True Seeing:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Shows most direct way to a location.",
+                      "b": "6 Find the Path:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Lets you learn tales about a person, place, or thing.",
+                      "b": "7 Legend Lore:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Reveals exact location of creature or object.",
+                      "b": "8 Discern Location:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "'Sixth sense' warns of impending danger.",
+                      "b": "9 Foresight:"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "reference": "SRD 3.5 SpellListI"
+      },
+      {
+        "name": "Law",
+        "granted_powers": "You cast law spells at +1 caster level.",
+        "spell_1": "protection from chaos",
+        "spell_2": "calm emotions",
+        "spell_3": "magic circle against chaos",
+        "spell_4": "order's wrath",
+        "spell_5": "dispel chaos",
+        "spell_6": "hold monster",
+        "spell_7": "dictum",
+        "spell_8": "shield of law",
+        "spell_9": "summon monster IX",
+        "full_text": {
+          "div": {
+            "p": {
+              "h4": "Law Domain"
+            },
+            "div": [
+              {
+                "p": {
+                  "#text": "You cast law spells at +1 caster level.",
+                  "b": "Granted Power:"
+                }
+              },
+              {
+                "p": {
+                  "h5": {
+                    "b": "Law Domain Spells"
+                  }
+                },
+                "div": [
+                  {
+                    "p": {
+                      "#text": "+2 to AC and saves, counter mind control, hedge out elementals and outsiders.",
+                      "b": "1 Protection from Chaos:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Calms creatures, negating emotion effects.",
+                      "b": "2 Calm Emotions:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Asspells, but 10-ft. radius and 10 min./level.",
+                      "b": "3 Magic Circle against Chaos:",
+                      "i": "protection"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Damages and dazes chaotic creatures.",
+                      "b": "4 Order's Wrath:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "+4 bonus against attacks by chaotic creatures.",
+                      "b": "5 Dispel Chaos:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "As, but any creature.",
+                      "b": "6 Hold Monster:",
+                      "i": "hold person"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Kills, paralyzes, slows, or deafens nonlawful subjects.",
+                      "b": "7 Dictum:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "+4 to AC, +4 resistance, and spell resistance 25 against chaotic spells.",
+                      "b": "8 Shield of Law:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Calls extraplanar creature to fight for you.",
+                      "b": "9 Summon Monster IX*:"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "reference": "SRD 3.5 SpellListI"
+      },
+      {
+        "name": "Luck",
+        "granted_powers": "You gain the power of good fortune, which is usable once per day. This extraordinary ability allows you to reroll one roll that you have just made before the DM declares whether the roll results in success or failure. You must take the result of the reroll, even if it's worse than the original roll.",
+        "spell_1": "entropic shield",
+        "spell_2": "aid",
+        "spell_3": "protection from energy",
+        "spell_4": "freedom of movement",
+        "spell_5": "break enchantment",
+        "spell_6": "mislead",
+        "spell_7": "spell turning",
+        "spell_8": "moment of prescience",
+        "spell_9": "miracle",
+        "full_text": {
+          "div": {
+            "p": {
+              "h4": "Luck Domain"
+            },
+            "div": [
+              {
+                "p": {
+                  "#text": "You gain the power of good fortune, which is usable once per day. This extraordinary ability allows you to reroll one roll that you have just made before the DM declares whether the roll results in success or failure. You must take the result of the reroll, even if it's worse than the original roll.",
+                  "b": "Granted Power:"
+                }
+              },
+              {
+                "p": {
+                  "h5": {
+                    "b": "Luck Domain Spells"
+                  }
+                },
+                "div": [
+                  {
+                    "p": {
+                      "#text": "Ranged attacks against you have 20% miss chance.",
+                      "b": "1 Entropic Shield:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "+1 on attack rolls, +1 against fear, 1d8 temporary hp +1/level (max +10).",
+                      "b": "2 Aid:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Absorb 12 points/level of damage from one kind of energy.",
+                      "b": "3 Protection from Energy:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Subject moves normally despite impediments.",
+                      "b": "4 Freedom of Movement:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Frees subjects from enchantments, alterations, curses, and petrification.",
+                      "b": "5 Break Enchantment:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Turns you invisible and creates illusory double.",
+                      "b": "6 Mislead:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Reflect 1d4+6 spell levels back at caster.",
+                      "b": "7 Spell Turning:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "You gain insight bonus on single attack roll, check, or save.",
+                      "b": "8 Moment of Prescience:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Requests a deity's intercession.",
+                      "b": "9 Miracle:"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "reference": "SRD 3.5 SpellListI"
+      },
+      {
+        "name": "Magic",
+        "granted_powers": "Use scrolls, wands, and other devices with spell completion or spell trigger activation as a wizard of one-half your cleric level (at least 1st level). For the purpose of using a scroll or other magic device, if you are also a wizard, actual wizard levels and these effective wizard levels stack.",
+        "spell_1": "magic aura",
+        "spell_2": "identify",
+        "spell_3": "dispel magic",
+        "spell_4": "imbue with spell ability",
+        "spell_5": "spell resistance",
+        "spell_6": "antimagic field",
+        "spell_7": "spell turning",
+        "spell_8": "protection from spells",
+        "spell_9": "mage's disjunction",
+        "full_text": {
+          "div": {
+            "p": {
+              "h4": "Magic Domain"
+            },
+            "div": [
+              {
+                "p": {
+                  "#text": "Use scrolls, wands, and other devices with spell completion or spell trigger activation as a wizard of one-half your cleric level (at least 1st level). For the purpose of using a scroll or other magic device, if you are also a wizard, actual wizard levels and these effective wizard levels stack.",
+                  "b": "Granted Power:"
+                }
+              },
+              {
+                "p": {
+                  "h5": {
+                    "b": "Magic Domain Spells"
+                  }
+                },
+                "div": [
+                  {
+                    "p": {
+                      "#text": "Alters object's magic aura.",
+                      "b": "1 Magic Aura:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Determines properties of magic item.",
+                      "b": "2 Identify:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Cancels magical spells and effects.",
+                      "b": "3 Dispel Magic:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Transfer spells to subject.",
+                      "b": "4 Imbue with Spell Ability:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Subject gains spell resistance 12 + level.",
+                      "b": "5 Spell Resistance:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Negates magic within 10 ft.",
+                      "b": "6 Antimagic Field:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Reflect 1d4+6 spell levels back at caster.",
+                      "b": "7 Spell Turning:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Confers +8 resistance bonus.",
+                      "b": "8 Protection from Spells:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Dispels magic, disenchants magic items.",
+                      "b": "9 Mage's Disjunction:"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "reference": "SRD 3.5 SpellListI"
+      },
+      {
+        "name": "Plant",
+        "granted_powers": "Rebuke or command plant creatures as an evil cleric rebukes or commands undead. Use this ability a total number of times per day equal to 3 + your Charisma modifier. This granted power is a supernatural ability.Add Knowledge (nature) to your list of cleric class skills.",
+        "spell_1": "entangle",
+        "spell_2": "barkskin",
+        "spell_3": "plant growth",
+        "spell_4": "command plants",
+        "spell_5": "wall of thorns",
+        "spell_6": "repel wood",
+        "spell_7": "animate plants",
+        "spell_8": "control plants",
+        "spell_9": "shambler",
+        "full_text": {
+          "div": {
+            "p": {
+              "h4": "Plant Domain"
+            },
+            "div": [
+              {
+                "p": [
+                  {
+                    "#text": "Rebuke or command plant creatures as an evil cleric rebukes or commands undead. Use this ability a total number of times per day equal to 3 + your Charisma modifier. This granted power is a supernatural ability.",
+                    "b": "Granted Powers:"
+                  },
+                  "Add Knowledge (nature) to your list of cleric class skills."
+                ]
+              },
+              {
+                "p": {
+                  "h5": {
+                    "b": "Plant Domain Spells"
+                  }
+                },
+                "div": [
+                  {
+                    "p": {
+                      "#text": "Plants entangle everyone in 40-ft. -radius.",
+                      "b": "1 Entangle:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Grants +2 (or higher) enhancement to natural armor.",
+                      "b": "2 Barkskin:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Grows vegetation, improves crops.",
+                      "b": "3 Plant Growth:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Sway the actions of one or more plant creatures.",
+                      "b": "4 Command Plants:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Thorns damage anyone who tries to pass.",
+                      "b": "5 Wall of Thorns:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Pushes away wooden objects.",
+                      "b": "6 Repel Wood:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "One or more trees animate and fight for you.",
+                      "b": "7 Animate Plants:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Control actions of one or more plant creatures.",
+                      "b": "8 Control Plants:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Summons 1d4+2 shambling mounds to fight for you.",
+                      "b": "9 Shambler:"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "reference": "SRD 3.5 SpellListI"
+      },
+      {
+        "name": "Protection",
+        "granted_powers": "You can generate a protective ward as a supernatural ability. Grant someone you touch a resistance bonus equal to your cleric level on his or her next saving throw. Activating this power is a standard action. The protective ward is an abjuration effect with a duration of 1 hour that is usable once per day.",
+        "spell_1": "sanctuary",
+        "spell_2": "shield other",
+        "spell_3": "protection from energy",
+        "spell_4": "spell immunity",
+        "spell_5": "spell resistance",
+        "spell_6": "antimagic field",
+        "spell_7": "repulsion",
+        "spell_8": "mind blank",
+        "spell_9": "prismatic sphere",
+        "full_text": {
+          "div": {
+            "p": {
+              "h4": "Protection Domain"
+            },
+            "div": [
+              {
+                "p": {
+                  "#text": "You can generate aas a supernatural ability. Grant someone you touch a resistance bonus equal to your cleric level on his or her next saving throw. Activating this power is a standard action. Theis an abjuration effect with a duration of 1 hour that is usable once per day.",
+                  "b": "Granted Power:",
+                  "i": [
+                    "protective ward",
+                    "protective ward"
+                  ]
+                }
+              },
+              {
+                "p": {
+                  "h5": {
+                    "b": "Protection Domain Spells"
+                  }
+                },
+                "div": [
+                  {
+                    "p": {
+                      "#text": "Opponents can't attack you, and you can't attack.",
+                      "b": "1 Sanctuary:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "You take half of subject's damage.",
+                      "b": "2 Shield Other:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Absorb 12 points/level of damage from one kind of energy.",
+                      "b": "3 Protection from Energy:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Subject is immune to one spell per four levels.",
+                      "b": "4 Spell Immunity:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Subject gains spell resistance 12 + level.",
+                      "b": "5 Spell Resistance:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Negates magic within 10 ft.",
+                      "b": "6 Antimagic Field:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Creatures can't approach you.",
+                      "b": "7 Repulsion:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Subject is immune to mental/emotional magic and scrying.",
+                      "b": "8 Mind Blank:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "As, but surrounds on all sides.",
+                      "b": "9 Prismatic Sphere:",
+                      "i": "prismatic wall"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "reference": "SRD 3.5 SpellListI"
+      },
+      {
+        "name": "Strength",
+        "granted_powers": "You can perform a feat of strength as a supernatural ability. You gain an enhancement bonus to Strength equal to your cleric level. Activating the power is a free action, the power lasts 1 round, and it is usable once per day.",
+        "spell_1": "enlarge person",
+        "spell_2": "bull's strength",
+        "spell_3": "magic vestment",
+        "spell_4": "spell immunity",
+        "spell_5": "righteous might",
+        "spell_6": "stoneskin",
+        "spell_7": "grasping hand",
+        "spell_8": "clenched fist",
+        "spell_9": "crushing hand",
+        "full_text": {
+          "div": {
+            "p": {
+              "h4": "Strength Domain"
+            },
+            "div": [
+              {
+                "p": {
+                  "#text": "You can perform a feat of strength as a supernatural ability. You gain an enhancement bonus to Strength equal to your cleric level. Activating the power is a free action, the power lasts 1 round, and it is usable once per day.",
+                  "b": "Granted Power:"
+                }
+              },
+              {
+                "p": {
+                  "h5": {
+                    "b": "Strength Domain Spells"
+                  }
+                },
+                "div": [
+                  {
+                    "p": {
+                      "#text": "Humanoid creature doubles in size.",
+                      "b": "1 Enlarge Person:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Subject gains +4 to Str for 1 min./level.",
+                      "b": "2 Bull's Strength:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Armor or shield gains +1 enhancement per four levels.",
+                      "b": "3 Magic Vestment:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Subject is immune to one spell per four levels.",
+                      "b": "4 Spell Immunity:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Your size increases, and you gain combat bonuses.",
+                      "b": "5 Righteous Might:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Ignore 10 points of damage per attack.",
+                      "b": "6 Stoneskin:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Large hand provides cover, pushes, or grapples.",
+                      "b": "7 Grasping Hand:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Large hand provides cover, pushes, or attacks your foes.",
+                      "b": "8 Clenched Fist:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Large hand provides cover, pushes, or crushes your foes.",
+                      "b": "9 Crushing Hand:"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "reference": "SRD 3.5 SpellListI"
+      },
+      {
+        "name": "Sun",
+        "granted_powers": "Once per day, you can perform a greater turning against undead in place of a regular turning. The greater turning is like a normal turning except that the undead creatures that would be turned are destroyed instead.",
+        "spell_1": "endure elements",
+        "spell_2": "heat metal",
+        "spell_3": "searing light",
+        "spell_4": "fire shield",
+        "spell_5": "flame strike",
+        "spell_6": "fire seeds",
+        "spell_7": "sunbeam",
+        "spell_8": "sunburst",
+        "spell_9": "prismatic sphere",
+        "full_text": {
+          "div": {
+            "p": {
+              "h4": "Sun Domain"
+            },
+            "div": [
+              {
+                "p": {
+                  "#text": "Once per day, you can perform a greater turning against undead in place of a regular turning. The greater turning is like a normal turning except that the undead creatures that would be turned are destroyed instead.",
+                  "b": "Granted Power:"
+                }
+              },
+              {
+                "p": {
+                  "h5": {
+                    "b": "Sun Domain Spells"
+                  }
+                },
+                "div": [
+                  {
+                    "p": {
+                      "#text": "Exist comfortably in hot or cold environments.",
+                      "b": "1 Endure Elements:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Make metal so hot it damages those who touch it.",
+                      "b": "2 Heat Metal:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Ray deals 1d8/two levels, more against undead.",
+                      "b": "3 Searing Light:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Creatures attacking you take fire damage; you're protected from heat or cold.",
+                      "b": "4 Fire Shield:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Smite foes with divine fire (1d6/level damage).",
+                      "b": "5 Flame Strike:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Acorns and berries become grenades and bombs.",
+                      "b": "6 Fire Seeds:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Beam blinds and deals 4d6 damage.",
+                      "b": "7 Sunbeam:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Blinds all within 10 ft., deals 6d6 damage.",
+                      "b": "8 Sunburst:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "As, but surrounds on all sides.",
+                      "b": "9 Prismatic Sphere:",
+                      "i": "prismatic wall"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "reference": "SRD 3.5 SpellListI"
+      },
+      {
+        "name": "Travel",
+        "granted_powers": "For a total time per day of 1 round per cleric level you possess, you can act normally regardless of magical effects that impede movement as if you were affected by the spell freedom of movement. This effect occurs automatically as soon as it applies, lasts until it runs out or is no longer needed, and can operate multiple times per day (up to the total daily limit of rounds).This granted power is a supernatural ability.Add Survival to your list of cleric class skills.",
+        "spell_1": "longstrider",
+        "spell_2": "locate object",
+        "spell_3": "fly",
+        "spell_4": "dimension door",
+        "spell_5": "teleport",
+        "spell_6": "find the path",
+        "spell_7": "greater teleport",
+        "spell_8": "phase door",
+        "spell_9": "astral projection",
+        "full_text": {
+          "div": {
+            "p": {
+              "h4": "Travel Domain"
+            },
+            "div": [
+              {
+                "p": [
+                  {
+                    "#text": "For a total time per day of 1 round per cleric level you possess, you can act normally regardless of magical effects that impede movement as if you were affected by the spell. This effect occurs automatically as soon as it applies, lasts until it runs out or is no longer needed, and can operate multiple times per day (up to the total daily limit of rounds).",
+                    "b": "Granted Powers:",
+                    "i": "freedom of movement"
+                  },
+                  "This granted power is a supernatural ability.",
+                  "Add Survival to your list of cleric class skills."
+                ]
+              },
+              {
+                "p": {
+                  "h5": {
+                    "b": "Travel Domain Spells"
+                  }
+                },
+                "div": [
+                  {
+                    "p": {
+                      "#text": "Increases your speed.",
+                      "b": "1 Longstrider:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Senses direction toward object (specific or type).",
+                      "b": "2 Locate Object:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Subject flies at speed of 60 ft.",
+                      "b": "3 Fly:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Teleports you short distance.",
+                      "b": "4 Dimension Door:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Instantly transports you as far as 100 miles/level.",
+                      "b": "5 Teleport:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Shows most direct way to a location.",
+                      "b": "6 Find the Path:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "As,  but no range limit and no off-target arrival.",
+                      "b": "7 Teleport, Greater:",
+                      "i": "teleport"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Creates an invisible passage through wood or stone.",
+                      "b": "8 Phase Door:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Projects you and companions onto Astral Plane.",
+                      "b": "9 Astral Projection:"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "reference": "SRD 3.5 SpellListI"
+      },
+      {
+        "name": "Trickery",
+        "granted_powers": "Add Bluff, Disguise, and Hide to your list of cleric class skills.",
+        "spell_1": "disguise self",
+        "spell_2": "invisibility",
+        "spell_3": "nondetection",
+        "spell_4": "confusion",
+        "spell_5": "false vision",
+        "spell_6": "mislead",
+        "spell_7": "screen",
+        "spell_8": "polymorph any object",
+        "spell_9": "time stop",
+        "full_text": {
+          "div": {
+            "p": {
+              "h4": "Trickery Domain"
+            },
+            "div": [
+              {
+                "p": {
+                  "#text": "Add Bluff, Disguise, and Hide to your list of cleric class skills.",
+                  "b": "Granted Power:"
+                }
+              },
+              {
+                "p": {
+                  "h5": {
+                    "b": "Trickery Domain Spells"
+                  }
+                },
+                "div": [
+                  {
+                    "p": {
+                      "#text": "Disguise own appearance.",
+                      "b": "1 Disguise Self:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Subject invisible 1 min./level or until it attacks.",
+                      "b": "2 Invisibility:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Hides subject from divination, scrying.",
+                      "b": "3 Nondetection:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Subjects behave oddly for 1 round/level.",
+                      "b": "4 Confusion:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Fools scrying with an illusion.",
+                      "b": "5 False Vision:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Turns you invisible and creates illusory double.",
+                      "b": "6 Mislead:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Illusion hides area from vision, scrying.",
+                      "b": "7 Screen:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Changes any subject into anything else.",
+                      "b": "8 Polymorph Any Object:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "You act freely for 1d4+1 rounds.",
+                      "b": "9 Time Stop:"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "reference": "SRD 3.5 SpellListI"
+      },
+      {
+        "name": "War",
+        "granted_powers": "Free Martial Weapon Proficiency with deity's favored weapon (if necessary) and Weapon Focus with the deity's favored weapon.",
+        "spell_1": "magic weapon",
+        "spell_2": "spiritual weapon",
+        "spell_3": "magic vestment",
+        "spell_4": "divine power",
+        "spell_5": "flame strike",
+        "spell_6": "blade barrier",
+        "spell_7": "power word blind",
+        "spell_8": "power word stun",
+        "spell_9": "power word kill",
+        "full_text": {
+          "div": {
+            "p": {
+              "h4": "War Domain"
+            },
+            "div": [
+              {
+                "p": {
+                  "#text": "Free Martial Weapon Proficiency with deity's favored weapon (if necessary) and Weapon Focus with the deity's favored weapon.",
+                  "b": "Granted Power:"
+                }
+              },
+              {
+                "p": {
+                  "h5": {
+                    "b": "War Domain Spells"
+                  }
+                },
+                "div": [
+                  {
+                    "p": {
+                      "#text": "Weapon gains +1 bonus.",
+                      "b": "1 Magic Weapon:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Magical weapon attacks on its own.",
+                      "b": "2 Spiritual Weapon:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Armor or shield gains +1 enhancement per four levels.",
+                      "b": "3 Magic Vestment:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "You gain attack bonus, +6 to Str, and 1 hp/level.",
+                      "b": "4 Divine Power:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Smite foes with divine fire (1d6/level damage).",
+                      "b": "5 Flame Strike:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Wall of blades deals 1d6/level damage.",
+                      "b": "6 Blade Barrier:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Blinds creature with 200 hp or less.",
+                      "b": "7 Power Word Blind:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Stuns creature with 150 hp or less.",
+                      "b": "8 Power Word Stun:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Kills creature with 100 hp or less.",
+                      "b": "9 Power Word Kill:"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "reference": "SRD 3.5 SpellListI"
+      },
+      {
+        "name": "Water",
+        "granted_powers": "Turn or destroy fire creatures as a good cleric turns undead. Rebuke, command, or bolster water creatures as an evil cleric rebukes undead. Use these abilities a total number of times per day equal to 3 + your Charisma modifier. This granted power is a supernatural ability.",
+        "spell_1": "obscuring mist",
+        "spell_2": "fog cloud",
+        "spell_3": "water breathing",
+        "spell_4": "control water",
+        "spell_5": "ice storm",
+        "spell_6": "cone of cold",
+        "spell_7": "acid fog",
+        "spell_8": "horrid wilting",
+        "spell_9": "elemental swarm",
+        "full_text": {
+          "div": {
+            "p": {
+              "h4": "Water Domain"
+            },
+            "div": [
+              {
+                "p": {
+                  "#text": "Turn or destroy fire creatures as a good cleric turns undead. Rebuke, command, or bolster water creatures as an evil cleric rebukes undead. Use these abilities a total number of times per day equal to 3 + your Charisma modifier. This granted power is a supernatural ability.",
+                  "b": "Granted Power:"
+                }
+              },
+              {
+                "p": {
+                  "h5": {
+                    "b": "Water Domain Spells"
+                  }
+                },
+                "div": [
+                  {
+                    "p": {
+                      "#text": "Fog surrounds you.",
+                      "b": "1 Obscuring Mist:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Fog obscures vision.",
+                      "b": "2 Fog Cloud:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Subjects can breathe underwater.",
+                      "b": "3 Water Breathing:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Raises or lowers bodies of water.",
+                      "b": "4 Control Water:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Hail deals 5d6 damage in cylinder 40 ft. across.",
+                      "b": "5 Ice Storm:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "1d6/level cold damage.",
+                      "b": "6 Cone of Cold:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Fog deals acid damage.",
+                      "b": "7 Acid Fog:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Deals 1d6/level damage within 30 ft.",
+                      "b": "8 Horrid Wilting:"
+                    }
+                  },
+                  {
+                    "p": {
+                      "#text": "Summons multiple elementals.",
+                      "b": "9 Elemental Swarm*:"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "reference": "SRD 3.5 SpellListI"
+      }
+    ]
+  }
+}

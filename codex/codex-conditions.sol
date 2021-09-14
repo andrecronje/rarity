@@ -7,7 +7,7 @@ contract codex {
     string constant public class = "Any";
 
     function advantage_by_id(uint _id) external pure returns(
-	string memory advantage
+	    string memory advantage
     ) {
         if (_id == 0) {
             return "Normal";
@@ -24,13 +24,13 @@ contract codex {
         uint id,
         string memory name,
         uint attribute_id,
-	uint advantage_ability_check,
-	uint advantage_attack_for,
-	unit advantage_attack_against,
+	      uint advantage_ability_check,
+	      uint advantage_attack_for,
+	      unit advantage_attack_against,
         string memory description
     ) {
         if (_id == 0) {            
-            return normal()
+            return normal();
         if (_id == 1) {
             return blinded();
         if (_id == 2) {
@@ -86,17 +86,17 @@ contract codex {
         uint id,
         string memory name,
         uint attribute_id,
-	uint advantage_ability_check,
-	uint advantage_attack_for,
-	unit advantage_attack_against
-    )
+        uint advantage_ability_check,
+        uint advantage_attack_for,
+        unit advantage_attack_against
+    ) {
         id = 0;
         name = "Normal";
-        attribute_id = 0,
-	advantage_ability_check = 0,
-	advantage_attack_for = 0,
-	advantage_attack_against = 0
-        description = "You are healthy - in good condition and enjoying life, for now."
+        attribute_id = 0;
+        advantage_ability_check = 0;
+        advantage_attack_for = 0;
+        advantage_attack_against = 0;
+        description = "Healthy - in good condition and enjoying life, for now."
     }
 
     function blinded() public pure returns (
@@ -106,31 +106,31 @@ contract codex {
 	uint advantage_ability_check,
 	uint advantage_attack_for,
 	unit advantage_attack_against
-    )
+    ) {
         id = 1;
         name = "Blinded";
-        attribute_id = 7,
-	advantage_ability_check = 3,
-	advantage_attack_for = 2,
-	advantage_attack_against = 1
-        description = "You are blinded. Attacks against you have advantage and your attacks have disadvantage. Ability checks that require sight automatically fail."
+        attribute_id = 7;
+        advantage_ability_check = 3;
+        advantage_attack_for = 2;
+        advantage_attack_against = 1;
+        description = "For a blinded creature, attacks against it has advantage and its attacks have disadvantage. Ability checks that require sight automatically fail."
     }
 
     function charmed() public pure returns (
         uint id,
         string memory name,
         uint attribute_id,
-	uint advantage_ability_check,
-	uint advantage_attack_for,
-	unit advantage_attack_against
-    )
+        uint advantage_ability_check,
+        uint advantage_attack_for,
+        unit advantage_attack_against,
+    ) {
         id = 2;
         name = "Charmed";
-        attribute_id = 0,
-	advantage_ability_check = 0,
-	advantage_attack_for = 3,
-	advantage_attack_against = 1
-        description = "You are charmed. Attacks against you have advantage and you cannot attack (the charmer)"
+        attribute_id = 0;
+	advantage_ability_check = 0;
+	advantage_attack_for = 3;
+	advantage_attack_against = 1;
+        description = "Charmed creatures cannot attack their charmer and attacks against it have advantage"
     }
 
     function deafened() public pure returns (
@@ -140,13 +140,13 @@ contract codex {
 	uint advantage_ability_check,
 	uint advantage_attack_for,
 	unit advantage_attack_against
-    )
+    ) {
         id = 3;
         name = "Deafened"; // for roleplaying
-        attribute_id = 0,
-	advantage_ability_check = 0,
-	advantage_attack_for = 0,
-	advantage_attack_against = 0
+        attribute_id = 0;
+	advantage_ability_check = 0;
+	advantage_attack_for = 0;
+	advantage_attack_against = 0;
         description = "A deafened creature can’t hear and automatically fails any ability check that requires hearing."
     }
 
@@ -157,13 +157,13 @@ contract codex {
 	uint advantage_ability_check,
 	uint advantage_attack_for,
 	unit advantage_attack_against
-    )
+    ) {
         id = 4;
         name = "Frightened"; // for roleplaying
-        attribute_id = 7,
-	advantage_ability_check = 2,
-	advantage_attack_for = 0,
-	advantage_attack_against = 2
+        attribute_id = 7;
+	advantage_ability_check = 2;
+	advantage_attack_for = 0;
+	advantage_attack_against = 2;
         description = "A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight."
     }
 
@@ -174,13 +174,13 @@ contract codex {
 	uint advantage_ability_check,
 	uint advantage_attack_for,
 	unit advantage_attack_against
-    )
+    ) {
         id = 5;
         name = "Grappled"; // for roleplaying
-        attribute_id = 0,
-	advantage_ability_check = 0,
-	advantage_attack_for = 0,
-	advantage_attack_against = 0
+        attribute_id = 0;
+	advantage_ability_check = 0;
+	advantage_attack_for = 0;
+	advantage_attack_against = 0;
         description = "A grappled creature’s speed becomes 0, and it can’t benefit from any bonus to its speed. The condition ends if the grappler is incapacitated"
     }
 
@@ -191,13 +191,13 @@ contract codex {
 	uint advantage_ability_check,
 	uint advantage_attack_for,
 	unit advantage_attack_against
-    )
+    ) {
         id = 6;
         name = "Incapacitated";
-        attribute_id = 7,
-	advantage_ability_check = 3,
-	advantage_attack_for = 3,
-	advantage_attack_against = 2
+        attribute_id = 7;
+	advantage_ability_check = 3;
+	advantage_attack_for = 3;
+	advantage_attack_against = 2;
         description = "An incapacitated creature can’t take actions or reactions."
     }
 
@@ -208,13 +208,13 @@ contract codex {
 	uint advantage_ability_check,
 	uint advantage_attack_for,
 	unit advantage_attack_against
-    )
+    ) {
         id = 8;
         name = "Invisible";
-        attribute_id = 0,
-	advantage_ability_check = 0,
-	advantage_attack_for = 1,
-	advantage_attack_against = 2
+        attribute_id = 0;
+	advantage_ability_check = 0;
+	advantage_attack_for = 1;
+	advantage_attack_against = 2;
         description = "An invisible creature is impossible to see without the aid of magic or a special sense. he creature’s location can be detected by any noise it makes or any tracks it leaves. Attack rolls against the creature have disadvantage, and the creature’s attack rolls have advantage."
     }
 
@@ -224,14 +224,14 @@ contract codex {
         uint attribute_id,
 	uint advantage_ability_check,
 	uint advantage_attack_for,
-	unit advantage_attack_against
-    )
+	unit advantage_attack_against,
+    ) {
         id = 9; // n.b. additional benefits not captured include resistences
         name = "Petrified";
-        attribute_id = 7,
-	advantage_ability_check = 3,
-	advantage_attack_for = 3,
-	advantage_attack_against = 1
+        attribute_id = 7;
+	advantage_ability_check = 3;
+	advantage_attack_for = 3;
+	advantage_attack_against = 1;
         description = "A petrified creature is transformed, along with any nonmagical object it is wearing or carrying, into stone. Its weight increases by a factor of ten, and it ceases aging.The creature is incapacitated, can’t move or speak, and is unaware of its surroundings."
     }
 
@@ -242,13 +242,13 @@ contract codex {
 	uint advantage_ability_check,
 	uint advantage_attack_for,
 	unit advantage_attack_against
-    )
+    ) {
         id = 10;
         name = "Poisoned";
-        attribute_id = 7,
-	advantage_ability_check = 2,
-	advantage_attack_for = 2,
-	advantage_attack_against = 2
+        attribute_id = 7;
+	advantage_ability_check = 2;
+	advantage_attack_for = 2;
+	advantage_attack_against = 2;
         description = "A poisoned creature has disadvantage on attack rolls and ability checks."
     }
 
@@ -259,13 +259,13 @@ contract codex {
 	uint advantage_ability_check,
 	uint advantage_attack_for,
 	unit advantage_attack_against
-    )
-        id = 11; // n.b. additional benefits not captured include resistences
+    ) {
+        id = 11;
         name = "Prone";
-        attribute_id = 0,
-	advantage_ability_check = 0,
-	advantage_attack_for = 2,
-	advantage_attack_against = 2
+        attribute_id = 0;
+	advantage_ability_check = 0;
+	advantage_attack_for = 2;
+	advantage_attack_against = 2;
         description = "A prone creature’s only movement option is to crawl, unless it stands up and thereby ends the condition."
     }
 
@@ -276,13 +276,13 @@ contract codex {
 	uint advantage_ability_check,
 	uint advantage_attack_for,
 	unit advantage_attack_against
-    )
+    ) {
         id = 12;
         name = "Restrained";
-        attribute_id = 2,
-	advantage_ability_check = 2, // also Str but only capture one effect
-	advantage_attack_for = 2,
-	advantage_attack_against = 1
+        attribute_id = 2;
+	advantage_ability_check = 2; // also Str but only capture one effect
+	advantage_attack_for = 2;
+	advantage_attack_against = 1;
         description = "A restrained creature’s speed becomes 0, and it can’t benefit from any bonus to its speed. Attack rolls against the creature have advantage, and the creature’s attack rolls have disadvantage. The creature has disadvantage on Dexterity saving throws."
     }
 
@@ -293,13 +293,13 @@ contract codex {
 	uint advantage_ability_check,
 	uint advantage_attack_for,
 	unit advantage_attack_against
-    )
+    ) {
         id = 13; 
         name = "Stunned";
-        attribute_id = 1, // also Dex but only capture one effect
-	advantage_ability_check = 3,
-	advantage_attack_for = 0,
-	advantage_attack_against = 1
+        attribute_id = 1; // also Dex but only capture one effect
+	advantage_ability_check = 3;
+	advantage_attack_for = 0;
+	advantage_attack_against = 1;
         description = "A stunned creature is incapacitated, can’t move, and can speak only falteringly. The creature automatically fails Strength saving throws. Attack rolls against the creature have advantage."
     }
 
@@ -310,13 +310,13 @@ contract codex {
 	uint advantage_ability_check,
 	uint advantage_attack_for,
 	unit advantage_attack_against
-    )
+    ) {
         id = 14; 
         name = "Unconcious";
-        attribute_id = 7, 
-	advantage_ability_check = 3,
-	advantage_attack_for = 3,
-	advantage_attack_against = 2
+        attribute_id = 7; 
+	advantage_ability_check = 3;
+	advantage_attack_for = 3;
+	advantage_attack_against = 2;
         description = "An unconscious creature is incapacitated, can’t move or speak, and is unaware of its surroundings. It falls Prone. Attack rolls against the creature have advantage. Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature."
     }
 }

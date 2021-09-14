@@ -97,4 +97,34 @@ contract codex {
             return "Negates";
         }
     }
+
+    function spell_effect(uint id) external pure returns (string memory description) {
+        if (id == 0) {
+            return "None";
+        } else if (id == 1) {
+            return "HP";
+        } else if (id == 2) {
+            return "AC";
+        } else if (id == 3) {
+            return "Strength";
+        } else if (id == 4) {
+            return "Dexterity";
+        } else if (id == 5) {
+            return "Constitution";
+        } else if (id == 6) {
+            return "Intelligence";
+        } else if (id == 7) {
+            return "Wisdom";
+        } else if (id == 8) {
+            return "Charisma";
+        } else if (id == 9) {
+            return "Time";	// e.g. slow
+	} else if (id == 10) {
+            return "Space"; 	// e.g. summons (items/monsters), duplicates, curses/enchantments, illusions
+	} else if (id == 11) {
+            return "Condition"; // listed in conditions.sol
+	}
+    }
+
+
 }

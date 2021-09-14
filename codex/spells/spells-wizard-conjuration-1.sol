@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.7;
 
+// contains affect
+
 contract codex {
     string constant public index = "Spells";
     string constant public class = "Wizard";
@@ -67,7 +69,7 @@ contract codex {
         saving_throw_type = 2;
         saving_throw_effect = 3;
         spell_resistance = false;
-        description = "A grease spell covers a solid surface with a layer of slippery grease. Any creature in the area when the spell is cast must make a successful Reflex save or fall.";
+        description = "A grease spell covers a solid surface with a layer of slippery grease. Any creature in the area when the spell is cast must make a successful Reflex save or fall.";	
     }
 
     function mage_armor() public pure returns (
@@ -81,6 +83,8 @@ contract codex {
         uint time,
         uint range,
         uint duration,
+        uint spell_effect,
+        int spell_impact,
         uint saving_throw_type,
         uint saving_throw_effect,
         bool spell_resistance,
@@ -96,6 +100,8 @@ contract codex {
         time = 1;
         range = 1;
         duration = 60; // 1 hour per level
+	spell_effect = 2;
+	spell_impact = 4;
         saving_throw_type = 2;
         saving_throw_effect = 3;
         spell_resistance = false;

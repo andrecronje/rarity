@@ -570,10 +570,10 @@ contract rarity is ERC721Enumerable {
 
     mapping(uint => uint) public xp;
     mapping(uint => uint) public adventurers_log;
-    mapping(uint => uint) public class;
+    mapping(uint => uint) public summoner_class;
     mapping(uint => uint) public level;
 
-    event summoned(address indexed owner, uint class, uint summoner);
+    event summoned(address indexed owner, uint summoner_class, uint summoner);
     event leveled(address indexed owner, uint level, uint summoner);
 
     function adventure(uint _summoner) external {
@@ -600,14 +600,14 @@ contract rarity is ERC721Enumerable {
     function summoner(uint _summoner) external view returns (uint _xp, uint _log, uint _class, uint _level) {
         _xp = xp[_summoner];
         _log = adventurers_log[_summoner];
-        _class = class[_summoner];
+        _class = summoner_class[_summoner];
         _level = level[_summoner];
     }
 
     function summon(uint _class) external {
         require(1 <= _class && _class <= 11);
         uint _next_summoner = next_summoner;
-        class[_next_summoner] = _class;
+        summoner_class[_next_summoner] = _class;
         level[_next_summoner] = 1;
         _safeMint(msg.sender, _next_summoner);
         emit summoned(msg.sender, _class, _next_summoner);
@@ -625,7 +625,7 @@ contract rarity is ERC721Enumerable {
         string[7] memory parts;
         parts[0] = '<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet" viewBox="0 0 350 350"><style>.base { fill: white; font-family: serif; font-size: 14px; }</style><rect width="100%" height="100%" fill="black" /><text x="10" y="20" class="base">';
 
-        parts[1] = string(abi.encodePacked("class", " ", classes(class[_summoner])));
+        parts[1] = string(abi.encodePacked("class", " ", classes(summoner_class[_summoner])));
 
         parts[2] = '</text><text x="10" y="40" class="base">';
 

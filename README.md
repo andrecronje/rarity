@@ -20,8 +20,8 @@ Rarity is achieved via an active economy, summoners must level, gain feats, lear
 | random        | [0x7426dBE5207C2b5DaC57d8e55F0959fcD99661D4](https://ftmscan.com/address/0x7426dBE5207C2b5DaC57d8e55F0959fcD99661D4) |
 | skills        | [0x67ae39a2Ee91D7258a86CD901B17527e19E493B3](https://ftmscan.com/address/0x67ae39a2Ee91D7258a86CD901B17527e19E493B3) |
 | class skills  | [0xf677eD67B7717f3a743BE8D9b6662B11b095DB43](https://ftmscan.com/address/0xf677eD67B7717f3a743BE8D9b6662B11b095DB43) |
-| feats-1       | [0x822F888f5DB8e1316717Eb904E550ebB1196EdbE](https://ftmscan.com/address/0x822F888f5DB8e1316717Eb904E550ebB1196EdbE) |
-| feats-2       | [0xA70549F08D8D0Ebc81ba45E5ce5b499D163cc090](https://ftmscan.com/address/0xA70549F08D8D0Ebc81ba45E5ce5b499D163cc090) |
+| feats-1       | [0x88db734E9f64cA71a24d8e75986D964FFf7a1E10](https://ftmscan.com/address/0x88db734E9f64cA71a24d8e75986D964FFf7a1E10) |
+| feats-2       | [0x7A4Ba2B077CD9f4B13D5853411EcAE12FADab89C](https://ftmscan.com/address/0x7A4Ba2B077CD9f4B13D5853411EcAE12FADab89C) |
 | Items (Goods) | [0x0C5C1CC0A7AE65FE372fbb08FF16578De4b980f3](https://ftmscan.com/address/0x0C5C1CC0A7AE65FE372fbb08FF16578De4b980f3) |
 | Items (Armor) | [0xf5114A952Aca3e9055a52a87938efefc8BB7878C](https://ftmscan.com/address/0xf5114A952Aca3e9055a52a87938efefc8BB7878C) |
 | Items (Weapons) | [0xeE1a2EA55945223404d73C0BbE57f540BBAAD0D8](https://ftmscan.com/address/0xeE1a2EA55945223404d73C0BbE57f540BBAAD0D8) |

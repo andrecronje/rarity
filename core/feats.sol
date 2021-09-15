@@ -150,8 +150,10 @@ contract rarity_feats {
         uint _class = _rm.class(_summoner);
         uint8[7] memory _feats = get_base_class_feats(_class);
         for (uint i = 0; i < 7; i++) {
-            feats[_summoner][_feats[i]] = true;
-            feats_by_id[_summoner].push(_feats[i]);
+            if (is_valid(_feats[i])) {
+                feats[_summoner][_feats[i]] = true;
+                feats_by_id[_summoner].push(_feats[i]);
+            }
         }
         character_created[_summoner] = true;
     }

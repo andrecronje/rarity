@@ -130,11 +130,11 @@ contract rarity_feats {
         } else if (_class == 4) {
             _feats = [91,5,6,63,0,0,0];
         } else if (_class == 5) {
-            _feats = [91,75,5,6,7,36,96];
+            _feats = [91,75,5,6,7,63,96];
         } else if (_class == 6) {
             _feats = [75,24,0,0,0,0,0];
         } else if (_class == 7) {
-            _feats = [91,75,5,6,7,36,0];
+            _feats = [91,75,5,6,7,63,0];
         } else if (_class == 8) {
             _feats = [91,75,5,63,0,0,0];
         } else if (_class == 9) {

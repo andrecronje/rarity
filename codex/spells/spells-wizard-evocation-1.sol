@@ -46,6 +46,7 @@ contract codex {
         uint saving_throw_effect,
         bool spell_resistance,
         string memory description,
+        uint duration_multi,
         effect memory _effect
     ) {
         if (_id == 28) {
@@ -93,20 +94,8 @@ contract codex {
         spell_resistance = true;
         description = "A cone of searing flame shoots from your fingertips. Any creature in the area of the flames takes 1d4 points of fire damage per caster level (maximum 5d4). Flammable materials burn if the flames touch them. A character can extinguish burning items as a full-round action.";
         duration_multi = 0
-        // QUESTION ON SOLIDITY: I assume unassigned _effect values are zero and can be tested for later
-        _effect.name = "Burning Damage"
-        _effect.description = "It burns!";     // description of mod effect " this gives +1 damage for a successful attack"
-        _effect.expiry = ?;         // expiry = timestamp when effect ends: permanency is 100 years
-        _effect.damage = (1,4,0,1); // dice, type, adjustment, level multiplier. 2d4 +3 @ that adds 1 dice per level is = (2,4,3,1). curing 10 hp is (0,0,-10, 0), 
-        //_effect.ac = 0; // e.g. +1 to AC
-        //_effect.hp = 0
-        //_effect.roll_adjustment = [0,0,0,0,0,0,0,0]; // e.g. +1/-1 to rolls on str, dex, con, int, wis, cha, attack, initiative
-        //_effect.roll_advantage ; // advantage to rolls on str, dex, con, int, wis, cha, attack, initiative
-        //_effect.roll_disadvantage ; // disadvantage to rolls on str, dex, con, int, wis, cha, attack, initiative
-    
-        //_effect.save_adjustment ; // e.g. +1/-1 to saving rolls on str, dex, con, int, wis, cha, attack, initiative
-        //_effect.save_advantage ; // e.g. advantage to saving rolls on str, dex, con, int, wis, cha, attack, initiative
-        //_effect.save_disadvantage ; // e.g. disadvantage to saving rolls on str, dex, con, int, wis, cha, attack, initiative
+        // n.b. assuming unassigned _effect values are zero and can be tested for later
+        _effect.damage = (1,4,0,1); // dice, type, adjustment, level multiplier
         }
 
     function floating_disk() public pure returns (

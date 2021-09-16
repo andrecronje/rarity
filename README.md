@@ -2,6 +2,19 @@
 
 Rarity is achieved via an active economy, summoners must level, gain feats, learn spells, to be able to craft gear. This allows for market driven rarity while allowing an ever growing economy. Feats, spells, and summoner gear is ommitted as part of further expansions.
 
+# guides
+
+[summoning](https://andrecronje.medium.com/loot-rarity-d341faa4485c)  
+[attributes](https://andrecronje.medium.com/rarity-attributes-19ff3cd457c8)  
+[gold](https://andrecronje.medium.com/rarity-gold-with-a-twist-715f77051261)  
+[skills](https://andrecronje.medium.com/rarity-skills-7dded308a607)  
+[feats](https://andrecronje.medium.com/rarity-feats-84ae3b7b357)  
+
+[adventuring (I)](https://andrecronje.medium.com/rarity-the-cellar-83a1606a0be3)  
+[crafting (I)](https://andrecronje.medium.com/rarity-crafting-abbc5f10e95a)  
+
+
+
 # addresses
 
 | Name       | Address                                                                                                              |
@@ -12,6 +25,7 @@ Rarity is achieved via an active economy, summoners must level, gain feats, lear
 | skills     | [0x51C0B29A1d84611373BA301706c6B4b72283C80F](https://ftmscan.com/address/0x51C0B29A1d84611373BA301706c6B4b72283C80F) |
 | Craft (I)  | [0x2A0F1cB17680161cF255348dDFDeE94ea8Ca196A](https://ftmscan.com/address/0x2A0F1cB17680161cF255348dDFDeE94ea8Ca196A) |
 | Crafting (I)  | [0xf41270836dF4Db1D28F7fd0935270e3A603e78cC](https://ftmscan.com/address/0xf41270836dF4Db1D28F7fd0935270e3A603e78cC) |
+| Feats  | [0x4F51ee975c01b0D6B29754657d7b3cC182f20d8a](https://ftmscan.com/address/0x4F51ee975c01b0D6B29754657d7b3cC182f20d8a) |
 
 # codex
 
@@ -20,8 +34,8 @@ Rarity is achieved via an active economy, summoners must level, gain feats, lear
 | random        | [0x7426dBE5207C2b5DaC57d8e55F0959fcD99661D4](https://ftmscan.com/address/0x7426dBE5207C2b5DaC57d8e55F0959fcD99661D4) |
 | skills        | [0x67ae39a2Ee91D7258a86CD901B17527e19E493B3](https://ftmscan.com/address/0x67ae39a2Ee91D7258a86CD901B17527e19E493B3) |
 | class skills  | [0xf677eD67B7717f3a743BE8D9b6662B11b095DB43](https://ftmscan.com/address/0xf677eD67B7717f3a743BE8D9b6662B11b095DB43) |
-| feats-1       | [0x822F888f5DB8e1316717Eb904E550ebB1196EdbE](https://ftmscan.com/address/0x822F888f5DB8e1316717Eb904E550ebB1196EdbE) |
-| feats-2       | [0xA70549F08D8D0Ebc81ba45E5ce5b499D163cc090](https://ftmscan.com/address/0xA70549F08D8D0Ebc81ba45E5ce5b499D163cc090) |
+| feats-1       | [0x88db734E9f64cA71a24d8e75986D964FFf7a1E10](https://ftmscan.com/address/0x88db734E9f64cA71a24d8e75986D964FFf7a1E10) |
+| feats-2       | [0x7A4Ba2B077CD9f4B13D5853411EcAE12FADab89C](https://ftmscan.com/address/0x7A4Ba2B077CD9f4B13D5853411EcAE12FADab89C) |
 | Items (Goods) | [0x0C5C1CC0A7AE65FE372fbb08FF16578De4b980f3](https://ftmscan.com/address/0x0C5C1CC0A7AE65FE372fbb08FF16578De4b980f3) |
 | Items (Armor) | [0xf5114A952Aca3e9055a52a87938efefc8BB7878C](https://ftmscan.com/address/0xf5114A952Aca3e9055a52a87938efefc8BB7878C) |
 | Items (Weapons) | [0xeE1a2EA55945223404d73C0BbE57f540BBAAD0D8](https://ftmscan.com/address/0xeE1a2EA55945223404d73C0BbE57f540BBAAD0D8) |

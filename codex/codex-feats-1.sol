@@ -9,9 +9,9 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         if (_id == 1) {
@@ -149,17 +149,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 1;
         name = "Acrobat";
         prerequisites = false;
-        prequisite_feat = 0;
-        preprequisite_class = 2047;
-        prequisite_level = 0;
+        prerequisites_feat = 0;
+        prerequisites_class = 2047;
+        prerequisites_level = 0;
         benefit = "You get a +2 bonus on all Jump checks and Tumble checks.";
     }
 
@@ -167,17 +167,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 2;
         name = "Agile";
         prerequisites = false;
-        prequisite_feat = 0;
-        preprequisite_class = 2047;
-        prequisite_level = 0;
+        prerequisites_feat = 0;
+        prerequisites_class = 2047;
+        prerequisites_level = 0;
         benefit = "You get a +2 bonus on all Balance checks and Escape Artist checks.";
     }
 
@@ -185,17 +185,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 3;
         name = "Alertness";
         prerequisites = false;
-        prequisite_feat = 0;
-        preprequisite_class = 2047;
-        prequisite_level = 0;
+        prerequisites_feat = 0;
+        prerequisites_class = 2047;
+        prerequisites_level = 0;
         benefit = "You get a +2 bonus on all Listen checks and Spot checks.";
     }
 
@@ -203,17 +203,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 4;
         name = "Animal Affinity";
         prerequisites = false;
-        prequisite_feat = 0;
-        preprequisite_class = 2047;
-        prequisite_level = 0;
+        prerequisites_feat = 0;
+        prerequisites_class = 2047;
+        prerequisites_level = 0;
         benefit = "You get a +2 bonus on all Handle Animal checks and Ride checks.";
     }
 
@@ -221,17 +221,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 5;
         name = "Armor Proficiency (Light)";
         prerequisites = false;
-        prequisite_feat = 0;
-        preprequisite_class = 2047;
-        prequisite_level = 0;
+        prerequisites_feat = 0;
+        prerequisites_class = 2047;
+        prerequisites_level = 0;
         benefit = "When you wear a type of armor with which you are proficient, the armor check penalty for that armor applies only to Balance, Climb, Escape Artist, Hide, Jump, Move Silently, Sleight of Hand, and Tumble checks.";
     }
 
@@ -239,17 +239,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 6;
         name = "Armor Proficiency (Medium)";
         prerequisites = true;
-        prequisite_feat = 5;
-        preprequisite_class = 2047;
-        prequisite_level = 0;
+        prerequisites_feat = 5;
+        prerequisites_class = 2047;
+        prerequisites_level = 0;
         benefit = "When you wear a type of armor with which you are proficient, the armor check penalty for that armor applies only to Balance, Climb, Escape Artist, Hide, Jump, Move Silently, Sleight of Hand, and Tumble checks.";
     }
 
@@ -257,17 +257,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 7;
         name = "Armor Proficiency (Heavy)";
         prerequisites = true;
-        prequisite_feat = 6;
-        preprequisite_class = 2047;
-        prequisite_level = 0;
+        prerequisites_feat = 6;
+        prerequisites_class = 2047;
+        prerequisites_level = 0;
         benefit = "When you wear a type of armor with which you are proficient, the armor check penalty for that armor applies only to Balance, Climb, Escape Artist, Hide, Jump, Move Silently, Sleight of Hand, and Tumble checks.";
     }
 
@@ -275,17 +275,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 8;
         name = "Athletic";
         prerequisites = false;
-        prequisite_feat = 0;
-        preprequisite_class = 2047;
-        prequisite_level = 0;
+        prerequisites_feat = 0;
+        prerequisites_class = 2047;
+        prerequisites_level = 0;
         benefit = "You get a +2 bonus on all Climb checks and Swim checks.";
     }
 
@@ -293,17 +293,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 9;
         name = "Spell Focus";
         prerequisites = true;
-        prequisite_feat = 0;
-        preprequisite_class = 1614;
-        prequisite_level = 0;
+        prerequisites_feat = 0;
+        prerequisites_class = 1614;
+        prerequisites_level = 0;
         benefit = "Add +1 to the Difficulty Class for all saving throws against spells from the school of magic you select.";
     }
 
@@ -311,17 +311,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 10;
         name = "Augment Summoning";
         prerequisites = true;
-        prequisite_feat = 9;
-        preprequisite_class = 1614;
-        prequisite_level = 0;
+        prerequisites_feat = 9;
+        prerequisites_class = 1614;
+        prerequisites_level = 0;
         benefit = "Each creature you conjure with any summon spell gains a +4 enhancement bonus to Strength and Constitution for the duration of the spell that summoned it.";
     }
 
@@ -329,17 +329,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 11;
         name = "Blind-Fight";
         prerequisites = false;
-        prequisite_feat = 0;
-        preprequisite_class = 2047;
-        prequisite_level = 0;
+        prerequisites_feat = 0;
+        prerequisites_class = 2047;
+        prerequisites_level = 0;
         benefit = "In melee, every time you miss because of concealment, you can reroll your miss chance percentile roll one time to see if you actually hit. An invisible attacker gets no advantages related to hitting you in melee. That is, you dont lose your Dexterity bonus to Armor Class, and the attacker doesnt get the usual +2 bonus for being invisible. The invisible attackers bonuses do still apply for ranged attacks, however. You take only half the usual penalty to speed for being unable to see. Darkness and poor visibility in general reduces your speed to three-quarters normal, instead of one half.";
     }
 
@@ -347,17 +347,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 12;
         name = "Brew Potion";
         prerequisites = true;
-        prequisite_feat = 0;
-        preprequisite_class = 1540;
-        prequisite_level = 3;
+        prerequisites_feat = 0;
+        prerequisites_class = 1540;
+        prerequisites_level = 3;
         benefit = "You can create a potion of any 3rd level or lower spell that you know and that targets one or more creatures. Brewing a potion takes one day. When you create a potion, you set the caster level, which must be sufficient to cast the spell in question and no higher than your own level. The base price of a potion is its spell level * its caster level * 50 gp. To brew a potion, you must spend 1/25 of this base price in XP and use up raw materials costing one half this base price. When you create a potion, you make any choices that you would normally make when casting the spell. Whoever drinks the potion is the target of the spell. Any potion that stores a spell with a costly material component or an XP cost also carries a commensurate cost. In addition to the costs derived from the base price, you must expend the material component or pay the XP when creating the potion.";
     }
 
@@ -365,17 +365,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 13;
         name = "Power Attack";
         prerequisites = false;
-        prequisite_feat = 0;
-        preprequisite_class = 2047;
-        prequisite_level = 0;
+        prerequisites_feat = 0;
+        prerequisites_class = 2047;
+        prerequisites_level = 0;
         benefit = "On your action, before making attack rolls for a round, you may choose to subtract a number from all melee attack rolls and add the same number to all melee damage rolls. This number may not exceed your base attack bonus. The penalty on attacks and bonus on damage apply until your next turn.";
     }
 
@@ -383,17 +383,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 14;
         name = "Cleave";
         prerequisites = true;
-        prequisite_feat = 13;
-        preprequisite_class = 2047;
-        prequisite_level = 0;
+        prerequisites_feat = 13;
+        prerequisites_class = 2047;
+        prerequisites_level = 0;
         benefit = "If you deal a creature enough damage to make it drop (typically by dropping it to below 0 hit points or killing it), you get an immediate, extra melee attack against another creature within reach. You cannot take a 5-foot step before making this extra attack. The extra attack is with the same weapon and at the same bonus as the attack that dropped the previous creature. You can use this ability once per round.";
     }
 
@@ -401,17 +401,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 15;
         name = "Combat Casting";
         prerequisites = false;
-        prequisite_feat = 0;
-        preprequisite_class = 2047;
-        prequisite_level = 0;
+        prerequisites_feat = 0;
+        prerequisites_class = 2047;
+        prerequisites_level = 0;
         benefit = "You get a +4 bonus on Concentration checks made to cast a spell or use a spell-like ability while on the defensive or while you are grappling or pinned.";
     }
 
@@ -419,17 +419,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 16;
         name = "Combat Expertise";
         prerequisites = false;
-        prequisite_feat = 0;
-        preprequisite_class = 2047;
-        prequisite_level = 0;
+        prerequisites_feat = 0;
+        prerequisites_class = 2047;
+        prerequisites_level = 0;
         benefit = "When you use the attack action or the full attack action in melee, you can take a penalty of as much as -5 on your attack roll and add the same number (+5 or less) as a dodge bonus to your Armor Class. This number may not exceed your base attack bonus. The changes to attack rolls and Armor Class last until your next action.";
     }
 
@@ -437,17 +437,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 17;
         name = "Combat Reflexes";
         prerequisites = false;
-        prequisite_feat = 0;
-        preprequisite_class = 2047;
-        prequisite_level = 0;
+        prerequisites_feat = 0;
+        prerequisites_class = 2047;
+        prerequisites_level = 0;
         benefit = "You may make a number of additional attacks of opportunity equal to your Dexterity bonus. With this feat, you may also make attacks of opportunity while flat-footed.";
     }
 
@@ -455,17 +455,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 18;
         name = "Craft Magic Arms And Armor";
         prerequisites = true;
-        prequisite_feat = 0;
-        preprequisite_class = 1540;
-        prequisite_level = 5;
+        prerequisites_feat = 0;
+        prerequisites_class = 1540;
+        prerequisites_level = 5;
         benefit = "You can create any magic weapon, armor, or shield whose prerequisites you meet. Enhancing a weapon, suit of armor, or shield takes one day for each 1,000 gp in the price of its magical features. To enhance a weapon, suit of armor, or shield, you must spend 1/25 of its features total price in XP and use up raw materials costing one-half of this total price. The weapon, armor, or shield to be enhanced must be a masterwork item that you provide. Its cost is not included in the above cost. You can also mend a broken magic weapon, suit of armor, or shield if it is one that you could make. Doing so costs half the XP, half the raw materials, and half the time it would take to craft that item in the first place.";
     }
 
@@ -473,17 +473,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 19;
         name = "Craft Rod";
         prerequisites = true;
-        prequisite_feat = 0;
-        preprequisite_class = 1540;
-        prequisite_level = 9;
+        prerequisites_feat = 0;
+        prerequisites_class = 1540;
+        prerequisites_level = 9;
         benefit = "You can create any rod whose prerequisites you meet. Crafting a rod takes one day for each 1,000 gp in its base price. To craft a rod, you must spend 1/25 of its base price in XP and use up raw materials costing one-half of its base price. Some rods incur extra costs in material components or XP, as noted in their descriptions. These costs are in addition to those derived from the rods base price.";
     }
 
@@ -491,17 +491,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 20;
         name = "Craft Staff";
         prerequisites = true;
-        prequisite_feat = 0;
-        preprequisite_class = 1540;
-        prequisite_level = 12;
+        prerequisites_feat = 0;
+        prerequisites_class = 1540;
+        prerequisites_level = 12;
         benefit = "You can create any staff whose prerequisites you meet. Crafting a staff takes one day for each 1,000 gp in its base price. To craft a staff, you must spend 1/25 of its base price in XP and use up raw materials costing one-half of its base price. A newly created staff has 50 charges. Some staffs incur extra costs in material components or XP, as noted in their descriptions. These costs are in addition to those derived from the staffs base price.";
     }
 
@@ -509,17 +509,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 21;
         name = "Craft Wand";
         prerequisites = true;
-        prequisite_feat = 0;
-        preprequisite_class = 1540;
-        prequisite_level = 5;
+        prerequisites_feat = 0;
+        prerequisites_class = 1540;
+        prerequisites_level = 5;
         benefit = "You can create a wand of any 4th-level or lower spell that you know. Crafting a wand takes one day for each 1,000 gp in its base price. The base price of a wand is its caster level * the spell level * 750 gp. To craft a wand, you must spend 1/25 of this base price in XP and use up raw materials costing one half of this base price. A newly created wand has 50 charges. Any wand that stores a spell with a costly material component or an XP cost also carries a commensurate cost. In addition to the cost derived from the base price, you must expend fifty copies of the material component or pay fifty times the XP cost.";
     }
 
@@ -527,17 +527,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 22;
         name = "Craft Wondrous Item";
         prerequisites = true;
-        prequisite_feat = 0;
-        preprequisite_class = 1540;
-        prequisite_level = 3;
+        prerequisites_feat = 0;
+        prerequisites_class = 1540;
+        prerequisites_level = 3;
         benefit = "You can create any wondrous item whose prerequisites you meet. Enchanting a wondrous item takes one day for each 1,000 gp in its price. To enchant a wondrous item, you must spend 1/25 of the items price in XP and use up raw materials costing half of this price. You can also mend a broken wondrous item if it is one that you could make. Doing so costs half the XP, half the raw materials, and half the time it would take to craft that item in the first place. Some wondrous items incur extra costs in material components or XP, as noted in their descriptions. These costs are in addition to those derived from the items base price. You must pay such a cost to create an item or to mend a broken one.";
     }
 
@@ -545,17 +545,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 23;
         name = "Deceitful";
         prerequisites = false;
-        prequisite_feat = 0;
-        preprequisite_class = 2047;
-        prequisite_level = 0;
+        prerequisites_feat = 0;
+        prerequisites_class = 2047;
+        prerequisites_level = 0;
         benefit = "You get a +2 bonus on all Disguise checks and Forgery checks.";
     }
 
@@ -563,17 +563,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 24;
         name = "Improved Unarmed Strike";
         prerequisites = false;
-        prequisite_feat = 0;
-        preprequisite_class = 2047;
-        prequisite_level = 0;
+        prerequisites_feat = 0;
+        prerequisites_class = 2047;
+        prerequisites_level = 0;
         benefit = "You are considered to be armed even when unarmed that is, you do not provoke attacks or opportunity from armed opponents when you attack them while unarmed. However, you still get an attack of opportunity against any opponent who makes an unarmed attack on you. In addition, your unarmed strikes can deal lethal or nonlethal damage, at your option.";
     }
 
@@ -581,17 +581,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 25;
         name = "Deflect Arrows";
         prerequisites = true;
-        prequisite_feat = 24;
-        preprequisite_class = 2047;
-        prequisite_level = 0;
+        prerequisites_feat = 24;
+        prerequisites_class = 2047;
+        prerequisites_level = 0;
         benefit = "You must have at least one hand free (holding nothing) to use this feat. Once per round when you would normally be hit with a ranged weapon, you may deflect it so that you take no damage from it. You must be aware of the attack and not flat-footed. Attempting to deflect a ranged weapon doesnt count as an action. Unusually massive ranged weapons and ranged attacks generated by spell effects cant be deflected.";
     }
 
@@ -599,17 +599,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 26;
         name = "Deft Hands";
         prerequisites = false;
-        prequisite_feat = 0;
-        preprequisite_class = 2047;
-        prequisite_level = 0;
+        prerequisites_feat = 0;
+        prerequisites_class = 2047;
+        prerequisites_level = 0;
         benefit = "You get a +2 bonus on all Sleight of Hand checks and Use Rope checks.";
     }
 
@@ -617,17 +617,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 27;
         name = "Endurance";
         prerequisites = false;
-        prequisite_feat = 0;
-        preprequisite_class = 2047;
-        prequisite_level = 0;
+        prerequisites_feat = 0;
+        prerequisites_class = 2047;
+        prerequisites_level = 0;
         benefit = "You gain a +4 bonus on the following checks and saves: Swim checks made to resist nonlethal damage, Constitution checks made to continue running, Constitution checks made to avoid nonlethal damage from a forced march, Constitution checks made to hold your breath, Constitution checks made to avoid nonlethal damage from starvation or thirst, Fortitude saves made to avoid nonlethal damage from hot or cold environments, and Fortitude saves made to resist damage from suffocation. Also, you may sleep in light or medium armor without becoming fatigued.";
     }
 
@@ -635,17 +635,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 28;
         name = "Diehard";
         prerequisites = true;
-        prequisite_feat = 27;
-        preprequisite_class = 2047;
-        prequisite_level = 0;
+        prerequisites_feat = 27;
+        prerequisites_class = 2047;
+        prerequisites_level = 0;
         benefit = "When reduced to between -1 and -9 hit points, you automatically become stable. You dont have to roll d% to see if you lose 1 hit point each round. When reduced to negative hit points, you may choose to act as if you were disabled, rather than dying. You must make this decision as soon as you are reduced to negative hit points (even if it isnt your turn). If you do not choose to act as if you were disabled, you immediately fall unconscious. When using this feat, you can take either a single move or standard action each turn, but not both, and you cannot take a full round action. You can take a move action without further injuring yourself, but if you perform any standard action (or any other action deemed as strenuous, including some free actions, swift actions, or immediate actions, such as casting a quickened spell) you take 1 point of damage after completing the act. If you reach -10 hit points, you immediately die.";
     }
 
@@ -653,17 +653,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 29;
         name = "Diligent";
         prerequisites = false;
-        prequisite_feat = 0;
-        preprequisite_class = 2047;
-        prequisite_level = 0;
+        prerequisites_feat = 0;
+        prerequisites_class = 2047;
+        prerequisites_level = 0;
         benefit = "You get a +2 bonus on all Appraise checks and Decipher Script checks.";
     }
 
@@ -671,17 +671,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 30;
         name = "Dodge";
         prerequisites = false;
-        prequisite_feat = 0;
-        preprequisite_class = 2047;
-        prequisite_level = 0;
+        prerequisites_feat = 0;
+        prerequisites_class = 2047;
+        prerequisites_level = 0;
         benefit = "During your action, you designate an opponent and receive a +1 dodge bonus to Armor Class against attacks from that opponent. You can select a new opponent on any action. A condition that makes you lose your Dexterity bonus to Armor Class (if any) also makes you lose dodge bonuses. Also, dodge bonuses stack with each other, unlike most other types of bonuses.";
     }
 
@@ -689,17 +689,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 31;
         name = "Empower Spell";
         prerequisites = true;
-        prequisite_feat = 0;
-        preprequisite_class = 1614;
-        prequisite_level = 0;
+        prerequisites_feat = 0;
+        prerequisites_class = 1614;
+        prerequisites_level = 0;
         benefit = "All variable, numeric effects of an empowered spell are increased by one-half. Saving throws and opposed rolls are not affected, nor are spells without random variables. An empowered spell uses up a spell slot two levels higher than the spells actual level.";
     }
 
@@ -707,17 +707,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 32;
         name = "Enlarge Spell";
         prerequisites = true;
-        prequisite_feat = 0;
-        preprequisite_class = 1614;
-        prequisite_level = 0;
+        prerequisites_feat = 0;
+        prerequisites_class = 1614;
+        prerequisites_level = 0;
         benefit = "You can alter a spell with a range of close, medium, or long to increase its range by 100%. An enlarged spell with a range of close now has a range of 50 ft. + 5 ft./level, while medium-range spells have a range of 200 ft. + 20 ft./level and long-range spells have a range of 800 ft. + 80 ft./level. An enlarged spell uses up a spell slot one level higher than the spells actual level. Spells whose ranges are not defined by distance, as well as spells whose ranges are not close, medium, or long, do not have increased ranges.";
     }
 
@@ -725,17 +725,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 33;
         name = "Eschew Materials";
         prerequisites = false;
-        prequisite_feat = 0;
-        preprequisite_class = 2047;
-        prequisite_level = 0;
+        prerequisites_feat = 0;
+        prerequisites_class = 2047;
+        prerequisites_level = 0;
         benefit = "You can cast any spell that has a material component costing 1 gp or less without needing that component. (The casting of the spell still provokes attacks of opportunity as normal.) If the spell requires a material component that costs more than 1 gp, you must have the material component at hand to cast the spell, just as normal.";
     }
 
@@ -743,17 +743,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 34;
         name = "Exotic Weapon Proficiency";
         prerequisites = false;
-        prequisite_feat = 0;
-        preprequisite_class = 2047;
-        prequisite_level = 0;
+        prerequisites_feat = 0;
+        prerequisites_class = 2047;
+        prerequisites_level = 0;
         benefit = "You make attack rolls with the weapon normally.";
     }
 
@@ -761,17 +761,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 35;
         name = "Extend Spell";
         prerequisites = true;
-        prequisite_feat = 0;
-        preprequisite_class = 1614;
-        prequisite_level = 0;
+        prerequisites_feat = 0;
+        prerequisites_class = 1614;
+        prerequisites_level = 0;
         benefit = "An extended spell lasts twice as long as normal. A spell with a duration of concentration, instantaneous, or permanent is not affected by this feat. An extended spell uses up a spell slot one level higher than the spells actual level.";
     }
 
@@ -779,17 +779,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 36;
         name = "Extra Turning";
         prerequisites = true;
-        prequisite_feat = 0;
-        preprequisite_class = 68;
-        prequisite_level = 0;
+        prerequisites_feat = 0;
+        prerequisites_class = 68;
+        prerequisites_level = 0;
         benefit = "Each time you take this feat, you can use your ability to turn or rebuke creatures four more times per day than normal. If you have the ability to turn or rebuke more than one kind of creature each of your turning or rebuking abilities gains four additional uses per day.";
     }
 
@@ -797,17 +797,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 37;
         name = "Point Blank Shot";
         prerequisites = false;
-        prequisite_feat = 0;
-        preprequisite_class = 2047;
-        prequisite_level = 0;
+        prerequisites_feat = 0;
+        prerequisites_class = 2047;
+        prerequisites_level = 0;
         benefit = "On your action, before making attack rolls for a round, you may choose to subtract a number from all melee attack rolls and add the same number to all melee damage rolls. This number may not exceed your base attack bonus. The penalty on attacks and bonus on damage apply until your next turn.";
     }
 
@@ -815,17 +815,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 38;
         name = "Far Shot";
         prerequisites = true;
-        prequisite_feat = 37;
-        preprequisite_class = 2047;
-        prequisite_level = 0;
+        prerequisites_feat = 37;
+        prerequisites_class = 2047;
+        prerequisites_level = 0;
         benefit = "When you use a projectile weapon, such as a bow, its range increment increases by one-half (multiply by 1.5). When you use a thrown weapon, its range increment is doubled.";
     }
 
@@ -833,17 +833,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 39;
         name = "Forge Ring";
         prerequisites = true;
-        prequisite_feat = 0;
-        preprequisite_class = 1540;
-        prequisite_level = 12;
+        prerequisites_feat = 0;
+        prerequisites_class = 1540;
+        prerequisites_level = 12;
         benefit = "You can create any ring whose prerequisites you meet. Crafting a ring takes one day for each 1,000 gp in its base price. To craft a ring, you must spend 1/25 of its base price in XP and use up raw materials costing one-half of its base price. You can also mend a broken ring if it is one that you could make. Doing so costs half the XP, half the raw materials, and half the time it would take to forge that ring in the first place. Some magic rings incur extra costs in material components or XP, as noted in their descriptions. You must pay such a cost to forge such a ring or to mend a broken one.";
     }
 
@@ -851,17 +851,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 40;
         name = "Great Cleave";
         prerequisites = true;
-        prequisite_feat = 14;
-        preprequisite_class = 2047;
-        prequisite_level = 0;
+        prerequisites_feat = 14;
+        prerequisites_class = 2047;
+        prerequisites_level = 0;
         benefit = "This feat works like Cleave, except that there is no limit to the number of times you can use it per round.";
     }
 
@@ -869,17 +869,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 41;
         name = "Great Fortitude";
         prerequisites = false;
-        prequisite_feat = 0;
-        preprequisite_class = 2047;
-        prequisite_level = 0;
+        prerequisites_feat = 0;
+        prerequisites_class = 2047;
+        prerequisites_level = 0;
         benefit = "You get a +2 bonus on all Fortitude saving throws.";
     }
 
@@ -887,17 +887,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 42;
         name = "Greater Spell Focus";
         prerequisites = true;
-        prequisite_feat = 9;
-        preprequisite_class = 2047;
-        prequisite_level = 0;
+        prerequisites_feat = 9;
+        prerequisites_class = 2047;
+        prerequisites_level = 0;
         benefit = "Add +1 to the Difficulty Class for all saving throws against spells from the school of magic you select. This bonus stacks with the bonus from Spell Focus.";
     }
 
@@ -905,17 +905,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 43;
         name = "Spell Penetration";
         prerequisites = false;
-        prequisite_feat = 0;
-        preprequisite_class = 2047;
-        prequisite_level = 0;
+        prerequisites_feat = 0;
+        prerequisites_class = 2047;
+        prerequisites_level = 0;
         benefit = "You get a +2 bonus on caster level checks (1d20 + caster level) made to overcome a creatures spell resistance.";
     }
 
@@ -923,17 +923,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 44;
         name = "Greater Spell Penetration";
         prerequisites = true;
-        prequisite_feat = 43;
-        preprequisite_class = 2047;
-        prequisite_level = 0;
+        prerequisites_feat = 43;
+        prerequisites_class = 2047;
+        prerequisites_level = 0;
         benefit = "You get a +2 bonus on caster level checks (1d20 + caster level) made to overcome a creatures spell resistance. This bonus stacks with the one from Spell Penetration.";
     }
 
@@ -941,17 +941,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 45;
         name = "Two-Weapon Fighting";
         prerequisites = false;
-        prequisite_feat = 0;
-        preprequisite_class = 2047;
-        prequisite_level = 0;
+        prerequisites_feat = 0;
+        prerequisites_class = 2047;
+        prerequisites_level = 0;
         benefit = "Your penalties on attack rolls for fighting with two weapons are reduced. The penalty for your primary hand lessens by 2 and the one for your off hand lessens by 6. See the Two-Weapon Fighting special attack.";
     }
 
@@ -959,17 +959,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 46;
         name = "Improved Two-Weapon Fighting";
         prerequisites = true;
-        prequisite_feat = 45;
-        preprequisite_class = 2047;
-        prequisite_level = 6;
+        prerequisites_feat = 45;
+        prerequisites_class = 2047;
+        prerequisites_level = 6;
         benefit = "In addition to the standard single extra attack you get with an off-hand weapon, you get a second attack with it, albeit at a -5 penalty. See the Two-Weapon Fighting special attack.";
     }
 
@@ -977,17 +977,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 47;
         name = "Greater Two-Weapon Fighting";
         prerequisites = true;
-        prequisite_feat = 46;
-        preprequisite_class = 2047;
-        prequisite_level = 11;
+        prerequisites_feat = 46;
+        prerequisites_class = 2047;
+        prerequisites_level = 11;
         benefit = "You get a third attack with your off-hand weapon, albeit at a -10 penalty. See the Two-Weapon Fighting special attack.";
     }
 
@@ -995,17 +995,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 48;
         name = "Weapon Focus";
         prerequisites = false;
-        prequisite_feat = 0;
-        preprequisite_class = 2047;
-        prequisite_level = 0;
+        prerequisites_feat = 0;
+        prerequisites_class = 2047;
+        prerequisites_level = 0;
         benefit = "You gain a +1 bonus on all attack rolls you make using the selected weapon.";
     }
 
@@ -1013,17 +1013,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 49;
         name = "Greater Weapon Focus";
         prerequisites = true;
-        prequisite_feat = 48;
-        preprequisite_class = 16;
-        prequisite_level = 8;
+        prerequisites_feat = 48;
+        prerequisites_class = 16;
+        prerequisites_level = 8;
         benefit = "You gain a +1 bonus on all attack rolls you make using the selected weapon. This bonus stacks with other bonuses on attack rolls, including the one from Weapon Focus (see below).";
     }
 
@@ -1031,17 +1031,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 50;
         name = "Weapon Specialization";
         prerequisites = true;
-        prequisite_feat = 48;
-        preprequisite_class = 16;
-        prequisite_level = 4;
+        prerequisites_feat = 48;
+        prerequisites_class = 16;
+        prerequisites_level = 4;
         benefit = "You gain a +2 bonus on all damage rolls you make using the selected weapon.";
     }
 
@@ -1049,17 +1049,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 51;
         name = "Greater Weapon Specialization";
         prerequisites = true;
-        prequisite_feat = 49;
-        preprequisite_class = 16;
-        prequisite_level = 12;
+        prerequisites_feat = 49;
+        prerequisites_class = 16;
+        prerequisites_level = 12;
         benefit = "You gain a +2 bonus on all damage rolls you make using the selected weapon. This bonus stacks with other bonuses on damage rolls, including the one from Weapon Specialization (see below).";
     }
 
@@ -1067,17 +1067,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 52;
         name = "Heighten Spell";
         prerequisites = true;
-        prequisite_feat = 0;
-        preprequisite_class = 1540;
-        prequisite_level = 0;
+        prerequisites_feat = 0;
+        prerequisites_class = 1540;
+        prerequisites_level = 0;
         benefit = "A heightened spell has a higher spell level than normal (up to a maximum of 9th level). Unlike other metamagic feats, Heighten Spell actually increases the effective level of the spell that it modifies. All effects dependent on spell level (such as saving throw DCs and ability to penetrate a lesser globe of invulnerability) are calculated according to the heightened level. The heightened spell is as difficult to prepare and cast as a spell of its effective level.";
     }
 
@@ -1085,17 +1085,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 53;
         name = "Improved Bull Rush";
         prerequisites = true;
-        prequisite_feat = 13;
-        preprequisite_class = 2047;
-        prequisite_level = 0;
+        prerequisites_feat = 13;
+        prerequisites_class = 2047;
+        prerequisites_level = 0;
         benefit = "When you perform a bull rush you do not provoke an attack of opportunity from the defender. You also gain a +4 bonus on the opposed Strength check you make to push back the defender.";
     }
 
@@ -1103,17 +1103,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 54;
         name = "Improved Counterspell";
         prerequisites = true;
-        prequisite_feat = 0;
-        preprequisite_class = 1540;
-        prequisite_level = 0;
+        prerequisites_feat = 0;
+        prerequisites_class = 1540;
+        prerequisites_level = 0;
         benefit = "When counterspelling, you may use a spell of the same school that is one or more spell levels higher than the target spell.";
     }
 
@@ -1121,17 +1121,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 55;
         name = "Improved Critical";
         prerequisites = true;
-        prequisite_feat = 0;
-        preprequisite_class = 465;
-        prequisite_level = 8;
+        prerequisites_feat = 0;
+        prerequisites_class = 465;
+        prerequisites_level = 8;
         benefit = "When using the weapon you selected, your threat range is doubled.";
     }
 
@@ -1139,17 +1139,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 56;
         name = "Improved Disarm";
         prerequisites = true;
-        prequisite_feat = 16;
-        preprequisite_class = 2047;
-        prequisite_level = 0;
+        prerequisites_feat = 16;
+        prerequisites_class = 2047;
+        prerequisites_level = 0;
         benefit = "You do not provoke an attack of opportunity when you attempt to disarm an opponent, nor does the opponent have a chance to disarm you. You also gain a +4 bonus on the opposed attack roll you make to disarm your opponent.";
     }
 
@@ -1157,17 +1157,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 57;
         name = "Improved Feint";
         prerequisites = true;
-        prequisite_feat = 16;
-        preprequisite_class = 2047;
-        prequisite_level = 0;
+        prerequisites_feat = 16;
+        prerequisites_class = 2047;
+        prerequisites_level = 0;
         benefit = "You can make a Bluff check to feint in combat as a move action.";
     }
 
@@ -1175,17 +1175,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 58;
         name = "Improved Grapple";
         prerequisites = true;
-        prequisite_feat = 24;
-        preprequisite_class = 2047;
-        prequisite_level = 0;
+        prerequisites_feat = 24;
+        prerequisites_class = 2047;
+        prerequisites_level = 0;
         benefit = "You do not provoke an attack of opportunity when you make a touch attack to start a grapple. You also gain a +4 bonus on all grapple checks, regardless of whether you started the grapple.";
     }
 
@@ -1193,17 +1193,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 59;
         name = "Improved Initiative";
         prerequisites = false;
-        prequisite_feat = 0;
-        preprequisite_class = 2047;
-        prequisite_level = 0;
+        prerequisites_feat = 0;
+        prerequisites_class = 2047;
+        prerequisites_level = 0;
         benefit = "You get a +4 bonus on initiative checks.";
     }
 
@@ -1211,17 +1211,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 60;
         name = "Improved Overrun";
         prerequisites = true;
-        prequisite_feat = 13;
-        preprequisite_class = 2047;
-        prequisite_level = 0;
+        prerequisites_feat = 13;
+        prerequisites_class = 2047;
+        prerequisites_level = 0;
         benefit = "When you attempt to overrun an opponent, the target may not choose to avoid you. You also gain a +4 bonus on your Strength check to knock down your opponent.";
     }
 
@@ -1229,17 +1229,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 61;
         name = "Precise Shot";
         prerequisites = true;
-        prequisite_feat = 37;
-        preprequisite_class = 2047;
-        prequisite_level = 0;
+        prerequisites_feat = 37;
+        prerequisites_class = 2047;
+        prerequisites_level = 0;
         benefit = "You can shoot or throw ranged weapons at an opponent engaged in melee without taking the standard -4 penalty on your attack roll.";
     }
 
@@ -1247,17 +1247,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 62;
         name = "Improved Precise Shot";
         prerequisites = true;
-        prequisite_feat = 61;
-        preprequisite_class = 2047;
-        prequisite_level = 0;
+        prerequisites_feat = 61;
+        prerequisites_class = 2047;
+        prerequisites_level = 0;
         benefit = "Your ranged attacks ignore the AC bonus granted to targets by anything less than total cover, and the miss chance granted to targets by anything less than total concealment. Total cover and total concealment provide their normal benefits against your ranged attacks. In addition, when you shoot or throw ranged weapons at a grappling opponent, you automatically strike at the opponent you have chosen.";
     }
 
@@ -1265,17 +1265,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 63;
         name = "Shield Proficiency";
         prerequisites = false;
-        prequisite_feat = 0;
-        preprequisite_class = 2047;
-        prequisite_level = 0;
+        prerequisites_feat = 0;
+        prerequisites_class = 2047;
+        prerequisites_level = 0;
         benefit = "You can use a shield and take only the standard penalties.";
     }
 
@@ -1283,17 +1283,17 @@ contract codex {
         uint id,
         string memory name,
         bool prerequisites,
-        uint prequisite_feat,
-        uint preprequisite_class,
-        uint prequisite_level,
+        uint prerequisites_feat,
+        uint prerequisites_class,
+        uint prerequisites_level,
         string memory benefit
     ) {
         id = 64;
         name = "Improved Shield Bash";
         prerequisites = true;
-        prequisite_feat = 64;
-        preprequisite_class = 2047;
-        prequisite_level = 0;
+        prerequisites_feat = 64;
+        prerequisites_class = 2047;
+        prerequisites_level = 0;
         benefit = "When you perform a shield bash, you may still apply the shields shield bonus to your AC.";
     }
 }

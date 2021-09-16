@@ -2,6 +2,19 @@
 
 Rarity is achieved via an active economy, summoners must level, gain feats, learn spells, to be able to craft gear. This allows for market driven rarity while allowing an ever growing economy. Feats, spells, and summoner gear is ommitted as part of further expansions.
 
+# guides
+
+[summoning](https://andrecronje.medium.com/loot-rarity-d341faa4485c)  
+[attributes](https://andrecronje.medium.com/rarity-attributes-19ff3cd457c8)  
+[gold](https://andrecronje.medium.com/rarity-gold-with-a-twist-715f77051261)  
+[skills](https://andrecronje.medium.com/rarity-skills-7dded308a607)  
+[feats](https://andrecronje.medium.com/rarity-feats-84ae3b7b357)  
+
+[adventuring (I)](https://andrecronje.medium.com/rarity-the-cellar-83a1606a0be3)  
+[crafting (I)](https://andrecronje.medium.com/rarity-crafting-abbc5f10e95a)  
+
+
+
 # addresses
 
 | Name       | Address                                                                                                              |

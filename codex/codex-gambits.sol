@@ -55,7 +55,7 @@ contract gambits {
         } else if (_id == 24) {
             return (_id, 0, "Ally: Status: Disease");
         } else if (_id == 25) {
-            return (_id, 0, "Ally: Status:  Berserk");
+            return (_id, 0, "Ally: Status: Berserk");
         } else if (_id == 26) {
             return (_id, 0, "Ally: Status: HP Critical");
         } else if (_id == 27) {

@@ -67,20 +67,18 @@ contract codex {
         } else if (_id == 91) {
             return simple_weapon_proficiency();
         } else if (_id == 92) {
-            return spell_penetration();
-        } else if (_id == 93) {
             return stealthy();
-        } else if (_id == 94) {
+        } else if (_id == 93) {
             return still_spell();
-        } else if (_id == 95) {
+        } else if (_id == 94) {
             return toughness();
-        } else if (_id == 96) {
+        } else if (_id == 95) {
             return tower_shield_proficiency();
-        } else if (_id == 97) {
+        } else if (_id == 96) {
             return two_weapon_defense();
-        } else if (_id == 98) {
+        } else if (_id == 97) {
             return weapon_finesse();
-        } else if (_id == 99) {
+        } else if (_id == 98) {
             return widen_spell();
         }
     }
@@ -553,24 +551,6 @@ contract codex {
         benefit = "You make attack rolls with simple weapons normally.";
     }
 
-    function spell_penetration() public pure returns (
-        uint id,
-        string memory name,
-        bool prerequisites,
-        uint prerequisites_feat,
-        uint prerequisites_class,
-        uint prerequisites_level,
-        string memory benefit
-    ) {
-        id = 92;
-        name = "Spell Penetration";
-        prerequisites = false;
-        prerequisites_feat = 0;
-        prerequisites_class = 2047;
-        prerequisites_level = 0;
-        benefit = "You get a +2 bonus on caster level checks (1d20 + caster level) made to overcome a creatures spell resistance.";
-    }
-
     function stealthy() public pure returns (
         uint id,
         string memory name,
@@ -580,7 +560,7 @@ contract codex {
         uint prerequisites_level,
         string memory benefit
     ) {
-        id = 93;
+        id = 92;
         name = "Stealthy";
         prerequisites = false;
         prerequisites_feat = 0;
@@ -598,7 +578,7 @@ contract codex {
         uint prerequisites_level,
         string memory benefit
     ) {
-        id = 94;
+        id = 93;
         name = "Still Spell";
         prerequisites = false;
         prerequisites_feat = 0;
@@ -616,7 +596,7 @@ contract codex {
         uint prerequisites_level,
         string memory benefit
     ) {
-        id = 95;
+        id = 94;
         name = "Toughness";
         prerequisites = false;
         prerequisites_feat = 0;
@@ -634,7 +614,7 @@ contract codex {
         uint prerequisites_level,
         string memory benefit
     ) {
-        id = 96;
+        id = 95;
         name = "Tower Shield Proficiency";
         prerequisites = true;
         prerequisites_feat = 63;
@@ -652,7 +632,7 @@ contract codex {
         uint prerequisites_level,
         string memory benefit
     ) {
-        id = 97;
+        id = 96;
         name = "Two-Weapon Defense";
         prerequisites = true;
         prerequisites_feat = 45;
@@ -670,7 +650,7 @@ contract codex {
         uint prerequisites_level,
         string memory benefit
     ) {
-        id = 98;
+        id = 97;
         name = "Weapon Finesse";
         prerequisites = false;
         prerequisites_feat = 0;
@@ -688,7 +668,7 @@ contract codex {
         uint prerequisites_level,
         string memory benefit
     ) {
-        id = 99;
+        id = 98;
         name = "Widen Spell";
         prerequisites = false;
         prerequisites_feat = 0;

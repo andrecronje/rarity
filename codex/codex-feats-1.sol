@@ -1291,7 +1291,7 @@ contract codex {
         id = 64;
         name = "Improved Shield Bash";
         prerequisites = true;
-        prerequisites_feat = 64;
+        prerequisites_feat = 63;
         prerequisites_class = 2047;
         prerequisites_level = 0;
         benefit = "When you perform a shield bash, you may still apply the shields shield bonus to your AC.";

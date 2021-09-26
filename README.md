@@ -59,8 +59,8 @@ Rarity is achieved via an active economy, summoners must level, gain feats, lear
 [raritymmo](https://raritymmo.com/)  
 [rarityextended](https://rarityextended.com/)  
 [rarity.nft-tool.cc](https://rarity.nft-tool.cc/)
-[rarity.metaland.game](https://rarity.metaland.game/)
-
+[rarity.metaland.game](https://rarity.metaland.game/)  
+[Rarity - The Goddess Tower - Mod](https://rarity-hawk.netlify.app/)
 # Economy
 
 [summoner-market](https://summoner-market.alphafinance.io/)  

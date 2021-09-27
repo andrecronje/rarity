@@ -67,6 +67,9 @@ Rarity is achieved via an active economy, summoners must level, gain feats, lear
 [cryptomarkettoday.com/rarity](https://cryptomarkettoday.com/rarity/)  
 [raritysea.io](https://raritysea.io)  
 
+# Bot
+[raritybot.net](https://raritybot.net)
+
 # links
 
 [guilds banks](https://twitter.com/nomorebear/status/1434843331817738243)  

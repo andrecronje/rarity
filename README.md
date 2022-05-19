@@ -23,23 +23,23 @@ Rarity is achieved via an active economy, summoners must level, gain feats, lear
 | attributes | [0xB5F5AF1087A8DA62A23b08C00C6ec9af21F397a1](https://ftmscan.com/address/0xB5F5AF1087A8DA62A23b08C00C6ec9af21F397a1) |
 | gold       | [0x2069B76Afe6b734Fb65D1d099E7ec64ee9CC76B2](https://ftmscan.com/address/0x2069B76Afe6b734Fb65D1d099E7ec64ee9CC76B2) |
 | skills     | [0x51C0B29A1d84611373BA301706c6B4b72283C80F](https://ftmscan.com/address/0x51C0B29A1d84611373BA301706c6B4b72283C80F) |
-| Craft (I)  | [0x2A0F1cB17680161cF255348dDFDeE94ea8Ca196A](https://ftmscan.com/address/0x2A0F1cB17680161cF255348dDFDeE94ea8Ca196A) |
-| Crafting (I)  | [0xf41270836dF4Db1D28F7fd0935270e3A603e78cC](https://ftmscan.com/address/0xf41270836dF4Db1D28F7fd0935270e3A603e78cC) |
-| Feats  | [0x4F51ee975c01b0D6B29754657d7b3cC182f20d8a](https://ftmscan.com/address/0x4F51ee975c01b0D6B29754657d7b3cC182f20d8a) |
+| rarity_crafting_materials  | [0x2A0F1cB17680161cF255348dDFDeE94ea8Ca196A](https://ftmscan.com/address/0x2A0F1cB17680161cF255348dDFDeE94ea8Ca196A) |
+| rarity_crafting  | [0xf41270836dF4Db1D28F7fd0935270e3A603e78cC](https://ftmscan.com/address/0xf41270836dF4Db1D28F7fd0935270e3A603e78cC) |
+| rarity_feats  | [0x4F51ee975c01b0D6B29754657d7b3cC182f20d8a](https://ftmscan.com/address/0x4F51ee975c01b0D6B29754657d7b3cC182f20d8a) |
 
 # codex
 
 | Name          | Address                                                                                                              |
 | :------------ | :------------------------------------------------------------------------------------------------------------------- |
-| random        | [0x7426dBE5207C2b5DaC57d8e55F0959fcD99661D4](https://ftmscan.com/address/0x7426dBE5207C2b5DaC57d8e55F0959fcD99661D4) |
+| base-random        | [0x7426dBE5207C2b5DaC57d8e55F0959fcD99661D4](https://ftmscan.com/address/0x7426dBE5207C2b5DaC57d8e55F0959fcD99661D4) |
 | skills        | [0x67ae39a2Ee91D7258a86CD901B17527e19E493B3](https://ftmscan.com/address/0x67ae39a2Ee91D7258a86CD901B17527e19E493B3) |
-| class skills  | [0xf677eD67B7717f3a743BE8D9b6662B11b095DB43](https://ftmscan.com/address/0xf677eD67B7717f3a743BE8D9b6662B11b095DB43) |
+| class-skills  | [0xf677eD67B7717f3a743BE8D9b6662B11b095DB43](https://ftmscan.com/address/0xf677eD67B7717f3a743BE8D9b6662B11b095DB43) |
 | feats-1       | [0x88db734E9f64cA71a24d8e75986D964FFf7a1E10](https://ftmscan.com/address/0x88db734E9f64cA71a24d8e75986D964FFf7a1E10) |
 | feats-2       | [0x7A4Ba2B077CD9f4B13D5853411EcAE12FADab89C](https://ftmscan.com/address/0x7A4Ba2B077CD9f4B13D5853411EcAE12FADab89C) |
-| Items (Goods) | [0x0C5C1CC0A7AE65FE372fbb08FF16578De4b980f3](https://ftmscan.com/address/0x0C5C1CC0A7AE65FE372fbb08FF16578De4b980f3) |
-| Items (Armor) | [0xf5114A952Aca3e9055a52a87938efefc8BB7878C](https://ftmscan.com/address/0xf5114A952Aca3e9055a52a87938efefc8BB7878C) |
-| Items (Weapons) | [0xeE1a2EA55945223404d73C0BbE57f540BBAAD0D8](https://ftmscan.com/address/0xeE1a2EA55945223404d73C0BbE57f540BBAAD0D8) |
-| Gambits | [0x66c3e7ed460f85C4e0B025Ab1B141aAC50dAf490](https://ftmscan.com/address/0x66c3e7ed460f85C4e0B025Ab1B141aAC50dAf490) |
+| items-goods | [0x0C5C1CC0A7AE65FE372fbb08FF16578De4b980f3](https://ftmscan.com/address/0x0C5C1CC0A7AE65FE372fbb08FF16578De4b980f3) |
+| items-armor | [0xf5114A952Aca3e9055a52a87938efefc8BB7878C](https://ftmscan.com/address/0xf5114A952Aca3e9055a52a87938efefc8BB7878C) |
+| items-weapons | [0xeE1a2EA55945223404d73C0BbE57f540BBAAD0D8](https://ftmscan.com/address/0xeE1a2EA55945223404d73C0BbE57f540BBAAD0D8) |
+| gambits | [0x66c3e7ed460f85C4e0B025Ab1B141aAC50dAf490](https://ftmscan.com/address/0x66c3e7ed460f85C4e0B025Ab1B141aAC50dAf490) |
 
 
 # third party
